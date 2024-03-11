@@ -1,0 +1,20 @@
+.get-in-touch-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 0.8vw;
+    background-color: #8CC0F0;
+    color: #DAD9D9;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.get-in-touch-button:hover {
+    background-color: #77A3CD;
+    color: #DAD9D9;
+    text-decoration: none;
+}

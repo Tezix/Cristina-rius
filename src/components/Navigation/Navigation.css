@@ -1,3 +1,221 @@
-.navi {
+.top-nav {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    animation: nav-show 1s ease forwards;
+    padding-top: 0.3vw;
+    padding-bottom: 0.5vw;
+    width: 100%;
+    height: 4.5vw;
+    z-index: 2;
+    transition: all 0.2s;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-down {
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0.3px 10px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.logo-mini {
+    width: 50%;
+    align-items: center;
+}
+
+.logo-mini img {
+    width: 23%;
+    transform: translateX(-80%);
+    margin-left: 15vw;
+    align-items: center;
+}
+
+.menu-desktop {
+    display: flex;
+    gap: 3.2vw;
+    align-items: center;
+    margin-right: -9vw;
+}
+
+/* .get-in-touch-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 5.5vw;
+    width: 8vw;
+    height: 3vw;
+    border-radius: 0.7vw;
+    background-color: rgb(141, 191, 240);
+}
+
+.get-in-touch-button a {
+    text-align: right;
+    font-family: 'NATS', sans-serif;
+    font-size: 1.3vw;
+    box-shadow: 0;
+    filter: brightness(1);
+    transition: all 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-family: "manrope, sans-serif";
+}
+
+.get-in-touch-button a:hover {
+    background-color: rgb(128, 156, 175);
+    color: rgb(232, 236, 239);
+    transition: all 0.3s ease;
+    text-decoration: none;
+} */
+
+.menu-desktop a {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: rgb(78, 80, 99);
+    font-family: sans-serif;
+    padding-right: 0.5vw;
+}
+
+.menu-desktop a:hover {
+    font-size: 1;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.menu-desktop .dropdown-content {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #d3e8ff;
+    min-width: 32vw;
+    border-radius: 0.5vw;
+    border-radius: 0 0 0.5vw 0.5vw;
+    margin-top: 0.5vw;
+    left: -9.3vw;
+    padding-top: 1.5vw;
+    z-index: -1;
+}
+
+.menu-desktop a:hover+.dropdown-content {
+    display: block;
+}
+
+
+.menu-desktop:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content a {
+    color: rgb(78, 80, 99);
+    padding: 1.2vw 1vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@keyframes nav-show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    .bottom-nav {
+        position: fixed;
+        color: white;
+        bottom: 10vw;
+        margin-left: 80vw;
+        animation: nav-show 1s ease forwards;
+    }
+
+    .logo-mini {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .logo-mini img {
+        transform: translateX(0%);
+        margin-left: 5vw;
+        width: 70%;
+    }
+
+    .top-nav {
+        margin-top: 5vw;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .get-in-touch-button a {
+        text-align: right;
+        font-family: 'NATS', sans-serif;
+        font-size: 1.2vw;
+        box-shadow: 0;
+        filter: brightness(1);
+        transition: all 0.3s ease;
+        color: white;
+        text-decoration: none;
+    }
+
+    .get-in-touch-button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 8vw;
+        width: 8vw;
+        height: 3vw;
+        border-radius: 0.5vw;
+        background-color: rgb(141, 191, 240);
+    }
+
+    .dropdown {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #d3e8ff;
+        min-width: 100%;
+        z-index: 1;
+        border-radius: 0.5vw;
+        margin-top: 1.5vw;
+        left: 0;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        padding: 0.5vw 1vw;
+        font-size: 4vw;
+    }
 }
