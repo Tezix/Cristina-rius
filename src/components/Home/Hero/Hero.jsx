@@ -1,6 +1,5 @@
 import "./Hero.css";
 import ContactButton from "../../ContactButton/ContactButton";
-import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
