@@ -7,7 +7,7 @@ const ContactCard = () => {
             <div className='contact-card'>
                 <div className='contact-card-text'>
                     <p>contacta para más información</p>
-                    <h1>estaré encantada de ayudarte en tu proceso</h1>
+                    <h1>Estaré encantada de ayudarte en tu proceso</h1>
                     <ContactButton />
                 </div>
                 <div className='contact-card-image'>

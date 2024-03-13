@@ -20,7 +20,7 @@
 
 .about-text-column {
     flex: 1;
-    padding-right: 2px;
+    padding-right: 0.5vw;
     padding-left: 0.5vw;
 }
 
@@ -38,8 +38,15 @@
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 12px;
+    margin-top: 4vw;
+    font-size: 3.5vw;
+    color: #18164E;
+}
+
+h2 {
+    margin-top: -2vw;
+    font-size: 3.5vw;
+    color: #8CBFF0;
 }
 
 p {
@@ -49,4 +56,5 @@ p {
 span {
     font-weight: bold;
     color: #1B1959;
+    margin-left: 1vw;
 }
