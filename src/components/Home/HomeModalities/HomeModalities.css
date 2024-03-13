@@ -1,0 +1,15 @@
+.modalities {
+    margin: 7vw;
+
+}
+
+.modalities-title {
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+}
+
+.modalities-cards {
+    margin: -1.8vw;
+    display: flex;
+    justify-content: space-between;
+}

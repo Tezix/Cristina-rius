@@ -8,7 +8,7 @@ const ServiceCard = ({ title, backgroundImage }) => {
 
     return (
         <div className="service-card" style={cardStyle}>
-            <h3 className='card-content'>{title}</h3>
+            <h3 className='service-card-content'>{title}</h3>
         </div>
     );
 }

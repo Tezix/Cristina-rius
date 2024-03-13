@@ -12,9 +12,6 @@ function App() {
       <main>
         <AppRoutes role="region" aria-label="Main content" />
       </main>
-      <footer>
-        <Footer role="contentinfo" />
-      </footer>
     </>
   )
 }
