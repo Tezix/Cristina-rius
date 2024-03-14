@@ -7,6 +7,7 @@ function Navigation() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [scrolling, setScrolling] = useState(false);
     const [showDropdown, setShowDropdown] = useState(false);
+    const [language, setLanguage] = useState('es'); // Estado para el idioma, inicialmente español
 
     useEffect(() => {
         function handleScroll() {
@@ -36,15 +37,27 @@ function Navigation() {
         setShowDropdown(!showDropdown);
     };
 
+    const handleLanguageChange = () => {
+        // Cambia el estado del idioma
+        setLanguage(language === 'es' ? 'val' : 'es');
+    };
+
     return (
         <>
             <div className={`top-nav ${scrolling ? 'scroll-down' : ''}`}>
-                <div className='logo-mini'>
-                    <img src="/images/logoCristina.png" alt="logo" />
+                <div className="left-nav">
+                    <div className='logo-mini'>
+                        <img src="/images/logoCristina.png" alt="logo" />
+                    </div>
+                    <div className="language-switch" onClick={handleLanguageChange}>
+                        {language === 'es' ? 'Español' : 'Valenciano'}
+                    </div>
                 </div>
                 {windowWidth >= 450 && (
-                    <div className='menu-desktop outfit-thin'>
-                        <Link to="#">Sobre mí</Link>
+                    <div className='right-nav'>
+                        <div>
+                            <Link to="#">Sobre mí</Link>
+                        </div>
                         <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
                             <Link to="#" onClick={(e) => e.preventDefault()}>Servicios</Link>
                             {showDropdown && (
@@ -58,12 +71,17 @@ function Navigation() {
                                 </div>
                             )}
                         </div>
-                        <Link to="#">Blog</Link>
-                    </div>
-                )}
-                <ContactButton />
-            </div>
+                        <div>
+                            <Link to="#">Blog</Link>
+                        </div>
 
+                        {/* <div className='nav-contact-button'>
+                            <ContactButton />
+                        </div> */}
+                    </div>
+
+                )}
+            </div>
         </>
     );
 }

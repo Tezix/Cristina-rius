@@ -16,12 +16,14 @@ const Footer = () => {
                     </div>
                     <div className="footer-direction">
                         <p>direccion</p>
+                        <p>Calle San Vicente Mártir 84, 2ºAB</p>
+                        <p>46002  Valencia</p>
                     </div>
                     <div className="footer-social">
                         <a href=""></a>
                         <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+                        <p>cristinariusverduguez@gmail.com</p>
+                        <p>611 851 822</p>
                     </div>
                 </div>
 

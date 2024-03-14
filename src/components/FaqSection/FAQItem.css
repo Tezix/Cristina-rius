@@ -45,13 +45,13 @@
 
 .faq-question::after {
     content: '+';
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     transition: transform 0.3s;
 }
 
 .faq-question.open::after {
     content: '×';
-    transform: rotate(45deg);
+    transform: rotate(-95deg);
 }
 
 .question-symbol {
@@ -62,5 +62,5 @@
 }
 
 .faq-item.open .question-symbol {
-    transform: rotate(45deg);
+    transform: rotate(-95deg);
 }

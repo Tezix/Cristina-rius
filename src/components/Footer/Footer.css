@@ -22,7 +22,6 @@
 
 .footer-info {
     display: flex;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +38,7 @@
 
 .footer-direction p {
     font-size: 1rem;
-    color: #333;
+    color: white;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -51,10 +50,10 @@
 }
 
 .footer-social a {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     width: 40px;
     height: 40px;
-    margin: 0 10px;
     border-radius: 50%;
     background-color: #333;
     color: white;

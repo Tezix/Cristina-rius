@@ -22,37 +22,55 @@
     transition: all 0.2s;
 }
 
-.logo-mini {
-    width: 50%;
+.left-nav {
+    display: flex;
     align-items: center;
+    gap: 2vw;
+    padding-left: 2vw;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2vw;
+    padding-right: 6vw;
+}
+
+.logo-mini {
+    width: 20vw;
 }
 
 .logo-mini img {
-    width: 23%;
+    width: 12vw;
     transform: translateX(-80%);
     margin-left: 15vw;
     align-items: center;
 }
 
-.menu-desktop {
-    display: flex;
-    gap: 3.2vw;
-    align-items: center;
-    margin-right: -9vw;
+.language-switch {
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* .get-in-touch-button {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-right: 5.5vw;
-    width: 8vw;
-    height: 3vw;
-    border-radius: 0.7vw;
-    background-color: rgb(141, 191, 240);
+.language-switch:hover {
+    background-color: #aaa;
+    color: white;
 }
 
-.get-in-touch-button a {
+.nav-contact-button {
+    width: 6vw;
+    margin-left: 0;
+    margin-right: 5vw;
+}
+
+
+
+/* .get-in-touch-button a {
     text-align: right;
     font-family: 'NATS', sans-serif;
     font-size: 1.3vw;
@@ -71,23 +89,22 @@
     text-decoration: none;
 } */
 
-.menu-desktop a {
+.right-nav a {
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
     font-size: 1.4vw;
     text-decoration: none;
     color: rgb(78, 80, 99);
     font-family: sans-serif;
-    padding-right: 0.5vw;
 }
 
-.menu-desktop a:hover {
+.right-nav a:hover {
     font-size: 1;
     font-weight: 300;
     text-decoration: underline;
 }
 
-.menu-desktop .dropdown-content {
+.right-nav .dropdown-content {
     position: absolute;
     display: none;
     top: 100%;
@@ -103,12 +120,12 @@
     z-index: -1;
 }
 
-.menu-desktop a:hover+.dropdown-content {
+.right-nav a:hover+.dropdown-content {
     display: block;
 }
 
 
-.menu-desktop:hover .dropdown-content,
+.right-nav:hover .dropdown-content,
 .dropdown-content:hover {
     display: block;
 }
@@ -130,6 +147,21 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.language-switch {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #ddd;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.language-switch:hover {
+    background-color: #aaa;
+    color: white;
 }
 
 @keyframes nav-show {
@@ -167,7 +199,7 @@
         margin-top: 5vw;
     }
 
-    .menu-desktop {
+    .right-nav {
         display: none;
     }
 
