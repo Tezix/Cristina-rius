@@ -12,6 +12,7 @@ const FAQItem = ({ question, answer }) => {
         <div className="faq-item">
             <div className={`faq-question ${isOpen ? 'open' : ''}`} onClick={toggleAccordion}>
                 {question}
+                <span className="question-symbol"></span>
             </div>
             {isOpen && (
                 <div className="faq-answer">
