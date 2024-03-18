@@ -9,7 +9,7 @@ const HomeFaq = () => {
     return (
         <div className='home-fq-contact'>
             <div className='home-faq-section'>
-                <h2>Preguntas Frecuentes</h2>
+                <h2>Preguntas frecuentes</h2>
                 <FaqSection serviceName={serviceName} />
             </div>
             <div className='home-contact-section'></div>
