@@ -7,9 +7,14 @@ const ServiceCard = ({ title, backgroundImage }) => {
     };
 
     return (
-        <div className="service-card" style={cardStyle}>
-            <h3 className='service-card-content'>{title}</h3>
+        <div className='service-card-container'>
+            <div className="service-card" style={cardStyle}>
+            </div>
+            <div className='service-card-content'>
+                <h3>{title}</h3>
+            </div>
         </div>
+
     );
 }
 

@@ -14,11 +14,10 @@ const FAQItem = ({ question, answer }) => {
                 {question}
                 <span className="question-symbol"></span>
             </div>
-            {isOpen && (
-                <div className="faq-answer">
-                    <p>{answer}</p>
-                </div>
-            )}
+            <div className={`faq-answer ${isOpen ? '' : 'closed'}`}>
+                <p>{answer}</p>
+            </div>
+
         </div>
     );
 };
