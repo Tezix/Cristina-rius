@@ -2,18 +2,21 @@
     background-size: cover;
     background-position: center;
     height: 14vw;
-    background-color: rgb(135, 126, 126);
+    background-color: rgba(135, 126, 126, 0.6);
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .service-card h3 {
     text-align: center;
     padding: 7vw;
     margin: 0;
-    font-size: 1.8vw;
-    color: #333;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 1.6vw;
+    color: #19154E;
+    opacity: 1;
 }

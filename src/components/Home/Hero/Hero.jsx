@@ -7,7 +7,7 @@ const Hero = () => {
         <>
             <div className="hero">
                 <div className="text-column">
-                    <h1 className="hero-title">Cristina Ríus<span>Psicóloga</span></h1>
+                    <h1 className="hero-title">Cristina Rius<span>Psicóloga</span></h1>
                     <p className="hero-intro">Me alegro de que hayas llegado hasta aquí, significa que ya has hecho lo más difícil. Ahora dame la oportunidad de ayudarte. Y, sobre todo, date la oportunidad a ti mismo de recuperar la calidad de vida que mereces.</p>
                     <h2 className="hero-question">¿Empezamos a trabajar?</h2>
                     <div className="hero-buttons">

@@ -9,7 +9,7 @@
     padding-top: 0.3vw;
     padding-bottom: 0.5vw;
     width: 100%;
-    height: 4.5vw;
+    height: 3.8vw;
     z-index: 2;
     transition: all 0.2s;
     background-color: white;
@@ -33,8 +33,8 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 2vw;
-    padding-right: 6vw;
+    padding-right: 9vw;
+    background-color: white;
 }
 
 .logo-mini {
@@ -68,34 +68,21 @@
     margin-right: 5vw;
 }
 
-
-
-/* .get-in-touch-button a {
-    text-align: right;
-    font-family: 'NATS', sans-serif;
-    font-size: 1.3vw;
-    box-shadow: 0;
-    filter: brightness(1);
-    transition: all 0.3s ease;
-    color: white;
-    text-decoration: none;
-    font-family: "manrope, sans-serif";
+.right-nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
 }
 
-.get-in-touch-button a:hover {
-    background-color: rgb(128, 156, 175);
-    color: rgb(232, 236, 239);
-    transition: all 0.3s ease;
-    text-decoration: none;
-} */
-
-.right-nav a {
+.right-nav-items a {
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     text-decoration: none;
     color: rgb(78, 80, 99);
-    font-family: sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
 }
 
 .right-nav a:hover {

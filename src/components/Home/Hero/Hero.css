@@ -10,29 +10,48 @@
 .text-column {
     flex: 1;
     text-align: left;
-    margin-top: 8vw;
+    margin-top: 13vw;
 }
 
 .text-column h1 {
-    color: #1B1959;
-    font-size: 5vw;
+    color: #19154E;
+    font-size: 4.8vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.1vw;
+    margin: 0;
+    margin-left: 0;
 }
 
 .text-column span {
     color: #91C5F2;
     display: block;
     text-transform: uppercase;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.1vw;
+    margin-top: -1.5vw;
+    margin-left: 0;
 }
 
 .text-column p {
-    font-size: 2vw;
-    color: #474A59;
+    font-size: 1.6vw;
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 650;
+    letter-spacing: 0.1vw;
+    margin-right: 1.8vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
 }
 
 .text-column h2 {
-    font-size: 2.5vw;
-    color: #1B1959;
-
+    margin-top: 2vw;
+    margin-left: 0;
+    font-size: 2.2vw;
+    color: #19154E;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
 }
 
 .image-column {
@@ -46,10 +65,15 @@
     object-fit: cover;
 }
 
+
+
 .hero-buttons {
     display: flex;
+    justify-content: flex-start;
+    align-items: left;
     gap: 2vw;
-
+    margin-top: 2vw;
+    margin-left: 0;
 }
 
 .services-button {

@@ -55,31 +55,33 @@ function Navigation() {
                 </div>
                 {windowWidth >= 450 && (
                     <div className='right-nav'>
-                        <div>
-                            <Link to="#">Sobre mí</Link>
-                        </div>
-                        <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-                            <Link to="#" onClick={(e) => e.preventDefault()}>Servicios</Link>
-                            {showDropdown && (
-                                <div className="dropdown-content">
-                                    <Link to="#">Problemas emocionales</Link>
-                                    <Link to="#">Trastornos de conducta alimentaria</Link>
-                                    <Link to="#">Duelo</Link>
-                                    <Link to="#">Crecimiento personal</Link>
-                                    <Link to="#">Relaciones de pareja</Link>
-                                    <Link to="#">Adicciones</Link>
+                        <div className='right-nav-items'>
+                            <div className='nav-item'>
+                                <Link to="#">Sobre mí</Link>
+                            </div>
+                            <div className='nav-item'>
+                                <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+                                    <Link to="#" onClick={(e) => e.preventDefault()}>Servicios</Link>
+                                    {showDropdown && (
+                                        <div className="dropdown-content">
+                                            <Link to="#">Problemas emocionales</Link>
+                                            <Link to="#">Trastornos de conducta alimentaria</Link>
+                                            <Link to="#">Duelo</Link>
+                                            <Link to="#">Crecimiento personal</Link>
+                                            <Link to="#">Relaciones de pareja</Link>
+                                            <Link to="#">Adicciones</Link>
+                                        </div>
+                                    )}
                                 </div>
-                            )}
+                            </div>
+                            <div className='nav-item'>
+                                <Link to="#">Blog</Link>
+                            </div>
                         </div>
-                        <div>
-                            <Link to="#">Blog</Link>
-                        </div>
-
-                        {/* <div className='nav-contact-button'>
+                        <div className='nav-contact-button'>
                             <ContactButton />
-                        </div> */}
+                        </div>
                     </div>
-
                 )}
             </div>
         </>

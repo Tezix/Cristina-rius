@@ -1,5 +1,5 @@
 .get-in-touch-button {
-    margin: 0%;
+    margin: 0;
     justify-content: center;
     display: flex;
     font-size: 1.3vw;
@@ -7,14 +7,11 @@
     color: #DAD9D9;
     border-radius: 0.5rem;
     text-decoration: none;
-
     width: 10vw;
     height: 4vw;
     border-radius: 0.7vw;
     background-color: rgb(141, 191, 240);
 }
-
-
 
 .get-in-touch-button a {
     color: white;

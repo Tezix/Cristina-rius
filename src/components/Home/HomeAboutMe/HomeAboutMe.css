@@ -1,15 +1,15 @@
 .home-about-section {
-    height: 70vw;
+    height: 64vw;
     margin: 0 auto;
     margin-top: 4vw;
-    background-color: #DFE9F2;
+    background-color: #EBF5FF;
     padding-top: 5vw;
     padding-left: 7vw;
     padding-right: 7vw;
 }
 
 .white-container {
-    height: 60vw;
+    height: 54vw;
     background-color: #ffffff;
     border-radius: 8px;
     display: flex;
@@ -20,7 +20,7 @@
 
 .about-text-column {
     flex: 1;
-    padding-right: 0.5vw;
+    padding-right: 0.9vw;
     padding-left: 0.5vw;
 }
 
@@ -38,19 +38,30 @@
 }
 
 h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.1vw;
     margin-top: 4vw;
-    font-size: 3.5vw;
+    font-size: 3.4vw;
     color: #18164E;
 }
 
 h2 {
-    margin-top: -2vw;
-    font-size: 3.5vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 750;
+    letter-spacing: -0.1vw;
+    margin-top: -2.5vw;
+    font-size: 3.4vw;
     color: #8CBFF0;
 }
 
 p {
-    font-size: 1.6vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: #19154E;
+    margin-bottom: 1.5vw;
+    line-height: 2.3vw;
 }
 
 span {
