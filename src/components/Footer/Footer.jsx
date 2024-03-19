@@ -15,13 +15,13 @@ const Footer = () => {
                         <img src="/images/logoCristina.png" alt="logo-cristina" />
                     </div>
                     <div className="footer-direction">
-                        <p>direccion</p>
+                        <p>Dirección</p>
                         <p>Calle San Vicente Mártir 84, 2ºAB</p>
                         <p>46002  Valencia</p>
                     </div>
                     <div className="footer-social">
-                        <a href=""></a>
-                        <a href=""></a>
+                        <img src="/images/logo-linkedin.png" alt="logo-linkedin" />
+                        <img src="/images/logo-instagram.png" alt="logo-instagram" />
                         <p>cristinariusverduguez@gmail.com</p>
                         <p>611 851 822</p>
                     </div>
