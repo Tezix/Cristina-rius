@@ -22,8 +22,9 @@ const Footer = () => {
                     <div className="footer-social">
                         <img src="/images/logo-linkedin.png" alt="logo-linkedin" />
                         <img src="/images/logo-instagram.png" alt="logo-instagram" />
-                        <p>cristinariusverduguez@gmail.com</p>
-                        <p>611 851 822</p>
+                        <p className="footer-social-mail">cristinariusverduguez@gmail.com
+                        </p>
+                        <p className="footer-social-phone">611 851 822</p>
                     </div>
                 </div>
 

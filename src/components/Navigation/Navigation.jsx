@@ -37,9 +37,9 @@ function Navigation() {
         setShowDropdown(!showDropdown);
     };
 
-    const handleLanguageChange = () => {
-        // Cambia el estado del idioma
-        setLanguage(language === 'es' ? 'val' : 'es');
+    const handleLanguageChange = (selectedLanguage) => {
+        // Cambia el estado del idioma al seleccionado
+        setLanguage(selectedLanguage);
     };
 
     return (
@@ -49,27 +49,38 @@ function Navigation() {
                     <div className='logo-mini'>
                         <img src="/images/logoCristina.png" alt="logo" />
                     </div>
-                    <div className="language-switch" onClick={handleLanguageChange}>
-                        {language === 'es' ? 'Español' : 'Valenciano'}
+                    <div className="language-switch">
+                        <div
+                            className={`language-option ${language === 'es' ? 'active' : ''}`}
+                            onClick={() => handleLanguageChange('es')}
+                        >
+                            ESP
+                        </div>
+                        <div
+                            className={`language-option ${language === 'val' ? 'active' : ''}`}
+                            onClick={() => handleLanguageChange('val')}
+                        >
+                            VAL
+                        </div>
                     </div>
                 </div>
                 {windowWidth >= 450 && (
                     <div className='right-nav'>
                         <div className='right-nav-items'>
                             <div className='nav-item'>
-                                <Link to="#">Sobre mí</Link>
+                                <Link to="/about">Sobre mí</Link>
                             </div>
                             <div className='nav-item'>
                                 <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
                                     <Link to="#" onClick={(e) => e.preventDefault()}>Servicios</Link>
                                     {showDropdown && (
                                         <div className="dropdown-content">
-                                            <Link to="#">Problemas emocionales</Link>
-                                            <Link to="#">Trastornos de conducta alimentaria</Link>
-                                            <Link to="#">Duelo</Link>
-                                            <Link to="#">Crecimiento personal</Link>
-                                            <Link to="#">Relaciones de pareja</Link>
-                                            <Link to="#">Adicciones</Link>
+                                            <Link to="/problemas-emocionales">Problemas emocionales</Link>
+                                            <Link to="/trastornos-conducta-alimentaria">Trastornos de conducta alimentaria</Link>
+                                            <Link to="/duelo">Duelo</Link>
+                                            <Link to="/crecimiento-personal">Crecimiento personal</Link>
+                                            <Link to="/relaciones-de-pareja">Relaciones de pareja</Link>
+                                            <Link to="/adicciones">Adicciones</Link>
                                         </div>
                                     )}
                                 </div>
