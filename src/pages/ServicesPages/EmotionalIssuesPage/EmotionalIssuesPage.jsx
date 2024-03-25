@@ -1,16 +1,16 @@
-import React from 'react';
+import EmotionalHero from "../../../components/EmotionalIssues/EmotionalHero/EmotionalHero";
+import './EmotionalIssuesPage.css';
 
-const EmotionalIssuesPage = ({ services }) => {
-    const emotionalIssuesService = services.find(service => service.title === "Problemas emocionales");
 
+
+
+
+const EmotionalIssuesPage = () => {
     return (
-        <div className='emotional-issues-hero'>
-            <h2>servicios</h2>
-            <h1>{emotionalIssuesService.title}</h1>
-            <img src={emotionalIssuesService.image} alt={emotionalIssuesService.title} />
-            <p>{emotionalIssuesService.definition}</p>
-        </div>
-    );
+        <>
+            <EmotionalHero />
+        </>
+    )
 }
-
 export default EmotionalIssuesPage;
+

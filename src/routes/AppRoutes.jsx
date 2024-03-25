@@ -8,19 +8,18 @@ import MourningPage from "../pages/ServicesPages/MourningPage/MourningPage";
 import PersonalGrowthPage from "../pages/ServicesPages/PersonalGrowthPage/PersonalGrowthPage";
 import CoupleRelationshipsPage from "../pages/ServicesPages/CoupleRelationshipsPage/CoupleRelationshipsPage";
 import AddictionsPage from "../pages/ServicesPages/AddictionsPage/AddictionsPage";
-import services from '../components/ServicesData';
 
 const AppRoutes = () => {
     return (
         <Routes>
             <Route path={'/'} element={<HomePage />} />
             <Route path={'/about'} element={<AboutMePage />} />
-            <Route path={'/problemas-emocionales'} element={<EmotionalIssuesPage services={services} />} />
-            <Route path={'/trastornos-conducta-alimentaria'} element={<EatingDisordersPage services={services} />} />
-            <Route path={'/duelo'} element={<MourningPage services={services} />} />
-            <Route path={'/crecimiento-personal'} element={<PersonalGrowthPage services={services} />} />
-            <Route path={'/relaciones-de-pareja'} element={<CoupleRelationshipsPage services={services} />} />
-            <Route path={'/adicciones'} element={<AddictionsPage services={services} />} />
+            <Route path={'/problemas-emocionales'} element={<EmotionalIssuesPage />} />
+            <Route path={'/trastornos-conducta-alimentaria'} element={<EatingDisordersPage />} />
+            <Route path={'/duelo'} element={<MourningPage />} />
+            <Route path={'/crecimiento-personal'} element={<PersonalGrowthPage />} />
+            <Route path={'/relaciones-de-pareja'} element={<CoupleRelationshipsPage />} />
+            <Route path={'/adicciones'} element={<AddictionsPage />} />
         </Routes>
     );
 }
