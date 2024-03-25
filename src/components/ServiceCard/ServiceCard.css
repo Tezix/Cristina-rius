@@ -2,38 +2,41 @@
     position: absolute;
     background-size: cover;
     background-position: center;
-    height: 14vw;
-    width: 35vw;
-    background-color: rgba(135, 126, 126, 0.6);
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    opacity: 0.7;
+    height: 17vw;
+    width: 40vw;
+    border-radius: 1vw;
+    opacity: 0.6;
 }
 
 .service-card-container {
     position: relative;
-    width: 35vw;
-    height: 14vw;
+    width: 40vw;
+    height: 20vw;
+    margin-bottom: 0.1vw;
 
 }
 
 .service-card-content {
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     width: 100%;
     text-align: center;
 
+
 }
 
 .service-card-container h3 {
-    margin: 0;
+    margin: 8vw;
     font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    font-size: 1.6vw;
+    font-weight: 600;
+    font-size: 1.7vw;
     color: #19154E;
     opacity: 1;
     z-index: 2;
+}
+
+.service-card-container:hover h3 {
+    font-weight: 700;
 }
