@@ -2,9 +2,6 @@ import EmotionalHero from "../../../components/EmotionalIssues/EmotionalHero/Emo
 import './EmotionalIssuesPage.css';
 
 
-
-
-
 const EmotionalIssuesPage = () => {
     return (
         <>

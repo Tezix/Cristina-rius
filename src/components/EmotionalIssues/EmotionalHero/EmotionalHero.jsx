@@ -8,7 +8,6 @@ const EmotionalHero = () => {
 
     return (
         <div>
-            <h2>me cago en todo</h2>
             <ServicesHero service={servicioProblemasEmocionales} />
         </div>
     );

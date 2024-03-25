@@ -4,6 +4,7 @@ import './ServicesHeroItem.css';
 const ServicesHero = ({ service }) => {
     const { title, image, definition, symptoms } = service;
 
+
     return (
         <div className="service-hero">
             <div className="service-info">
@@ -14,8 +15,8 @@ const ServicesHero = ({ service }) => {
                     <a href="#">Ansiedad</a>
                     <a href="#">Depresión</a>
                 </div>
-                <h4>Síntomas:</h4>
-                <p className='symptoms'>{symptoms}</p>
+                {/* <h4>Síntomas:</h4>
+                <p>{symptoms}</p>  */}
             </div>
             <div className="service-image">
                 <img src={image} alt={title} />
@@ -25,3 +26,4 @@ const ServicesHero = ({ service }) => {
 };
 
 export default ServicesHero;
+
