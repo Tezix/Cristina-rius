@@ -1,0 +1,105 @@
+.service-symptoms-item {
+    margin-top: 6vw;
+    margin-right: 7vw;
+    margin-left: 7vw;
+
+}
+
+.symptom-types {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #F6F5FF;
+    transition: all 0.3s;
+    padding-top: -0.8vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 2vw;
+}
+
+.symptom-types h3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: #19154E;
+    font-size: 2.8vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    padding-top: 1.5vw;
+}
+
+.symptom-types p {
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vw;
+}
+
+
+.symptom-subgroups {
+    margin-top: 1vw;
+    width: 10vw;
+}
+
+.subgroup {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 85vw;
+    height: vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: white;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.subgroup h4 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: #19154E;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    height: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.subgroup h4:hover {
+    background-color: #F6F5FF;
+}
+
+.subgroup h4::after {
+    content: '+';
+    transition: transform 0.3s;
+    font-size: 2.5vw;
+    font-weight: 300;
+    color: #4E5063;
+}
+
+.subgroup:hover h4::after {
+    content: '×';
+    transform: rotate(-90deg);
+}
+
+.subgroup p {
+    padding: 10px;
+    max-height: 50vw;
+    transition: all 0.5s ease;
+    width: 100%;
+    white-space: pre-wrap;
+    overflow: hidden;
+    color: #4E5063;
+}
+
+.subgroup p.hidden {
+    padding: 0 10px;
+    max-height: 0;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    opacity: 0;
+}

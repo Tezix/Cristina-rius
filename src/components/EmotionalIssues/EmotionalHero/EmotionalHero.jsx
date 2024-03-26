@@ -9,6 +9,12 @@ const EmotionalHero = () => {
     return (
         <div>
             <ServicesHero service={servicioProblemasEmocionales} />
+            <div className="service-links">
+                <a href="#">Ansiedad</a>
+                <a href="#">Depresión</a>
+                <a href="#">Apatía</a>
+
+            </div>
         </div>
     );
 };

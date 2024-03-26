@@ -1,0 +1,19 @@
+.service-symptoms {
+    margin-top: 3.5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.symptoms-title {
+    color: #19154E;
+    font-size: 2.5vw;
+    letter-spacing: 0.05vw;
+}
+
+.service-symptoms p {
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vw;
+}

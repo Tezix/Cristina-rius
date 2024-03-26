@@ -4,10 +4,6 @@ const servicesData = {
         image: "/images/blog1.jpg",
         definition: "Los problemas emocionales pueden manifestarse de diversas maneras y pueden variar según la persona y la situación. También conocidos como trastornos del estado de ánimo, abarcan todo aquello que tiene que ver con las emociones y su gestión. Dentro de esta categoría, es donde podemos encontrar problemas frecuentes como la ansiedad o la depresión.",
         symptoms: "Los problemas emocionales afectan la salud mental y emocional de una persona. Pueden manifestarse de diversas formas, como cambios de humor extremos, ansiedad, sentimientos persistentes de tristeza o depresión, y alteraciones en los patrones de sueño o alimentación.Además, los pensamientos negativos recurrentes y las dificultades en las relaciones también son indicadores.Si experimentas varios de estos síntomas de manera persistente, es recomendable buscar ayuda profesional para comprender y abordar tus problemas emocionales.Recuerda que estos síntomas pueden variar en intensidad y duración, y es importante cuidar tanto de tu salud mental como física. Existen diferentes tipos de problemas emocionales: ",
-        links: [
-            { label: "Ansiedad", url: "#" },
-            { label: "Depresión", url: "#" }
-        ]
     },
     'trastornos-de-conducta-alimentaria': {
         title: "Trastornos de la Conducta Alimentaria (TCA)",

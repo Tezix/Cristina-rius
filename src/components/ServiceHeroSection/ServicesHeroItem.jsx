@@ -2,7 +2,7 @@ import React from 'react';
 import './ServicesHeroItem.css';
 
 const ServicesHero = ({ service }) => {
-    const { title, image, definition, symptoms } = service;
+    const { title, image, definition } = service;
 
 
     return (
@@ -11,12 +11,6 @@ const ServicesHero = ({ service }) => {
                 <h3>servicios</h3>
                 <h1>{title}</h1>
                 <p className='definition'>{definition}</p>
-                <div className="service-links">
-                    <a href="#">Ansiedad</a>
-                    <a href="#">Depresión</a>
-                </div>
-                {/* <h4>Síntomas:</h4>
-                <p>{symptoms}</p>  */}
             </div>
             <div className="service-image">
                 <img src={image} alt={title} />
@@ -24,6 +18,5 @@ const ServicesHero = ({ service }) => {
         </div>
     );
 };
-
 export default ServicesHero;
 
