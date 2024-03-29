@@ -1,5 +1,5 @@
 import React from "react";
-import TypesSection from "../ServiceData/ServiceDataTypes";
+import TypesSection from "../ServicesData/ServiceDataTypes";
 import './EmotionalTypes.css';
 
 const EmotionalTypes = () => {

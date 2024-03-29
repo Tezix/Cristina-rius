@@ -1,0 +1,96 @@
+{
+    "homeHero": {
+        "spanh1": {
+            "esp": "Psicóloga",
+            "val": "Psicòloga"
+        },
+        "p": {
+            "esp": "Me alegro de que hayas llegado hasta aquí, significa que ya has hecho lo más difícil. Ahora dame la oportunidad de ayudarte. Y, sobretodo, date la oportunidad a ti mismo de recuperar la calidad de vida que mereces.",
+            "val": "Em complau que hages arribat fins ací, significa que ja has fet el més difícil. Ara, dóna'm l'oportunitat d'ajudar-te. I, sobretot, dóna't l'oportunitat a tu mateix de recuperar la qualitat de vida que mereixes."
+        },
+        "h2": {
+            "esp": "¿Empezamos a trabajar?",
+            "val": "¿Comencem a treballar?"
+        }
+    },
+    "homeServices": {
+        "h2": {
+            "esp": "Servicios",
+            "val": "Serveis"
+        },
+        "p1": {
+            "esp": "En mi consulta psicológica,",
+            "val": "En la meua consulta psicològica,"
+        },
+        "span1": {
+            "esp": "te ofrezco apoyo y orientación personalizados",
+            "val": "et ofereixo suport i orientació personalitzats"
+        },
+        "p2": {
+            "esp": "para explorar preocupaciones, identificar patrones de pensamiento y desarrollar estrategias para el cambio positivo. Además de la terapia individual, proporciono",
+            "val": "per explorar preocupacions, identificar patrons de pensament i desenvolupar estratègies per al canvi positiu. A més de la teràpia individual, proporcione"
+        },
+        "span2": {
+            "esp": "asesoramiento breve para situaciones específicas.",
+            "val": "assessorament breu per a situacions específiques."
+        },
+        "p3": {
+            "esp": "Mi objetivo es ayudarte a superar desafíos y vivir una vida más plena.",
+            "val": "El meu objectiu és ajudar-te a superar els reptes i viure una vida més plena."
+        },
+        "h3": {
+            "esp": "Algunos de los servicios con los que trabajo:",
+            "val": "Alguns dels serveis amb els quals treballe:"
+        }
+    },
+    "homeAboutMe": {
+        "h1": {
+            "esp": "¡Hola! Soy Cristina Rius",
+            "val": "¡Hola! Sóc Cristina Rius"
+        },
+        "h2": {
+            "esp": "Psicóloga Sanitaria",
+            "val": "Psicòloga Sanitària"
+        },
+        "p1": {
+            "esp": "Estoy aquí para ayudarte a sentirte mejor contigo mismo.",
+            "val": "Estic ací per ajudar-te a sentir-te millor amb tu mateix."
+        },
+        "p2": {
+            "esp": "Mi",
+            "val": "Jo"
+        },
+        "span1": {
+            "esp": "enfoque terapéutico ",
+            "val": "enfocament terapèutic "
+        },
+        "p3": {
+            "esp": "integra la terapia sistémica, terapias contextuales y la base cognitivo-conductual. Esta combinación me proporciona herramientas para adaptarme a cada persona.",
+            "val": "integre la teràpia sistèmica, teràpies contextuals i la base cognitivo-conductual. Aquesta combinació em proporciona eines per adaptar-me a cada persona."
+        },
+        "p4": {
+            "esp": "Entiendo la singularidad de cada individuo y sus circunstancias, lo que me permite ofrecer una amplia gama de técnicas, seleccionando las más adecuadas.",
+            "val": "Entenc la singularitat de cada individu i les seues circumstàncies, la qual cosa em permet oferir una àmplia gamma de tècniques, seleccionant les més adequades."
+        },
+        "p5": {
+            "esp": "Mi",
+            "val": "Jo"
+        },
+        "span2": {
+            "esp": "enfoque centrado en las emociones ",
+            "val": "l'enfocament està centrat en les emocions. "
+        },
+        "p6": {
+            "esp": "es valorado por quienes acuden a mi consulta y por quienes me conocen fuera de ella.",
+            "val": "és valorat per aquells que acudixen a la meua consulta i per aquells que em coneixen fora d'ella."
+        },
+        "span3": {
+            "esp": "Comprender y identificar las emociones",
+            "val": "Comprendre i identificar les emocions"
+        },
+        "p7": {
+            "esp": "es fundamental para mí, pues solo así podemos escucharlas y actuar en consecuencia.",
+            "val": "és fonamental per a mi, ja que només així podem escoltar-les i actuar en conseqüència."
+        }
+    }
+}

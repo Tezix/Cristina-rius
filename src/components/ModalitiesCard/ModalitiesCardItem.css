@@ -1,4 +1,4 @@
-.card {
+.modalities-card {
     width: 100%;
     height: 30vw;
     border-radius: 10px;
@@ -7,12 +7,11 @@
     margin-top: 3vw;
     display: flex;
     flex-direction: column;
-
 }
 
 .card-image {
     flex: 1;
-    height: 20vw;
+    height: 80vw;
 }
 
 .card-image img {
@@ -31,7 +30,7 @@
     padding: 1.5vw;
 }
 
-.card-title {
+.card-title h2 {
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     color: #19154E;
@@ -41,18 +40,18 @@
     margin-top: 0.2vw;
 }
 
-.card-description {
+.card-description p {
     font-family: "Manrope", sans-serif;
     font-size: 1.4vw;
     color: #4E5063;
 }
 
-.card-price {
+.card-price p {
     font-size: 1.3vw;
     font-weight: 700;
 }
 
-.card-content a {
+.card-contact a {
     font-family: "Manrope", sans-serif;
     font-weight: 600;
     display: inline-block;
@@ -65,7 +64,7 @@
     position: relative;
 }
 
-.card-content a::after {
+.card-contact a::after {
     content: '\2192';
     margin-left: 5px;
     opacity: 1;
@@ -73,6 +72,6 @@
     position: absolute;
 }
 
-.card-content a:hover::after {
+.card-contact a:hover::after {
     margin-left: 9px;
 }

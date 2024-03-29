@@ -1,0 +1,36 @@
+{
+    "aboutMe": {
+        "esp": "Sobre mí",
+        "val": "Sobre mí"
+    },
+    "services": {
+        "esp": "Servicios",
+        "val": "Servicis",
+        "dropdown": {
+            "problemasEmocionales": {
+                "esp": "Problemas emocionales",
+                "val": "Problemes emocionals"
+            },
+            "trastornosDeConductaAlimentaria": {
+                "esp": "Trastornos de conducta alimentaria",
+                "val": "Trastorns de conducta alimentària"
+            },
+            "duelo": {
+                "esp": "Duelo",
+                "val": "Dol"
+            },
+            "crecimientoPersonal": {
+                "esp": "Crecimiento personal",
+                "val": "Creixement personal"
+            },
+            "relacionesDepareja": {
+                "esp": "Relaciones de pareja",
+                "val": "Relacions de parella"
+            },
+            "adicciones": {
+                "esp": "Adicciones",
+                "val": "Addiccions"
+            }
+        }
+    }
+}

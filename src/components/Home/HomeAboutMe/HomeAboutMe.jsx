@@ -1,17 +1,21 @@
 import React from 'react';
 import './HomeAboutMe.css';
+import languagesData from "../../../languages/languagesHomePage.json";
+import { useLanguage } from '../../LanguageContext/LanguageContext';
 
 const HomeAboutMe = () => {
+    const { language } = useLanguage();
+
     return (
         <div className='home-about-section'>
             <div className='white-container'>
                 <div className='about-text-column'>
-                    <h1>¡Hola! Soy Cristina Rius</h1>
-                    <h2>Psicóloga Sanitaria</h2>
-                    <p>Estoy aquí para ayudarte a sentirte mejor contigo mismo.</p>
-                    <p>Mi <span>enfoque terapéutico</span> integra la terapia sistémica, terapias contextuales y la base cognitivo-conductual. Esta combinación me proporciona herramientas para adaptarme a cada persona.</p>
-                    <p>Entiendo la singularidad de cada individuo y sus circunstancias, lo que me permite ofrecer una amplia gama de técnicas, seleccionando las más adecuadas.</p>
-                    <p>Mi <span>enfoque centrado en las emociones</span> es valorado por quienes acuden a mi consulta y por quienes me conocen fuera de ella. <span>Comprender y identificar las emociones</span> es fundamental para mí, pues solo así podemos escucharlas y actuar en consecuencia.</p>
+                    <h1>{languagesData.homeAboutMe.h1[language]}</h1>
+                    <h2>{languagesData.homeAboutMe.h2[language]}</h2>
+                    <p>{languagesData.homeAboutMe.p1[language]}</p>
+                    <p>{languagesData.homeAboutMe.p2[language]}<span>{languagesData.homeAboutMe.span1[language]}</span>{languagesData.homeAboutMe.p3[language]}</p>
+                    <p>{languagesData.homeAboutMe.p4[language]}</p>
+                    <p>{languagesData.homeAboutMe.p5[language]}<span>{languagesData.homeAboutMe.span2[language]}</span>{languagesData.homeAboutMe.p6[language]}<span>{languagesData.homeAboutMe.span3[language]}</span>{languagesData.homeAboutMe.p7[language]}</p>
                 </div>
                 <div className='about-image-column'>
                     <img src="/images/fotoAbout.JPG" alt="photo-home-about-section" className='photo-home-about' />

@@ -2,6 +2,7 @@ import React from 'react';
 import FaqSection from '../../FaqSection/FaqSection';
 import './HomeFaq.css';
 import ContactCard from '../../ContactCard/ContactCard';
+import serviceFAQs from '../../ServicesData/servicesFAQs';
 
 const HomeFaq = () => {
     const serviceName = 'Faq-home';
@@ -19,3 +20,8 @@ const HomeFaq = () => {
 };
 
 export default HomeFaq;
+
+
+
+
+

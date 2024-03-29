@@ -1,0 +1,38 @@
+{
+    "presentialModalitiesCard": {
+        "h2": {
+            "esp": "Presencial",
+            "val": ""
+        },
+        "p1": {
+            "esp": "Te ofreceré un entorno cómodo y confidencial donde te brindaré apoyo personalizado para superar desafíos y metas emocionales en el gabinete de Valencia.",
+            "val": "T'oferiré un entorn còmode i confidencial on et brindaré suport personalitzat per a superar reptes i metes emocionals en el gabinet de València."
+        },
+        "p2": {
+            "esp": "55€ la sesión de una hora",
+            "val": "55€ la sessió d'una hora."
+        },
+        "a": {
+            "esp": "Contactar",
+            "val": "Contactar"
+        }
+    },
+    "onlineModalitiesCard": {
+        "h2": {
+            "esp": "Online",
+            "val": ""
+        },
+        "p1": {
+            "esp": "Te brindaré apoyo terapéutico desde la comodidad de tu hogar o cualquier lugar con conexión a internet. Te guía de manera personalizada hacia tus metas.",
+            "val": ""
+        },
+        "p2": {
+            "esp": "55€ la sesión de una hora",
+            "val": "55€ la sessió d'una hora."
+        },
+        "a": {
+            "esp": "Contactar",
+            "val": "Contactar"
+        }
+    }
+}

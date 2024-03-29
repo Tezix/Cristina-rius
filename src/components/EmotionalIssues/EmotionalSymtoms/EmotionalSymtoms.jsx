@@ -1,6 +1,6 @@
 import React from 'react';
 import ServicesSymptoms from '../../ServiceSymptomsSection/ServiceSymptomsItem';
-import servicesData from '../../ServiceData/ServicesData';
+import servicesData from '../../ServicesData/ServicesData.json';
 import './EmotionalSymtoms.css'
 
 const EmotionalSymptons = () => {

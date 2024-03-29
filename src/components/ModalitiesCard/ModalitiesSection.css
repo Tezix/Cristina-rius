@@ -2,7 +2,6 @@
     margin-top: 6vw;
     margin-right: 5vw;
     margin-left: 5vw;
-    margin-bottom: 15vw;
 }
 
 .modalities-title {
@@ -19,5 +18,5 @@
 .modalities-cards {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 23vw;
+    gap: 2vw;
 }

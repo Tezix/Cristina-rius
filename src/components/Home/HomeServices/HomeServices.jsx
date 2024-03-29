@@ -1,9 +1,12 @@
 import React from 'react';
 import ServiceCard from '../../ServiceCard/ServiceCard';
 import './HomeServices.css';
+import languagesData from "../../../languages/languagesHomePage.json";
+import { useLanguage } from '../../LanguageContext/LanguageContext';
 
 
 const Services = () => {
+    const { language } = useLanguage();
     const services = [
         {
             title: "Problemas emocionales",
@@ -39,11 +42,11 @@ const Services = () => {
         <>
             <div className='services'>
                 <div className='services-info'>
-                    <h2 className='services-title'>Servicios</h2>
-                    <p>En mi consulta psicológica, <span>te ofrezco apoyo y orientación personalizados</span> para explorar preocupaciones, identificar patrones de pensamiento y desarrollar estrategias para el cambio positivo. Además de la terapia individual, proporciono<span>asesoramiento breve para situaciones específicas.</span></p>
+                    <h2 className='services-title'>{languagesData.homeServices.h2[language]}</h2>
+                    <p>{languagesData.homeServices.p1[language]}<span>{languagesData.homeServices.span1[language]}</span>{languagesData.homeServices.p2[language]}<span>{languagesData.homeServices.span2[language]}</span></p>
                     <br />
-                    <p>Mi objetivo es ayudarte a superar desafíos y vivir una vida más plena.</p>
-                    <h3 className='some-services'>Algunos de los servicios con los que trabajo:</h3>
+                    <p>{languagesData.homeServices.p3[language]}</p>
+                    <h3 className='some-services'>{languagesData.homeServices.h3[language]}</h3>
                 </div>
                 <div className='services-cards'>
                     <div className="service-column">
