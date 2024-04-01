@@ -13,7 +13,6 @@
     width: 40vw;
     height: 20vw;
     margin-bottom: 0.1vw;
-
 }
 
 .service-card-content {
@@ -23,8 +22,6 @@
     position: absolute;
     width: 100%;
     text-align: center;
-
-
 }
 
 .service-card-container h3 {

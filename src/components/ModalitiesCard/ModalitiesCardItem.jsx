@@ -3,11 +3,11 @@ import './ModalitiesCardItem.css';
 
 const ModalitiesCardItem = ({ title, description, image, price }) => {
     return (
-        <div className='modalities-cards'>
+        <div className='modalities-card'>
+            <div className='card-image'>
+                <img src={image} alt="photo-modalities" />
+            </div>
             <div className='card-content'>
-                <div className='card-image'>
-                    <img src={image} alt="photo-modalities" />
-                </div>
                 <div className='card-title'>
                     <h2>{title}</h2>
                 </div>
@@ -18,7 +18,7 @@ const ModalitiesCardItem = ({ title, description, image, price }) => {
                     <p>{price}</p>
                 </div>
                 <div className='card-contact'>
-                    <a href="">Contactar</a>
+                    <a href="#">Contactar</a>
                 </div>
             </div>
         </div>

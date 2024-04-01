@@ -4,19 +4,9 @@
     margin-left: 5vw;
 }
 
-.modalities-title {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    letter-spacing: -0.1vw;
-    margin-top: 4vw;
-    font-size: 3.2vw;
-    color: #18164E;
-    margin-bottom: 3vw;
-    margin-left: 2.5vw;
-}
 
 .modalities-cards {
     display: flex;
     justify-content: space-between;
-    gap: 2vw;
+    gap: 1vw;
 }
