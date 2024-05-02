@@ -1,35 +1,21 @@
-import React from 'react';
-import FAQItem from '../FaqSection/FAQItem';
-import serviceFAQs from '../ServicesData/servicesFAQs';
+import React from "react";
+import FAQItem from "../FaqSection/FAQItem";
+import serviceFAQs from "../ServicesData/servicesFAQs";
+import "./FaqSection.css";
 
 const FaqSection = ({ serviceName }) => {
-    const faqs = serviceFAQs[serviceName] || [];
+  const faqs = serviceFAQs[serviceName] || [];
 
-    return (
-        <div className="faq-section">
-            {faqs.map((faq, index) => (
-                <FAQItem key={index} question={faq.question} answer={faq.answer} />
-            ))}
-        </div>
-    );
+  return (
+    <div className="faq-section">
+      <h2>Preguntas frecuentes</h2>
+      <div>
+        {faqs.map((faq, index) => (
+          <FAQItem key={index} question={faq.question} answer={faq.answer} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default FaqSection;
-
-
-// import React from 'react';
-// import FAQItem from '../FaqSection/FAQItem';
-// import FAQConst from './servicesFAQs'
-
-// const FaqSection = ({ serviceName }) => {
-//     const { [serviceName]: faqs } = FAQConst
-//     return (
-//         <div className="faq-section">
-//             {faqs.map((faq, index) => (
-//                 <FAQItem key={index} question={faq.question} answer={faq.answer} />
-//             ))}
-//         </div>
-//     );
-// };
-
-// export default FaqSection;

@@ -1,8 +1,5 @@
 .service-symptoms-item {
     margin-top: 6vw;
-    margin-right: 7vw;
-    margin-left: 7vw;
-
 }
 
 .symptom-types {
@@ -37,7 +34,7 @@
 
 .symptom-subgroups {
     margin-top: 1vw;
-    width: 10vw;
+    /* width: 10vw; */
 }
 
 .subgroup {
