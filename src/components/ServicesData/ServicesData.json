@@ -7,19 +7,19 @@
     },
     "trastornos-de-conducta-alimentaria": {
         "title": "Trastornos de la Conducta Alimentaria (TCA)",
-        "image": "/images/blog2.jpg",
+        "image": "/images/blog2.webp",
         "definition": "Los trastornos de la conducta alimentaria son condiciones de salud mental que afectan la relación de una persona con la comida...",
         "symptoms": "Los síntomas pueden variar según el tipo específico de trastorno, pero algunos signos generales incluyen..."
     },
     "duelo": {
         "title": "Duelo",
-        "image": "/images/blog3.jpg",
+        "image": "/images/blog3.webp",
         "definition": "El duelo es una respuesta natural y personal a la pérdida de algo significativo, ya sea la muerte de un ser querido...",
         "symptoms": "El duelo es un proceso individual que puede manifestarse de diversas maneras..."
     },
     "crecimiento-personal": {
         "title": "Crecimiento Personal",
-        "image": "/images/blog4.jpg",
+        "image": "/images/blog4.webp",
         "definition": "Buscar el crecimiento personal implica un compromiso consciente y continuo con el desarrollo y la mejora de uno mismo...",
         "symptoms": "Hay algunas características comunes de estar en crecimiento personal..."
     },
