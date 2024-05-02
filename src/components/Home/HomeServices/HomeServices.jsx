@@ -9,7 +9,7 @@ const Services = () => {
   const services = [
     {
       title: "Problemas emocionales",
-      image: "/images/blog1.jpg",
+      image: "/images/blog1.webp",
     },
     {
       title: "Trastornos de la Conducta Alimentaria (TCA)",
@@ -25,11 +25,11 @@ const Services = () => {
     },
     {
       title: "Relaciones de Pareja",
-      image: "/images/blog5.jpg",
+      image: "/images/blog5.webp",
     },
     {
       title: "Adicciones",
-      image: "/images/blog6.jpg",
+      image: "/images/blog6.webp",
     },
   ];
 
