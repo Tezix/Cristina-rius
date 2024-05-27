@@ -9,19 +9,19 @@ import ContactCard from "../../../components/ContactCard/ContactCard";
 
 
 const EmotionalIssuesPage = () => {
-    return (
-        <>
-            <EmotionalHero />
-            <EmotionalSymptons />
-            <EmotionalTypes />
-            <ModalitiesSection />
-            <EmotionalFaq />
-            <ContactCard />
-            <Footer />
+  return (
+    <>
+      <EmotionalHero />
+      <EmotionalSymptons />
+      <EmotionalTypes />
+      <ModalitiesSection />
+      <EmotionalFaq />
+      <ContactCard />
+      <Footer />
 
 
-        </>
-    )
+    </>
+  )
 }
 export default EmotionalIssuesPage;
 

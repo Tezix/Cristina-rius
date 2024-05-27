@@ -1,16 +1,16 @@
-import React from 'react';
-import ServicesSymptoms from '../../ServiceSymptomsSection/ServiceSymptomsItem';
-import servicesData from '../../ServicesData/ServicesData.json';
-import './EmotionalSymtoms.css'
+import React from "react";
+import ServicesSymptoms from "../../ServiceSymptomsSection/ServiceSymptomsItem";
+import servicesData from "../../ServicesData/ServicesData.json";
+import "./EmotionalSymtoms.css";
 
-const EmotionalSymptons = () => {
-    const servicioProblemasEmocionales = servicesData['problemas-emocionales'];
+const EmotionalSymptoms = () => {
+  const servicioProblemasEmocionales = servicesData["problemas-emocionales"];
 
-    return (
-        <div>
-            <ServicesSymptoms service={servicioProblemasEmocionales} />
-        </div>
-    );
+  return (
+    <div>
+      <ServicesSymptoms service={servicioProblemasEmocionales} />
+    </div>
+  );
 };
 
-export default EmotionalSymptons;
+export default EmotionalSymptoms;

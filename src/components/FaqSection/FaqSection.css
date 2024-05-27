@@ -1,0 +1,12 @@
+.faq-section {
+    margin: 0 15vw
+}
+
+.faq-section h2 {
+    font-family: "Manrope", sans-serif;
+    color: #19154E;
+    font-weight: 550;
+    padding-top: 5vw;
+    font-size: 3.2vw;
+    text-align: center;
+}
