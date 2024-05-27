@@ -1,25 +1,23 @@
 import React from 'react';
 import ServicesHero from '../../../components/ServiceHeroSection/ServicesHeroItem';
 import servicesData from '../../ServicesData/ServicesData.json';
-import './EmotionalHero.css'
+import './PersonalGrowthHero.css'
 import { useLanguage } from './../../LanguageContext/LanguageContext';
 
-const EmotionalHero = () => {
-    const servicioProblemasEmocionales = servicesData['problemas-emocionales'];
+const PersonalGrowthHero = () => {
+    const servicioPersonalGrowth = servicesData['crecimiento-personal'];
     const { language } = useLanguage()
 
     return (
         <div>
-            <ServicesHero service={servicioProblemasEmocionales} />
+            <ServicesHero service={servicioPersonalGrowth} />
             <div className="service-links">
-                <a href="#">Ansiedad</a>
-                <a href="#">Depresión</a>
-                <a href="#">Apatía</a>
+                <a href="#">Atoestima</a>
+                <a href="#">Cambios vitales</a>
 
             </div>
         </div>
     );
 };
 
-export default EmotionalHero;
-
+export default PersonalGrowthHero;

@@ -1,0 +1,15 @@
+.duelo-fq {
+    margin-top: 8vw;
+    width: 100%;
+    height: 38vw;
+    background: linear-gradient(to bottom, #d3e8ff, #ffffff);
+}
+
+.duelo-faq-section h2 {
+    font-family: "Manrope", sans-serif;
+    color: #19154E;
+    font-weight: 550;
+    padding-top: 5vw;
+    font-size: 3.2vw;
+    text-align: center;
+}
