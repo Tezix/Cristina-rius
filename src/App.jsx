@@ -1,7 +1,6 @@
-import './App.css'
-import Navigation from './components/Navigation/Navigation'
-import Footer from './components/Footer/Footer'
-import AppRoutes from './routes/AppRoutes'
+import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <AppRoutes role="region" aria-label="Main content" />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

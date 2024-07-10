@@ -1,6 +1,7 @@
-import React, { useState } from "react";
 import "./ServicesTypesItem.css";
 import FAQItem from "../FaqSection/FAQItem";
+import { useState } from "react";
+
 const ServicesTypeItem = ({ type, description, subgroups }) => {
   const [hoveredSubgroup, setHoveredSubgroup] = useState(null);
 

@@ -1,0 +1,15 @@
+.service-unique-types {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.service-symptoms-and-types {
+    background: linear-gradient(to top, #d4e3ff, #ffffff 100%);
+}
+
+.service-symptoms-and-types-margin {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding-bottom: 3vw;
+}

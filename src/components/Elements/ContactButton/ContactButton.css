@@ -1,0 +1,46 @@
+.get-in-touch-button {
+    display: flex;
+    justify-content: center;
+    width: 7vw;
+    height: 2.7vw;
+    border-radius: 0.8vw;
+    padding-left: 0;
+}
+
+.get-in-touch-button a {
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch-button:hover {
+    cursor: pointer;
+    background-color: #77A3CD !important;
+    text-decoration: none !important;
+}
+
+.get-in-touch-button a:hover {
+    color: white !important;
+}
+
+.get-in-touch-button.dark {
+    background-color: rgb(141, 191, 240);
+}
+
+.get-in-touch-button.light {
+    background-color: #EBF5FF;
+}
+
+.get-in-touch-button.light a {
+    color: #4E5063 !important;
+}
+
+.get-in-touch-button.light:hover {
+    background-color: #DFE9F2 !important;
+}

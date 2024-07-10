@@ -1,6 +1,6 @@
 .contact-card {
     width: 90vw;
-    height: 33vw;
+    height: 25vw;
     margin: 0 auto;
     margin-top: 10vw;
     display: flex;
@@ -12,12 +12,12 @@
 
 .contact-card-text {
     flex: 1;
+    margin-left: 5.5vw;
 }
 
 .contact-card-text p {
     margin-top: 5.5vw;
-    margin-left: 5.5vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: #AC70EE;
     font-family: "Manrope", serif;
     font-weight: 700;
@@ -27,9 +27,8 @@
 }
 
 .contact-card-text h1 {
-    margin-left: 5.5vw;
     margin-right: 6vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-top: 0;
     margin-bottom: 2vw;
     font-family: "Manrope", serif;
@@ -37,10 +36,6 @@
     letter-spacing: 0.05vw;
     line-height: 3vw;
     color: #1B1959;
-}
-
-.get-in-touch-button {
-    margin-left: 5.5vw;
 }
 
 .contact-card-image {

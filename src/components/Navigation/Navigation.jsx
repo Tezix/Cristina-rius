@@ -2,19 +2,16 @@ import { Link, NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./Navigation.css";
 import { useLanguage } from "./../LanguageContext/LanguageContext";
-import ContactButton from "../ContactButton/ContactButton";
+import ContactButton from "../Elements/ContactButton/ContactButton";
 import languagesData from "../../languages/languagesNavigation.json";
+import LanguageButton from "../Elements/LanguageButton/LanguageButton";
 
 function Navigation() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [scrolling, setScrolling] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
-  const { language, changeLanguage } = useLanguage();
+  const { language } = useLanguage("esp");
 
-  const toggleLanguage = () => {
-    const newLanguage = language === "esp" ? "val" : "esp";
-    changeLanguage(newLanguage);
-  };
   useEffect(() => {
     function handleScroll() {
       if (window.scrollY > 100) {
@@ -52,22 +49,7 @@ function Navigation() {
               <img src="/images/logoCristina.png" alt="logo" />
             </Link>
           </div>
-          <div className="language-switch" onClick={toggleLanguage}>
-            <div
-              className={`language-option ${
-                language === "esp" ? "active" : ""
-              }`}
-            >
-              ESP
-            </div>
-            <div
-              className={`language-option ${
-                language === "val" ? "active" : ""
-              }`}
-            >
-              VAL
-            </div>
-          </div>
+          <LanguageButton />
         </div>
         {windowWidth >= 450 && (
           <div className="right-nav">
@@ -128,7 +110,7 @@ function Navigation() {
               </div>
             </div>
             <div className="nav-contact-button">
-              <ContactButton />
+              <ContactButton text={"Contacto"} type={"dark"} />
             </div>
           </div>
         )}

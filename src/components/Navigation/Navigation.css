@@ -9,11 +9,11 @@
     padding-top: 0.3vw;
     padding-bottom: 0.5vw;
     width: 100%;
-    height: 3.8vw;
+    height: 3vw;
     z-index: 2;
     transition: all 0.2s;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .scroll-down {
@@ -25,7 +25,6 @@
 .left-nav {
     display: flex;
     align-items: center;
-    gap: 2vw;
     padding-left: 2vw;
 }
 
@@ -35,55 +34,20 @@
     background-color: white;
 }
 
-.nav-contact-button {
-    vertical-align: middle;
-}
-
-.logo-mini {
-    width: 20vw;
-}
-
 .logo-mini img {
-    width: 12vw;
-    transform: translateX(-80%);
-    margin-left: 15vw;
-    align-items: center;
-}
-
-.language-switch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5vw;
-}
-
-.language-option {
-    padding: 0.5vw 2vw;
-    cursor: pointer;
-    font-size: 1vw;
-    font-family: "Manrope", serif;
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 0.5vw;
-}
-
-.language-option:hover {
-    background-color: #f0f0f0;
-}
-
-.language-option.active {
-    background-color: #007bff;
-    color: white;
+    width: 8vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
 }
 
 .right-nav-items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .nav-item a {
     padding: 1.8vw;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     text-decoration: none;
     color: rgb(78, 80, 99);
     font-family: "Manrope", sans-serif;

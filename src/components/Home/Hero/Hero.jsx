@@ -1,5 +1,5 @@
 import "./Hero.css";
-import ContactButton from "../../ContactButton/ContactButton";
+import ContactButton from "../../Elements/ContactButton/ContactButton";
 import languagesData from "../../../languages/languagesHomePage.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
@@ -18,10 +18,8 @@ const Hero = () => {
             {languagesData.homeHero.h2[language]}
           </h2>
           <div className="hero-buttons">
-            <ContactButton />
-            <a href="Servicios" className="services-button">
-              Servicios
-            </a>
+            <ContactButton text={"Contacta"} type={"dark"} />
+            <ContactButton text={"Servicios"} type={"light"} />
           </div>
         </div>
         <div className="image-column">

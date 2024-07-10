@@ -1,4 +1,3 @@
-import React from "react";
 import FAQItem from "../FaqSection/FAQItem";
 import serviceFAQs from "../ServicesData/servicesFAQs";
 import "./FaqSection.css";
@@ -19,6 +18,3 @@ const FaqSection = ({ serviceName }) => {
 };
 
 export default FaqSection;
-
-
-

@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceCard from "../../ServiceCard/ServiceCard";
 import "./HomeServices.css";
 import languagesData from "../../../languages/languagesHomePage.json";
@@ -12,7 +11,7 @@ const Services = () => {
       image: "/images/blog1.webp",
     },
     {
-      title: "Trastornos de la Conducta Alimentaria (TCA)",
+      title: "Trastornos Conducta Alimentaria",
       image: "/images/blog2.webp",
     },
     {

@@ -47,14 +47,10 @@
 .faq-answer p {
     color: #4E5063;
     padding-left: 2vw;
+    padding-right: 2vw;
     transition: all 0.5 ease;
 
 }
-
-/* 
-.faq-item.open .faq-answer {
-    max-height: 1000vw;
-} */
 
 .faq-question::after {
     content: '+';
@@ -66,7 +62,7 @@
 
 .faq-question.open::after {
     content: '×';
-    transform: rotate(-95deg);
+    transform: rotate(-90deg);
 }
 
 .question-symbol {

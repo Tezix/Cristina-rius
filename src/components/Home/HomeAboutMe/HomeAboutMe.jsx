@@ -1,4 +1,3 @@
-import React from "react";
 import "./HomeAboutMe.css";
 import languagesData from "../../../languages/languagesHomePage.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";

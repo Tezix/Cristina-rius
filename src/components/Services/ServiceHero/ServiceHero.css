@@ -1,0 +1,109 @@
+.service-hero-margin {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.service-links a {
+    display: block;
+    line-height: 3.5vw;
+    text-decoration: none;
+    color: #8052D1;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+}
+
+.service-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-links a::after {
+    content: '\2192';
+    margin-left: 5px;
+    opacity: 1;
+    transition: opacity 0.2s ease, margin-left 0.2s ease;
+    position: absolute;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.3vw;
+    color: #8052D1;
+}
+
+.service-links a:hover::after {
+    margin-left: 1vw;
+}
+
+.service-hero {
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: flex-start;
+}
+
+.service-info {
+    flex: 1;
+}
+
+.service-image {
+    flex: 1;
+}
+
+.service-image img {
+    border-radius: 2%;
+    height: 22vw;
+    object-fit: cover;
+    margin-top: 10vw;
+}
+
+.service-info h3 {
+    font-size: 1.8vw;
+    letter-spacing: 0.05vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8632E6;
+    margin-bottom: -3vw;
+}
+
+.service-info h1 {
+    font-size: 4.5vw;
+    color: #19154E;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.05vw;
+
+}
+
+.definition {
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05vw;
+    font-size: 1.6vw;
+}
+
+.service-info .service-links a {
+    display: block;
+    line-height: 3.5vw;
+    text-decoration: none;
+    color: #8052D1;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+}
+
+
+
+.symptoms h4 {
+    color: #19154E;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 2.8vw;
+    padding-left: 8vw;
+    margin-top: 1vw;
+}
