@@ -1,7 +1,9 @@
+import AboutMe from "../../components/AboutMe/AboutMe";
+
 const AboutMePage = () => {
   return (
     <>
-      <h2>hello</h2>
+      <AboutMe />
     </>
   );
 };

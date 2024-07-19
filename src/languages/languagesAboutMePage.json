@@ -1,0 +1,64 @@
+{
+    "aboutMeHero": {
+        "h3": {
+            "esp": "SOBRE MÍ",
+            "val": "SOBRE MÍ"
+        },
+        "h1": {
+            "esp": "Hola, soy ",
+            "val": "Hola, soy "
+        },
+        "p": {
+            "esp": "Como psicóloga, mi misión es ser tu guía en el viaje hacia el autoconocimiento y el crecimiento personal. Con empatía y comprensión, te acompañaré en el proceso de explorar tus emociones, pensamientos y experiencias, ayudándote a desarrollar nuevas perspectivas y estrategias para enfrentar los desafíos y alcanzar tus objetivos de vida.",
+            "val": "Como psicóloga, mi misión es ser tu guía en el viaje hacia el autoconocimiento y el crecimiento personal. Con empatía y comprensión, te acompañaré en el proceso de explorar tus emociones, pensamientos y experiencias, ayudándote a desarrollar nuevas perspectivas y estrategias para enfrentar los desafíos y alcanzar tus objetivos de vida."
+        }
+    },
+    "MyHistory": {
+        "title": {
+            "esp": "Mi historia",
+            "eng": "Mi historia"
+        },
+        "p1": {
+            "esp": "Desde el instituto, supe que mi vocación era la psicología. Las personas que me conocen destacan mi habilidad para escuchar, hablar de temas difíciles y por mi deseo de ayudar. ",
+            "eng": "Desde el instituto, supe que mi vocación era la psicología. Las personas que me conocen destacan mi habilidad para escuchar, hablar de temas difíciles y por mi deseo de ayudar. "
+        },
+        "p2": {
+            "esp": "He trabajado en diversas áreas, incluyendo una Unidad de Conductas Adictivas y proyectos de investigación sobre los problemas emocionales en la adolescencia, tanto el Proyecto Miradas en colaboración con la Universidad de Valencia como en el Programa AMTE de la UNED. ",
+            "eng": "He trabajado en diversas áreas, incluyendo una Unidad de Conductas Adictivas y proyectos de investigación sobre los problemas emocionales en la adolescencia, tanto el Proyecto Miradas en colaboración con la Universidad de Valencia como en el Programa AMTE de la UNED. "
+        },
+        "p3": {
+            "esp": "También he brindado terapia individual, terapia de pareja y talleres en población infanto-juvenil y adultez, tanto en modalidad presencial como online. ",
+            "eng": "También he brindado terapia individual, terapia de pareja y talleres en población infanto-juvenil y adultez, tanto en modalidad presencial como online. "
+        },
+        "p4": {
+            "esp": "Además, he ejercido en un hospital de día de Trastornos de la Conducta Alimentaria en formato grupal y en el Programa Contexto, dentro del ámbito social, el cual estaba enfocado en la construcción de relaciones de pareja saludables y la desmitificación de las creencias respecto a las relaciones de pareja. Todo ello enfocado desde una perspectiva de género.",
+            "eng": "Además, he ejercido en un hospital de día de Trastornos de la Conducta Alimentaria en formato grupal y en el Programa Contexto, dentro del ámbito social, el cual estaba enfocado en la construcción de relaciones de pareja saludables y la desmitificación de las creencias respecto a las relaciones de pareja. Todo ello enfocado desde una perspectiva de género."
+        }
+    },
+    "MyBackground": {
+        "title": {
+            "esp": "Mi formación",
+            "eng": "Mi formación"
+        },
+        "firstListBold": {
+            "esp": "['Grado en Psicología', 'Máster en Psicología General Sanitaria', 'Máster en Terapias Contextuales', 'Experto en Psicoterapia Emocional Sistémica']",
+            "eng": "['Grado en Psicología', 'Máster en Psicología General Sanitaria', 'Máster en Terapias Contextuales', 'Experto en Psicoterapia Emocional Sistémica']"
+        },
+        "firstListInfo": {
+            "esp": "['Universidad de Valencia', 'Universidad de Cádiz', 'Universidad de Almería', 'Escuela Superior Europea de Psicología y Educación (ESEUPE)']",
+            "eng": "['Universidad de Valencia', 'Universidad de Cádiz', 'Universidad de Almería', 'Escuela Superior Europea de Psicología y Educación (ESEUPE)']"
+        },
+        "secondTitle": {
+            "esp": "Formación complementaria:",
+            "eng": "Formación complementaria:"
+        },
+        "secondListBold": {
+            "esp": "['Experto en Psicoterapia en Infancia y Adolescencia', 'Curso de Regulación Emocional aplicada al Campo Clínico', 'Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil', ' Taller de Asertividad', 'Taller de Relaciones de Pareja Saludables','Curso Terapia Dialéctica Comportamental']",
+            "eng": "['Experto en Psicoterapia en Infancia y Adolescencia', 'Curso de Regulación Emocional aplicada al Campo Clínico', 'Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil', ' Taller de Asertividad', 'Taller de Relaciones de Pareja Saludables','Curso Terapia Dialéctica Comportamental']"
+        },
+        "secondListInfo": {
+            "esp": "['SIAC', 'FOCAD, Colegio Oficial de Psicólogos', 'FOCAD, Colegio Oficial de Psicólogos', 'Universidad de Cádiz', 'Universidad de Cádiz', 'Fundació Lluís Alcanyís, Universidad de Valencia']",
+            "eng": "['SIAC', 'FOCAD, Colegio Oficial de Psicólogos', 'FOCAD, Colegio Oficial de Psicólogos', 'Universidad de Cádiz', 'Universidad de Cádiz', 'Fundació Lluís Alcanyís, Universidad de Valencia']"
+        }
+    }
+}

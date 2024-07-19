@@ -1,7 +1,5 @@
 .service-symptoms {
     margin-top: 3.5vw;
-    /* margin-left: 8vw; */
-    /* margin-right: 8vw; */
 }
 
 .symptoms-title {
@@ -16,4 +14,14 @@
     font-weight: 500;
     letter-spacing: 0.05vw;
     font-size: 1.3vw;
+}
+
+.service-symptoms .symptoms-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: #19154E;
+    font-size: 2.8vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    padding-top: 1.5vw;
 }

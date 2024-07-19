@@ -46,7 +46,7 @@ h1 {
     color: #18164E;
 }
 
-h2 {
+.about-text-column h2 {
     font-family: "Manrope", sans-serif;
     font-weight: 750;
     letter-spacing: -0.1vw;

@@ -1,11 +1,17 @@
  img {
-     width: 100%;
+   width: 100%;
  }
 
 
  body {
-     margin: 0;
-     background: linear-gradient(to bottom right, #c0d6ff, #ffffff 40%);
-     background-size: auto 80vh;
-     background-repeat: no-repeat;
+   margin: 0;
+   background: linear-gradient(to bottom right, #c0d6ff, #ffffff 40%);
+   background-size: auto 80vh;
+   background-repeat: no-repeat;
+ }
+
+ html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 8vw;
+   min-height: 80vh;
  }

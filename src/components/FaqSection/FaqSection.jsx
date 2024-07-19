@@ -3,7 +3,7 @@ import serviceFAQs from "../ServicesData/servicesFAQs";
 import "./FaqSection.css";
 
 const FaqSection = ({ serviceName }) => {
-  const faqs = serviceFAQs[serviceName] || [];
+  const faqs = serviceFAQs[`Faq-${serviceName}`] || [];
 
   return (
     <div className="faq-section">

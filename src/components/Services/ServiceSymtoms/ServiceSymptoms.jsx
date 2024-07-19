@@ -8,10 +8,8 @@ const EmotionalSymptoms = () => {
 
   return (
     <div className="service-symptoms">
-      <div className="service-symptoms">
-        <h2 className="symptoms-title">Síntomas:</h2>
-        <p>{servicioProblemasEmocionales.symptoms}</p>
-      </div>
+      <h3 className="symptoms-title">Síntomas:</h3>
+      <p>{servicioProblemasEmocionales.symptoms}</p>
     </div>
   );
 };
