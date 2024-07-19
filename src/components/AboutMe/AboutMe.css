@@ -48,7 +48,20 @@
     line-height: 6vw;
 }
 
-.about-me-text-column p,
+.my-history {
+    background: radial-gradient(ellipse closest-side at 50% 50%, #D7EBFF, #ffffff 108%);
+}
+
+.about-me-text-column p {
+    font-size: 1.6vw;
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 450;
+    margin-right: 1.8vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
 .my-history p {
     font-size: 1.3vw;
     color: #4E5063;
@@ -59,7 +72,8 @@
     margin-bottom: 1vw;
 }
 
-.my-history h2 {
+.my-history h2,
+.my-background h2 {
     margin-left: 0;
     font-size: 3vw;
     color: #19154E;
@@ -86,4 +100,72 @@
     gap: 2vw;
     margin-top: 2vw;
     margin-left: 0;
+}
+
+.my-background {
+    padding-left: 7vw;
+    padding-top: 3vw;
+    padding-right: 7vw;
+}
+
+.my-background-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 !important;
+    gap: 40px;
+}
+
+.my-background-img-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.photo-background-section {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my-background-text-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-list-item,
+.second-list-item {
+    margin-bottom: -2vw;
+}
+
+.first-list-bold,
+.second-list-bold {
+    font-size: 1.2vw;
+    display: flex;
+}
+
+.first-list-bold::before,
+.second-list-bold::before {
+    content: '•';
+    color: rgb(141, 191, 240);
+    font-size: 2.2vw;
+    margin-right: 0.3vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.first-list-info,
+.second-list-info {
+    font-size: 1.2vw;
+    margin-top: -2vw;
+}
+
+.second-title {
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+    font-size: 1.8vw;
+    font-family: "Manrope", sans-serif;
 }

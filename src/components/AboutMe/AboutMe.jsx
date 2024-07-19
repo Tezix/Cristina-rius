@@ -7,7 +7,17 @@ const AboutMe = () => {
   const parsedBackgroundFirstListBold = JSON.parse(
     languagesData.MyBackground.firstListBold[language].replace(/'/g, '"')
   );
+  const parsedBackgroundFirstListInfo = JSON.parse(
+    languagesData.MyBackground.firstListInfo[language].replace(/'/g, '"')
+  );
   console.log(parsedBackgroundFirstListBold);
+  const parsedBackgroundSecondListBold = JSON.parse(
+    languagesData.MyBackground.secondListBold[language].replace(/'/g, '"')
+  );
+  const parsedBackgroundSecondListInfo = JSON.parse(
+    languagesData.MyBackground.secondListInfo[language].replace(/'/g, '"')
+  );
+
   return (
     <>
       <div className="about-me">
@@ -22,7 +32,7 @@ const AboutMe = () => {
           </div>
           <div className="about-me-image-column">
             <img
-              src="/images/fotoAbout.webp"
+              src="/images/aboutMePhoto.webp"
               alt="photo-hero"
               className="about-me-hero-photo"
             />
@@ -37,9 +47,28 @@ const AboutMe = () => {
         </div>
         <div className="my-background">
           <h2>{languagesData.MyBackground.title[language]}</h2>
-          {parsedBackgroundFirstListBold.map((element, idx) => {
-            return <p key={idx}>{element}</p>;
-          })}
+
+          <div className="my-background-section">
+            <div className="my-background-img-column">
+              <img src="/images/backgroundPhoto.webp" alt="photo-background" className="photo-background-section" />
+            </div>
+
+            <div className="my-background-text-column">
+              {parsedBackgroundFirstListBold.map((element, idx) => (
+                <div key={idx} className="first-list-item">
+                  <p className="first-list-bold"><strong>{element}</strong></p>
+                  <p className="first-list-info">{parsedBackgroundFirstListInfo[idx]}</p>
+                </div>
+              ))}
+              <h3 className="second-title">{languagesData.MyBackground.secondTitle[language]}</h3>
+              {parsedBackgroundSecondListBold.map((element, idx) => (
+                <div key={idx} className="second-list-item">
+                  <p className="second-list-bold"><strong>{element}</strong></p>
+                  <p className="second-list-info">{parsedBackgroundSecondListInfo[idx]}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </>

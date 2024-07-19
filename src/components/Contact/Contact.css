@@ -1,0 +1,99 @@
+.contact-section {
+    padding-left: 15vw;
+    padding-top: 3vw;
+    padding-right: 15vw;
+    background-color: #fff;
+}
+
+.contact-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    gap: 4vw;
+}
+
+.contact-text-column {
+    flex: 1;
+    text-align: left;
+    margin-top: 13vw;
+}
+
+.contact-text-column h3 {
+    color: rgb(117, 53, 225);
+    font-size: 1.6vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 0;
+    line-height: 6vw;
+}
+
+.contact-text-column h1 {
+    color: #19154E;
+    font-size: 4.5vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 0;
+    line-height: 5vw;
+}
+
+.contact-text-column p {
+    font-size: 1.6vw;
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 450;
+    margin-right: 1.8vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.contact-form-column {
+    margin-top: 11vw;
+    flex: 1;
+}
+
+#contact-form {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #91C5F2;
+}
+
+.form-style {
+    width: 100%;
+    background-color: #EBF5FF;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 5px;
+    font-family: "Manrope", sans-serif;
+}
+
+.form-style.mt-3 {
+    margin-top: 1.5vw;
+}
+
+.btn {
+    padding: 1vw 2vw;
+    background-color: #A4CCF3;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

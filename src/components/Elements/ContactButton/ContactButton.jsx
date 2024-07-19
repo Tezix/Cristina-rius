@@ -4,7 +4,7 @@ import "./ContactButton.css";
 const ContactButton = ({ text, type }) => {
   return (
     <div className={`get-in-touch-button ${type}`}>
-      <Link to="#">{text}</Link>
+      <Link to="/contact">{text}</Link>
     </div>
   );
 };
