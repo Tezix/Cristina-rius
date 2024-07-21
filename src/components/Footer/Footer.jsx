@@ -20,7 +20,9 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <img src="/images/logo-linkedin.png" alt="logo-linkedin" />
+
             <img src="/images/logo-instagram.png" alt="logo-instagram" />
+
             <p className="footer-social-mail">
               cristinariusverduguez@gmail.com
             </p>

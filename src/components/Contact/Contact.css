@@ -62,7 +62,7 @@
 .form-group {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100% !important;
     color: #91C5F2;
 }
 
@@ -77,12 +77,9 @@
     font-family: "Manrope", sans-serif;
 }
 
-.form-style.mt-3 {
-    margin-top: 1.5vw;
-}
-
 .btn {
-    padding: 1vw 2vw;
+    width: 106%;
+    padding: 1vw;
     background-color: #A4CCF3;
     color: white;
     font-size: 1.5vw;
