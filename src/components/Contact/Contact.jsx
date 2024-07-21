@@ -80,13 +80,27 @@ const Contact = () => {
                 </div>
             </div >
             <div className="map-section">
-                <div className="map-img-column">
-                    <img src="" alt="" />
-                </div>
-                <div className="map-text-column">
+                <div className="map-hero-section">
 
+                    <div className="map-img-column">
+                        <img src="/images/photoMap.webp" alt="" />
+                    </div>
+                    <div className="map-text-column">
+                        <div className="footer-direction">
+                            <p>Dirección</p>
+                            <p>Calle San Vicente Mártir 84, 2ºAB</p>
+                            <p>46002 Valencia</p>
+                        </div>
+                        {/* <div className="footer-social">
+                            <img src="/images/logo-linkedin.png" alt="logo-linkedin" />
+                            <img src="/images/logo-instagram.png" alt="logo-instagram" />
+                            <p className="footer-social-mail">
+                                cristinariusverduguez@gmail.com
+                            </p>
+                            <p className="footer-social-phone">611 851 822</p>
+                        </div> */}
+                    </div>
                 </div>
-
             </div>
         </>
     )

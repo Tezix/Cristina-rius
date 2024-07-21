@@ -2,6 +2,7 @@
     padding-left: 15vw;
     padding-top: 3vw;
     padding-right: 15vw;
+    padding-bottom: 6vw;
     background-color: #fff;
 }
 
@@ -86,7 +87,7 @@
     color: white;
     font-size: 1.5vw;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5vw;
     cursor: pointer;
     font-family: "Manrope", sans-serif;
     font-weight: 600;
@@ -96,4 +97,47 @@
 .btn:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+
+
+.map-section {
+    padding-left: 15vw;
+    padding-top: 8vw;
+    padding-right: 15vw;
+    padding-bottom: 6vw;
+    background-color: #D5E9FF;
+
+}
+
+.map-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    gap: 4vw;
+}
+
+.map-img-column {
+    flex: 1;
+}
+
+.map-img-column img {
+    border-radius: 2vw;
+    height: 40vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+.map-text-column {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-direction p {
+    font-size: 1.6vw;
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    text-align: left;
+    font-weight: 450;
+    margin-right: 1.8vw;
 }
