@@ -1,5 +1,5 @@
 import "./HomeAboutMe.css";
-import languagesData from "../../../languages/languagesHomePage.json";
+import languagesData from "../../../languages/Home/home.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
 const HomeAboutMe = () => {

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import servicesData from "../../ServicesData/ServicesData.json";
+import servicesData from "../../../languages/Services/servicesData.json";
 import "./ServiceSymptoms.css";
 const EmotionalSymptoms = () => {
   const { serviceType } = useParams();

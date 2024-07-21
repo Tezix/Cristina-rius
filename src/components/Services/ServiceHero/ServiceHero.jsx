@@ -1,4 +1,4 @@
-import servicesData from "../../ServicesData/ServicesData.json";
+import servicesData from "../../../languages/Services/servicesData.json";
 import "./ServiceHero.css";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 import { useParams } from "react-router-dom";

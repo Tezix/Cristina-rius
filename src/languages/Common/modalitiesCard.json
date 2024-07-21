@@ -15,7 +15,8 @@
         "a": {
             "esp": "Contactar",
             "val": "Contactar"
-        }
+        },
+        "img": "/images/photo-presential.webp"
     },
     "onlineModalitiesCard": {
         "h2": {
@@ -33,6 +34,7 @@
         "a": {
             "esp": "Contactar",
             "val": "Contactar"
-        }
+        },
+        "img": "/images/photo-online.webp"
     }
 }

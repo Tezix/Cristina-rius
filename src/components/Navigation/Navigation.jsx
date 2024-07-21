@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./Navigation.css";
 import { useLanguage } from "./../LanguageContext/LanguageContext";
 import ContactButton from "../Elements/ContactButton/ContactButton";
-import languagesData from "../../languages/languagesNavigation.json";
+import languagesData from "../../languages/Navigation/navigation.json";
 import LanguageButton from "../Elements/LanguageButton/LanguageButton";
 
 function Navigation() {

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import ServiceDataTypes from "./../../ServicesData/ServicesDataTypes.json";
+import ServiceDataTypes from "./../../../languages/Services/servicesDataTypes.json";
 import FAQItem from "../../FaqSection/FAQItem";
 import "./ServiceTypes.css";
 

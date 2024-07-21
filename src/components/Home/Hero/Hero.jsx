@@ -1,6 +1,6 @@
 import "./Hero.css";
 import ContactButton from "../../Elements/ContactButton/ContactButton";
-import languagesData from "../../../languages/languagesHomePage.json";
+import languagesData from "../../../languages/Home/home.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
 const Hero = () => {

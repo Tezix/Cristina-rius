@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import languagesData from "../../languages/languagesAboutMePage.json";
+import languagesData from "../../languages/AboutMe/aboutMe.json";
 import { useLanguage } from "../LanguageContext/LanguageContext";
 
 const AboutMe = () => {
@@ -50,21 +50,35 @@ const AboutMe = () => {
 
           <div className="my-background-section">
             <div className="my-background-img-column">
-              <img src="/images/backgroundPhoto.webp" alt="photo-background" className="photo-background-section" />
+              <img
+                src="/images/backgroundPhoto.webp"
+                alt="photo-background"
+                className="photo-background-section"
+              />
             </div>
 
             <div className="my-background-text-column">
               {parsedBackgroundFirstListBold.map((element, idx) => (
                 <div key={idx} className="first-list-item">
-                  <p className="first-list-bold"><strong>{element}</strong></p>
-                  <p className="first-list-info">{parsedBackgroundFirstListInfo[idx]}</p>
+                  <p className="first-list-bold">
+                    <strong>{element}</strong>
+                  </p>
+                  <p className="first-list-info">
+                    {parsedBackgroundFirstListInfo[idx]}
+                  </p>
                 </div>
               ))}
-              <h3 className="second-title">{languagesData.MyBackground.secondTitle[language]}</h3>
+              <h3 className="second-title">
+                {languagesData.MyBackground.secondTitle[language]}
+              </h3>
               {parsedBackgroundSecondListBold.map((element, idx) => (
                 <div key={idx} className="second-list-item">
-                  <p className="second-list-bold"><strong>{element}</strong></p>
-                  <p className="second-list-info">{parsedBackgroundSecondListInfo[idx]}</p>
+                  <p className="second-list-bold">
+                    <strong>{element}</strong>
+                  </p>
+                  <p className="second-list-info">
+                    {parsedBackgroundSecondListInfo[idx]}
+                  </p>
                 </div>
               ))}
             </div>
