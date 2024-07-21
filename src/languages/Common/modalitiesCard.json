@@ -2,7 +2,7 @@
     "presentialModalitiesCard": {
         "h2": {
             "esp": "Presencial",
-            "val": ""
+            "val": "Presencial"
         },
         "p1": {
             "esp": "Te ofreceré un entorno cómodo y confidencial donde te brindaré apoyo personalizado para superar desafíos y metas emocionales en el gabinete de Valencia.",
@@ -21,11 +21,11 @@
     "onlineModalitiesCard": {
         "h2": {
             "esp": "Online",
-            "val": ""
+            "val": "Online"
         },
         "p1": {
             "esp": "Te brindaré apoyo terapéutico desde la comodidad de tu hogar o cualquier lugar con conexión a internet. Te guía de manera personalizada hacia tus metas.",
-            "val": ""
+            "val": "T'oferiré suport terapèutic des de la comoditat de la teua llar o qualsevol lloc amb connexió a internet. Et guiaré de manera personalitzada cap als teus objectius."
         },
         "p2": {
             "esp": "55€ la sesión de una hora",

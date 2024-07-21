@@ -2,6 +2,7 @@ import "./Hero.css";
 import ContactButton from "../../Elements/ContactButton/ContactButton";
 import languagesData from "../../../languages/Home/home.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
+import buttonsText from "../../../languages/Common/buttons.json";
 
 const Hero = () => {
   const { language } = useLanguage();
@@ -18,8 +19,11 @@ const Hero = () => {
             {languagesData.homeHero.h2[language]}
           </h2>
           <div className="hero-buttons">
-            <ContactButton text={"Contacta"} type={"dark"} />
-            <ContactButton text={"Servicios"} type={"light"} />
+            <ContactButton text={buttonsText.contact[language]} type={"dark"} />
+            <ContactButton
+              text={buttonsText.services[language]}
+              type={"light"}
+            />
           </div>
         </div>
         <div className="image-column">
