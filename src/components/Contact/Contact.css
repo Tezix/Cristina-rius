@@ -62,7 +62,7 @@
 .form-group {
     display: flex;
     flex-direction: column;
-    width: 100% !important;
+    width: 100%;
     color: #91C5F2;
 }
 
@@ -78,7 +78,6 @@
 }
 
 .btn {
-    width: 106%;
     padding: 1vw;
     background-color: #A4CCF3;
     color: white;
