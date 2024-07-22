@@ -12,5 +12,41 @@
             "esp": "Contacta conmigo sin compromiso para cualquier duda o pregunta que puedas tener acerca de la terapia en Valencia u online, o los problemas en los que pueda ayudarte.",
             "val": "Contacta conmigo sin compromiso para cualquier duda o pregunta que puedas tener acerca de la terapia en Valencia u online, o los problemas en los que pueda ayudarte."
         }
+    },
+    "contactForm": {
+        "name": {
+            "esp": "nombre",
+            "val": "nom"
+        },
+        "email": {
+            "esp": "Email",
+            "val": "Email"
+        },
+        "helpText": {
+            "esp": "En qué te puedo ayudar?",
+            "val": "En què et puc ajudar?"
+        },
+        "contactButton": {
+            "esp": "Enviar",
+            "val": "Enviar"
+        }
+    },
+    "contactDetails": {
+        "directionTitle": {
+            "esp": "Dirección",
+            "val": "Adreça"
+        },
+        "directionInfo": {
+            "esp": "Calle San Vicente Mártir 84, 2ºAB46002  Valencia",
+            "val": "Carrer Sant Vicent Màrtir 84,2nAB46002 València"
+        },
+        "scheduleTitle": {
+            "esp": "Horario",
+            "val": "Horari"
+        },
+        "scheduleDetails": {
+            "esp": "De lunes a viernes de 9:00 a 20:00 horas",
+            "val": "De dilluns a divendres de 9:00 a 20:00 hores"
+        }
     }
 }
