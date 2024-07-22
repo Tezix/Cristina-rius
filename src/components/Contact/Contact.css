@@ -112,7 +112,7 @@ textarea {
     padding-top: 8vw;
     padding-right: 15vw;
     padding-bottom: 6vw;
-    background-color: #D5E9FF;
+    background-color: #E7F2FE;
 
 }
 
@@ -176,5 +176,25 @@ textarea {
 .contact-number p {
     font-size: 1.6vw;
     margin-top: -1.5vw;
+}
 
+.contact-social-info {
+    display: flex;
+    gap: 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 1.1vw;
+    width: 1.1vw;
+}
+
+.contact-social img {
+    display: flex;
+    flex-direction: row;
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+.contact-social .social-icons-contact {
+    display: flex;
+    gap: 1vw
 }

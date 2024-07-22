@@ -26,9 +26,9 @@ const Footer = () => {
                 rel="noopener"
                 tabIndex="0"
                 style={{
-                  backgroundColor: "rgb(116, 33, 252)",
-                  width: "2.3vw",
-                  height: "2.3vw",
+                  backgroundColor: "rgb(134, 50, 229)",
+                  width: "3vw",
+                  height: "3vw",
                   borderRadius: "2.3vw",
                   display: "flex",
                   justifyContent: "center",
@@ -41,9 +41,9 @@ const Footer = () => {
               <a
                 href="#"
                 style={{
-                  backgroundColor: "rgb(116, 33, 252)",
-                  width: "2.3vw",
-                  height: "2.3vw",
+                  backgroundColor: "rgb(134, 50, 229)",
+                  width: "3vw",
+                  height: "3vw",
                   borderRadius: "2.3vw",
                   display: "flex",
                   justifyContent: "center",

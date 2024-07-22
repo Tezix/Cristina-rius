@@ -114,6 +114,42 @@ const Contact = () => {
                         <div className="contact-schedule-info">
                             <p>{languagesData.contactDetails.scheduleDetails[language]}</p>
                         </div>
+                        <div className="contact-social">
+                            <div className="social-icons-contact">
+                                <a
+                                    href="https://www.linkedin.com/in/cristina-rius-verd%C3%BAguez"
+                                    target="_blank"
+                                    rel="noopener"
+                                    tabIndex="0"
+                                    style={{
+                                        backgroundColor: "rgb(134, 50, 229)",
+                                        width: "3vw",
+                                        height: "3vw",
+                                        borderRadius: "2.3vw",
+                                        display: "flex",
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                    }}
+                                >
+                                    <img src="/images/instagram.svg" alt="logo-instagram" />
+                                </a>
+
+                                <a
+                                    href="#"
+                                    style={{
+                                        backgroundColor: "rgb(134, 50, 229)",
+                                        width: "3vw",
+                                        height: "3vw",
+                                        borderRadius: "2.3vw",
+                                        display: "flex",
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                    }}
+                                >
+                                    <img src="/images/linkedin.svg" alt="logo-linkedin" />
+                                </a>
+                            </div>
+                        </div>
 
 
                     </div>
