@@ -70,7 +70,7 @@ function Navigation() {
 
                   <div
                     className={`dropdown-content ${
-                      !showDropdown ? "show-drop-down" : ""
+                      showDropdown ? "show-drop-down" : ""
                     }`}
                   >
                     <NavLink to="/problemas-emocionales">
