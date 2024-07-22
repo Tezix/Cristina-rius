@@ -9,7 +9,7 @@ const FaqSection = ({ serviceName }) => {
 
   return (
     <div className="faq-section">
-      <h2>Preguntas frecuentes</h2>
+      <h2>{serviceFAQs.title[language]}</h2>
       <div>
         {faqs.map((faq, index) => (
           <FAQItem

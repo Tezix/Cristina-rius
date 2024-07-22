@@ -12,7 +12,7 @@ const ServiceHero = () => {
     <div className="service-hero-margin">
       <div className="service-hero">
         <div className="service-info">
-          <h3>servicios</h3>
+          <h3>{servicesData.title[language]}</h3>
           <h1>{servicioProblemasEmocionales.title[language]}</h1>
           <p className="definition">
             {servicioProblemasEmocionales.definition[language]}
@@ -29,7 +29,7 @@ const ServiceHero = () => {
         {servicioProblemasEmocionales.definitionLinks[language].map(
           (eachLink, idx) => {
             return (
-              <a href="#" key={idx}>
+              <a href={`#${eachLink}`} key={idx}>
                 {eachLink}
               </a>
             );

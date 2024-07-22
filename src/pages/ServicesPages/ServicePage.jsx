@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ServiceHero from "../../components/Services/ServiceHero/ServiceHero";
 import "./ServicePage.css";
 import ServiceSymptoms from "../../components/Services/ServiceSymtoms/ServiceSymptoms";
@@ -6,8 +7,10 @@ import ModalitiesSection from "../../components/ModalitiesCard/ModalitiesSection
 import ServiceIssuesFaq from "../../components/Services/ServiceIssuesFaq/ServiceIssuesFaq";
 import Footer from "../../components/Footer/Footer";
 import ContactCard from "../../components/ContactCard/ContactCard";
-
 const ServicePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <ServiceHero />

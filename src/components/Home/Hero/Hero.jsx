@@ -19,10 +19,15 @@ const Hero = () => {
             {languagesData.homeHero.h2[language]}
           </h2>
           <div className="hero-buttons">
-            <ContactButton text={buttonsText.contact[language]} type={"dark"} />
+            <ContactButton
+              text={buttonsText.contact[language]}
+              type={"dark"}
+              link={"/contact"}
+            />
             <ContactButton
               text={buttonsText.services[language]}
               type={"light"}
+              link={"#services"}
             />
           </div>
         </div>

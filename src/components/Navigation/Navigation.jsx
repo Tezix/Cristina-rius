@@ -52,7 +52,7 @@ function Navigation() {
           </div>
           <LanguageButton />
         </div>
-        {windowWidth >= 450 && (
+        {windowWidth >= 350 && (
           <div className="right-nav">
             <div className="right-nav-items">
               <div className="nav-item">
@@ -106,15 +106,16 @@ function Navigation() {
                   )}
                 </div>
               </div>
-              <div className="nav-item">
-                <NavLink to="/blog">Blog</NavLink>
+              <div className="nav-contact-button">
+                <ContactButton
+                  text={buttonsText.contact[language]}
+                  type={"dark"}
+                  link={"/contact"}
+                />
               </div>
-            </div>
-            <div className="nav-contact-button">
-              <ContactButton
-                text={buttonsText.contact[language]}
-                type={"dark"}
-              />
+              {/* <div className="nav-item">
+                <NavLink to="/blog">Blog</NavLink>
+              </div> */}
             </div>
           </div>
         )}

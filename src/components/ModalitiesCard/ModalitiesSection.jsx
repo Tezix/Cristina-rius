@@ -6,7 +6,7 @@ const ModalitiesSection = () => {
   const { language } = useLanguage();
   return (
     <div className="modalities">
-      <h1 className="modalities-title">Modalidades y precio</h1>
+      <h1 className="modalities-title">{modalitiesData.title[language]}</h1>
       <div className="modalities-cards">
         <div className="modalities-card">
           <div className="card-image">
@@ -26,7 +26,7 @@ const ModalitiesSection = () => {
               <p>{modalitiesData.presentialModalitiesCard.p2[language]}</p>
             </div>
             <div className="card-contact">
-              <a href="#">
+              <a href="/contact">
                 {modalitiesData.presentialModalitiesCard.a[language]}
               </a>
             </div>
@@ -50,7 +50,9 @@ const ModalitiesSection = () => {
               <p>{modalitiesData.onlineModalitiesCard.p2[language]}</p>
             </div>
             <div className="card-contact">
-              <a href="#">{modalitiesData.onlineModalitiesCard.a[language]}</a>
+              <a href="/contact">
+                {modalitiesData.onlineModalitiesCard.a[language]}
+              </a>
             </div>
           </div>
         </div>

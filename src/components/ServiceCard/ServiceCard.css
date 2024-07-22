@@ -37,3 +37,8 @@
 .service-card-container:hover h3 {
     font-weight: 700;
 }
+
+.service-card-container:hover {
+    font-weight: 700;
+    filter: brightness(115%);
+}

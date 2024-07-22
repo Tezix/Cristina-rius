@@ -1,4 +1,8 @@
 const serviceFAQs = {
+  title: {
+    esp: "Preguntas frecuentes",
+    val: "Preguntes frecuents",
+  },
   "Faq-home": [
     {
       question: {

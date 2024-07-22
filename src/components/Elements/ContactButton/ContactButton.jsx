@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "./ContactButton.css";
 
-const ContactButton = ({ text, type }) => {
+const ContactButton = ({ text, type, link }) => {
   return (
     <div className={`get-in-touch-button ${type}`}>
-      <Link to="/contact">{text}</Link>
+      <a href={link}>{text}</a>
     </div>
   );
 };

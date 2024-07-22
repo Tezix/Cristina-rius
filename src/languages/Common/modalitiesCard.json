@@ -1,4 +1,8 @@
 {
+    "title": {
+        "esp": "Modalidades y precio",
+        "val": "Modalitat i preu"
+    },
     "presentialModalitiesCard": {
         "h2": {
             "esp": "Presencial",

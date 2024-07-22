@@ -1,4 +1,8 @@
 {
+    "title": {
+        "esp": "Servicios",
+        "val": "Serveis"
+    },
     "problemas-emocionales": {
         "image": "/images/blog1.webp",
         "title": {
@@ -13,12 +17,12 @@
             "esp": [
                 "Ansiedad",
                 "Depresión",
-                "Apatía"
+                "Apatía/Desgana"
             ],
             "val": [
                 "Ansietat",
                 "Depressió",
-                "Apatia"
+                "Apatia/Desganes"
             ]
         },
         "symptoms": {
@@ -38,7 +42,7 @@
                 "Anorexia",
                 "Bulimia",
                 "Trastorno por atracón",
-                "Otros Trastornos de la Conducta Alimetaria (TCA)"
+                "Otros Trastornos de la Conducta Alimentaria (TCA)"
             ],
             "val": [
                 "Anorèxia",

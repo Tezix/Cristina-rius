@@ -44,3 +44,16 @@
 .get-in-touch-button.light:hover {
     background-color: #DFE9F2 !important;
 }
+
+@media (max-width: 450px) {
+    .get-in-touch-button {
+        width: 14vw;
+        height: 4vw;
+        border-radius: 0.8vw;
+        padding-left: 0;
+    }
+
+    .get-in-touch-button a {
+        font-size: 2.2vw;
+    }
+}

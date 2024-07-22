@@ -48,3 +48,13 @@
 .switch-slider-right {
     left: 52%;
 }
+
+
+@media (max-width: 450px) {
+    .switch-container {
+        border-radius: 0.7vw;
+        width: 15vw;
+        height: 4vw;
+        font-size: 1.4vw;
+    }
+}

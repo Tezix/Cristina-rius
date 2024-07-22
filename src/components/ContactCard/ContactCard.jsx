@@ -13,7 +13,11 @@ const ContactCard = () => {
         <div className="contact-card-text">
           <p>{contactCardData.contactCard.p[language]}</p>
           <h1>{contactCardData.contactCard.h1[language]}</h1>
-          <ContactButton text={buttonsText.contact[language]} type={"dark"} />
+          <ContactButton
+            text={buttonsText.contact[language]}
+            type={"dark"}
+            link={"/contact"}
+          />
         </div>
         <div className="contact-card-image">
           <img src="/images/ContactImg.webp" alt="contact-card-image" />
