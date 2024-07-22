@@ -155,13 +155,13 @@ textarea {
     margin-bottom: 3vw;
 }
 
-.contact-email p {
+.contact-email a {
     color: #974ae9;
     font-size: 1.6vw;
     font-weight: 600;
 }
 
-.contact-email p::after {
+.contact-email a::after {
     content: '\2192';
     margin-left: 5px;
     opacity: 1;
@@ -169,11 +169,12 @@ textarea {
     position: absolute;
 }
 
-.contact-email p:hover::after {
+.contact-email a:hover::after {
     margin-left: 9px;
 }
 
-.contact-number p {
+.contact-number a {
+    color: #19154E;
     font-size: 1.6vw;
     margin-top: -1.5vw;
 }
