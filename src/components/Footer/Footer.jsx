@@ -54,10 +54,15 @@ const Footer = () => {
               </a>
             </div>
 
-            <a className="footer-social-mail">
+            <a
+              className="footer-social-mail"
+              href="mailto:cristinariusverduguez@gmail.com"
+            >
               cristinariusverduguez@gmail.com
             </a>
-            <p className="footer-social-phone">611 851 822</p>
+            <a className="footer-social-phone" href="tel:611851822">
+              611 851 822
+            </a>
           </div>
         </div>
       </div>

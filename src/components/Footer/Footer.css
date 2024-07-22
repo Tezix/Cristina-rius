@@ -67,10 +67,15 @@
     font-family: "Manrope", sans-serif;
     margin-top: 1vw;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .footer-social-phone {
     color: white;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    margin-top: 1vw;
+    font-weight: 600;
 }
 
 .footer-social-mail::after {
