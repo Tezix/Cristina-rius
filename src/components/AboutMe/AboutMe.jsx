@@ -4,19 +4,6 @@ import { useLanguage } from "../LanguageContext/LanguageContext";
 
 const AboutMe = () => {
   const { language } = useLanguage();
-  const parsedBackgroundFirstListBold = JSON.parse(
-    languagesData.MyBackground.firstListBold[language].replace(/'/g, '"')
-  );
-  const parsedBackgroundFirstListInfo = JSON.parse(
-    languagesData.MyBackground.firstListInfo[language].replace(/'/g, '"')
-  );
-  console.log(parsedBackgroundFirstListBold);
-  const parsedBackgroundSecondListBold = JSON.parse(
-    languagesData.MyBackground.secondListBold[language].replace(/'/g, '"')
-  );
-  const parsedBackgroundSecondListInfo = JSON.parse(
-    languagesData.MyBackground.secondListInfo[language].replace(/'/g, '"')
-  );
 
   return (
     <>
@@ -58,26 +45,26 @@ const AboutMe = () => {
             </div>
 
             <div className="my-background-text-column">
-              {parsedBackgroundFirstListBold.map((element, idx) => (
+              {languagesData.MyBackground.firstListBold[language].map((element, idx) => (
                 <div key={idx} className="first-list-item">
                   <p className="first-list-bold">
                     <strong>{element}</strong>
                   </p>
                   <p className="first-list-info">
-                    {parsedBackgroundFirstListInfo[idx]}
+                    {languagesData.MyBackground.firstListInfo[language][idx]}
                   </p>
                 </div>
               ))}
               <h3 className="second-title">
                 {languagesData.MyBackground.secondTitle[language]}
               </h3>
-              {parsedBackgroundSecondListBold.map((element, idx) => (
+              {languagesData.MyBackground.secondListBold[language].map((element, idx) => (
                 <div key={idx} className="second-list-item">
                   <p className="second-list-bold">
                     <strong>{element}</strong>
                   </p>
                   <p className="second-list-info">
-                    {parsedBackgroundSecondListInfo[idx]}
+                    {languagesData.MyBackground.secondListInfo[language][idx]}
                   </p>
                 </div>
               ))}

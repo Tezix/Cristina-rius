@@ -41,24 +41,72 @@
             "eng": "Mi formación"
         },
         "firstListBold": {
-            "esp": "['Grado en Psicología', 'Máster en Psicología General Sanitaria', 'Máster en Terapias Contextuales', 'Experto en Psicoterapia Emocional Sistémica']",
-            "eng": "['Grado en Psicología', 'Máster en Psicología General Sanitaria', 'Máster en Terapias Contextuales', 'Experto en Psicoterapia Emocional Sistémica']"
+            "esp": [
+                "Grado en Psicología",
+                "Máster en Psicología General Sanitaria",
+                "Máster en Terapias Contextuales",
+                "Experto en Psicoterapia Emocional Sistémica"
+            ],
+            "eng": [
+                "Grado en Psicología",
+                "Máster en Psicología General Sanitaria",
+                "Máster en Terapias Contextuales",
+                "Experto en Psicoterapia Emocional Sistémica"
+            ]
         },
         "firstListInfo": {
-            "esp": "['Universidad de Valencia', 'Universidad de Cádiz', 'Universidad de Almería', 'Escuela Superior Europea de Psicología y Educación (ESEUPE)']",
-            "eng": "['Universidad de Valencia', 'Universidad de Cádiz', 'Universidad de Almería', 'Escuela Superior Europea de Psicología y Educación (ESEUPE)']"
+            "esp": [
+                "Universidad de Valencia",
+                "Universidad de Cádiz",
+                "Universidad de Almería",
+                "Escuela Superior Europea de Psicología y Educación (ESEUPE)"
+            ],
+            "eng": [
+                "Universidad de Valencia",
+                "Universidad de Cádiz",
+                "Universidad de Almería",
+                "Escuela Superior Europea de Psicología y Educación (ESEUPE)"
+            ]
         },
         "secondTitle": {
             "esp": "Formación complementaria:",
             "eng": "Formación complementaria:"
         },
         "secondListBold": {
-            "esp": "['Experto en Psicoterapia en Infancia y Adolescencia', 'Curso de Regulación Emocional aplicada al Campo Clínico', 'Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil', ' Taller de Asertividad', 'Taller de Relaciones de Pareja Saludables','Curso Terapia Dialéctica Comportamental']",
-            "eng": "['Experto en Psicoterapia en Infancia y Adolescencia', 'Curso de Regulación Emocional aplicada al Campo Clínico', 'Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil', ' Taller de Asertividad', 'Taller de Relaciones de Pareja Saludables','Curso Terapia Dialéctica Comportamental']"
+            "esp": [
+                "Experto en Psicoterapia en Infancia y Adolescencia",
+                "Curso de Regulación Emocional aplicada al Campo Clínico",
+                "Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil",
+                "Taller de Asertividad",
+                "Taller de Relaciones de Pareja Saludables",
+                "Curso Terapia Dialéctica Comportamental"
+            ],
+            "eng": [
+                "Experto en Psicoterapia en Infancia y Adolescencia",
+                "Curso de Regulación Emocional aplicada al Campo Clínico",
+                "Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil",
+                "Taller de Asertividad",
+                "Taller de Relaciones de Pareja Saludables",
+                "Curso Terapia Dialéctica Comportamental"
+            ]
         },
         "secondListInfo": {
-            "esp": "['SIAC', 'FOCAD, Colegio Oficial de Psicólogos', 'FOCAD, Colegio Oficial de Psicólogos', 'Universidad de Cádiz', 'Universidad de Cádiz', 'Fundació Lluís Alcanyís, Universidad de Valencia']",
-            "eng": "['SIAC', 'FOCAD, Colegio Oficial de Psicólogos', 'FOCAD, Colegio Oficial de Psicólogos', 'Universidad de Cádiz', 'Universidad de Cádiz', 'Fundació Lluís Alcanyís, Universidad de Valencia']"
+            "esp": [
+                "SIAC",
+                "FOCAD, Colegio Oficial de Psicólogos",
+                "FOCAD, Colegio Oficial de Psicólogos",
+                "Universidad de Cádiz",
+                "Universidad de Cádiz",
+                "Fundació Lluís Alcanyís, Universidad de Valencia"
+            ],
+            "eng": [
+                "SIAC",
+                "FOCAD, Colegio Oficial de Psicólogos",
+                "FOCAD, Colegio Oficial de Psicólogos",
+                "Universidad de Cádiz",
+                "Universidad de Cádiz",
+                "Fundació Lluís Alcanyís, Universidad de Valencia"
+            ]
         }
     }
 }

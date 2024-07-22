@@ -15,8 +15,8 @@
     },
     "contactForm": {
         "name": {
-            "esp": "nombre",
-            "val": "nom"
+            "esp": "Nombre",
+            "val": "Nom"
         },
         "email": {
             "esp": "Email",

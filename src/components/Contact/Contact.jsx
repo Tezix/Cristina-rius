@@ -32,7 +32,7 @@ const Contact = () => {
                                         type="text"
                                         name="name"
                                         className="form-style mt-3"
-                                        placeholder="Nombre"
+                                        placeholder={languagesData.contactForm.name[language]}
                                         aria-label="Nombre"
                                     />
                                     <ValidationError
@@ -45,7 +45,7 @@ const Contact = () => {
                                         type="email"
                                         name="email"
                                         className="form-style"
-                                        placeholder="Tu email"
+                                        placeholder={languagesData.contactForm.email[language]}
                                         aria-label="Tu email"
                                     />
                                     <ValidationError
@@ -59,7 +59,7 @@ const Contact = () => {
                                         name="message"
                                         style={{ overflow: "hidden", paddingBottom: "170px", resize: "none" }}
                                         className="form-style mt-3"
-                                        placeholder="¿En qué te puedo ayudar?"
+                                        placeholder={languagesData.contactForm.helpText[language]}
                                         aria-label="Mensaje"
                                     />
                                     <ValidationError
@@ -72,7 +72,7 @@ const Contact = () => {
                                         type="submit"
                                         disabled={state.submitting}
                                         className="btn mt-4 mb-2"
-                                        aria-label="Enviar"
+                                        placeholder={languagesData.contactForm.contactButton[language]}
                                     >
                                         Enviar
                                     </button>
@@ -96,19 +96,26 @@ const Contact = () => {
                         <img src="/images/photoMap.webp" alt="" />
                     </div>
                     <div className="map-text-column">
-                        <div className="footer-direction">
-                            <p>Dirección</p>
-                            <p>Calle San Vicente Mártir 84, 2ºAB</p>
-                            <p>46002 Valencia</p>
+                        <div className="contact-direction-title">
+                            <p>{languagesData.contactDetails.directionTitle[language]}</p>
                         </div>
-                        {/* <div className="footer-social">
-                            <img src="/images/logo-linkedin.png" alt="logo-linkedin" />
-                            <img src="/images/logo-instagram.png" alt="logo-instagram" />
-                            <p className="footer-social-mail">
-                                cristinariusverduguez@gmail.com
-                            </p>
-                            <p className="footer-social-phone">611 851 822</p>
-                        </div> */}
+                        <div className="contact-direction-info">
+                            <p>{languagesData.contactDetails.directionInfo[language]}</p>
+                        </div>
+                        <div className="contact-email" >
+                            <p>cristinariusverduguez@gmail.com</p>
+                        </div>
+                        <div className="contact-number" >
+                            <p>611 851 822</p>
+                        </div>
+                        <div className="contact-schedule-title">
+                            <p>{languagesData.contactDetails.scheduleTitle[language]}</p>
+                        </div>
+                        <div className="contact-schedule-info">
+                            <p>{languagesData.contactDetails.scheduleDetails[language]}</p>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
