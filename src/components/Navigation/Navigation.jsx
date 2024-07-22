@@ -5,6 +5,7 @@ import { useLanguage } from "./../LanguageContext/LanguageContext";
 import ContactButton from "../Elements/ContactButton/ContactButton";
 import languagesData from "../../languages/Navigation/navigation.json";
 import LanguageButton from "../Elements/LanguageButton/LanguageButton";
+import buttonsText from "../../languages/Common/buttons.json";
 
 function Navigation() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -110,7 +111,10 @@ function Navigation() {
               </div>
             </div>
             <div className="nav-contact-button">
-              <ContactButton text={"Contacto"} type={"dark"} />
+              <ContactButton
+                text={buttonsText.contact[language]}
+                type={"dark"}
+              />
             </div>
           </div>
         )}

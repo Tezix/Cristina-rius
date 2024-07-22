@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./FAQItem.css";
 
-const FAQItem = ({ question, answer }) => {
+const FAQItem = ({ question, answer, displayIcon = "inline" }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -14,6 +14,12 @@ const FAQItem = ({ question, answer }) => {
         className={`faq-question ${isOpen ? "open" : ""}`}
         onClick={toggleAccordion}
       >
+        <img
+          style={{ display: displayIcon }}
+          src="/images/symptomdetail.svg"
+          alt=""
+        />
+
         {question}
         <span className="question-symbol"></span>
       </div>

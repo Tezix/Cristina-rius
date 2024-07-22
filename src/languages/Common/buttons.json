@@ -1,0 +1,14 @@
+{
+    "contact": {
+        "esp": "Contacta",
+        "val": "Contacta"
+    },
+    "services": {
+        "esp": "Servicios",
+        "val": "Serveis"
+    },
+    "send": {
+        "esp": "Enviar",
+        "val": "Enviar"
+    }
+}

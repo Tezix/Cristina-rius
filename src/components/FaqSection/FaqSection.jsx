@@ -16,6 +16,7 @@ const FaqSection = ({ serviceName }) => {
             key={index}
             question={faq.question[language]}
             answer={faq.answer[language]}
+            displayIcon="none"
           />
         ))}
       </div>

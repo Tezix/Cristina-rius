@@ -1,106 +1,238 @@
 {
     "problemas-emocionales": [
         {
-            "type": "Ansiedad",
-            "description": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:",
+            "type": {
+                "esp": "Ansiedad",
+                "val": "Ansietat"
+            },
+            "description": {
+                "esp": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:",
+                "val": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:"
+            },
             "subgroups": [
                 {
-                    "name": "Ansiedad generalizada",
-                    "description": "Caracterizada por una preocupación excesiva y persistente sobre una amplia variedad de situaciones y eventos, incluso cuando no hay una razón clara para estar ansioso. Los síntomas incluyen preocupación constante por el futuro, fatiga, irritabilidad y tensión muscular."
+                    "name": {
+                        "esp": "Ansiedad generalizada",
+                        "val": "Ansietat generalitzada"
+                    },
+                    "description": {
+                        "esp": "Caracterizada por una preocupación excesiva y persistente sobre una amplia variedad de situaciones y eventos, incluso cuando no hay una razón clara para estar ansioso. Los síntomas incluyen preocupación constante por el futuro, fatiga, irritabilidad y tensión muscular.",
+                        "val": "Caracteritzada per una preocupació excessiva i persistent sobre una àmplia varietat de situacions i esdeveniments, fins i tot quan no hi ha una raó clara per estar ansiós. Els símptomes inclouen preocupació constant pel futur, fatiga, irritabilitat i tensió muscular."
+                    }
                 },
                 {
-                    "name": "Fobias",
-                    "description": "Se caracterizan por un miedo intenso y persistente hacia objetos, situaciones, animales o actividades específicas. Los síntomas pueden incluir un miedo irracional, evitación de la fobia desencadenante, y una respuesta física intensa frente a la fobia."
+                    "name": {
+                        "esp": "Fobias",
+                        "val": "Fòbies"
+                    },
+                    "description": {
+                        "esp": "Se caracterizan por un miedo intenso y persistente hacia objetos, situaciones, animales o actividades específicas. Los síntomas pueden incluir un miedo irracional, evitación de la fobia desencadenante, y una respuesta física intensa frente a la fobia.",
+                        "val": "Es caracteritzen per una por intensa i persistent cap a objectes, situacions, animals o activitats específiques. Els símptomes poden incloure una por irracional, evitació de la fòbia desencadenant, i una resposta física intensa davant la fòbia."
+                    }
                 },
                 {
-                    "name": "Estrés",
-                    "description": "Es una respuesta natural del cuerpo a situaciones desafiantes o amenazantes. Puede volverse crónico y abrumador, teniendo un impacto significativo en la salud física y mental. Los síntomas incluyen cambios en el estado de ánimo, problemas de sueño, cambios en el apetito y síntomas físicos como dolores de cabeza y problemas gastrointestinales."
+                    "name": {
+                        "esp": "Estrés",
+                        "val": "Estrès"
+                    },
+                    "description": {
+                        "esp": "Es una respuesta natural del cuerpo a situaciones desafiantes o amenazantes. Puede volverse crónico y abrumador, teniendo un impacto significativo en la salud física y mental. Los síntomas incluyen cambios en el estado de ánimo, problemas de sueño, cambios en el apetito y síntomas físicos como dolores de cabeza y problemas gastrointestinales.",
+                        "val": "És una resposta natural del cos a situacions desafiants o amenaçants. Pot tornar-se crònic i aclaparador, tenint un impacte significatiu en la salut física i mental. Els símptomes inclouen canvis en l'estat d'ànim, problemes de son, canvis en la gana i símptomes físics com mals de cap i problemes gastrointestinals."
+                    }
                 }
             ]
         },
         {
-            "type": "Depresión",
-            "description": "La depresión es un trastorno del estado de ánimo que afecta significativamente la vida diaria de quienes la padecen. Algunos de los síntomas más comunes incluyen sentimientos persistentes de tristeza, pérdida de interés en actividades placenteras, cambios en el apetito y el sueño, sentimientos de inutilidad y dificultades en la concentración y la toma de decisiones. En casos graves, pueden surgir pensamientos recurrentes sobre autolesionarse o la muerte.Hay que tener en cuenta que pueden existir pensamientos de este tipo sin necesidad de que ello implique tener depresión."
+            "type": {
+                "esp": "Depresión",
+                "val": "Depressió"
+            },
+            "description": {
+                "esp": "La depresión es un trastorno del estado de ánimo que afecta significativamente la vida diaria de quienes la padecen. Algunos de los síntomas más comunes incluyen sentimientos persistentes de tristeza, pérdida de interés en actividades placenteras, cambios en el apetito y el sueño, sentimientos de inutilidad y dificultades en la concentración y la toma de decisiones. En casos graves, pueden surgir pensamientos recurrentes sobre autolesionarse o la muerte. Hay que tener en cuenta que pueden existir pensamientos de este tipo sin necesidad de que ello implique tener depresión.",
+                "val": "La depressió és un trastorn de l'estat d'ànim que afecta significativament la vida diària de qui la pateix. Alguns dels símptomes més comuns inclouen sentiments persistents de tristesa, pèrdua d'interès en activitats plaents, canvis en la gana i el son, sentiments d'inutilitat i dificultats en la concentració i la presa de decisions. En casos greus, poden sorgir pensaments recurrents sobre autolesionar-se o la mort. Cal tenir en compte que poden existir pensaments d'aquest tipus sense necessitat que això impliqui tenir depressió."
+            }
         },
         {
-            "type": "Apatía/Desgana",
-            "description": "La apatía y la desgana son estados emocionales caracterizados por la falta de interés, motivación y entusiasmo hacia actividades que normalmente se considerarían importantes o placenteras. Pueden manifestarse con sensación de vacío, dificultades para concentrarse y cambios en el sueño y el apetito. El aislamiento social y la falta de interés en actividades previamente disfrutadas también son comunes."
+            "type": {
+                "esp": "Apatía/Desgana",
+                "val": "Apatia/Desganes"
+            },
+            "description": {
+                "esp": "La apatía y la desgana son estados emocionales caracterizados por la falta de interés, motivación y entusiasmo hacia actividades que normalmente se considerarían importantes o placenteras. Pueden manifestarse con sensación de vacío, dificultades para concentrarse y cambios en el sueño y el apetito. El aislamiento social y la falta de interés en actividades previamente disfrutadas también son comunes.",
+                "val": "L'apatia i la desgana són estats emocionals caracteritzats per la manca d'interès, motivació i entusiasme cap a activitats que normalment es considerarien importants o plaents. Poden manifestar-se amb sensació de buit, dificultats per concentrar-se i canvis en el son i la gana. L'aïllament social i la manca d'interès en activitats prèviament gaudides també són comuns."
+            }
         }
     ],
     "trastornos-conducta-alimentaria": [
         {
-            "type": "Anorexia",
-            "description": "Los trastornos de la conducta alimentaria son condiciones de salud mental que afectan la relación de una persona con la comida y la percepción de su imagen corporal. Algunos de los trastornos más comunes incluyen la anorexia nerviosa, la bulimia nerviosa y el trastorno por atracón."
+            "type": {
+                "esp": "Anorexia",
+                "val": "Anorèxia"
+            },
+            "description": {
+                "esp": "Los trastornos de la conducta alimentaria son condiciones de salud mental que afectan la relación de una persona con la comida y la percepción de su imagen corporal. Algunos de los trastornos más comunes incluyen la anorexia nerviosa, la bulimia nerviosa y el trastorno por atracón.",
+                "val": "Els trastorns de la conducta alimentària són condicions de salut mental que afecten la relació d'una persona amb el menjar i la percepció de la seva imatge corporal. Alguns dels trastorns més comuns inclouen l'anorèxia nerviosa, la bulímia nerviosa i el trastorn per afartament."
+            }
         },
         {
-            "type": "Bulimia",
-            "description": "La bulimia nerviosa implica episodios recurrentes de ingesta excesiva de alimentos seguida de comportamientos compensatorios para evitar el aumento de peso, como el vómito autoinducido o el uso excesivo de laxantes. Los síntomas incluyen episodios de atracones, preocupación excesiva por el peso y la forma corporal, y cambios físicos como problemas dentales o gastrointestinales."
+            "type": {
+                "esp": "Bulimia",
+                "val": "Bulímia"
+            },
+            "description": {
+                "esp": "La bulimia nerviosa implica episodios recurrentes de ingesta excesiva de alimentos seguida de comportamientos compensatorios para evitar el aumento de peso, como el vómito autoinducido o el uso excesivo de laxantes. Los síntomas incluyen episodios de atracones, preocupación excesiva por el peso y la forma corporal, y cambios físicos como problemas dentales o gastrointestinales.",
+                "val": "La bulímia nerviosa implica episodis recurrents d'ingesta excessiva d'aliments seguida de comportaments compensatoris per evitar l'augment de pes, com el vòmit autoinduit o l'ús excessiu de laxants. Els símptomes inclouen episodis d'afartaments, preocupació excessiva pel pes i la forma corporal, i canvis físics com problemes dentals o gastrointestinals."
+            }
         },
         {
-            "type": "Trastorno por atracón",
-            "description": "El tratorno por atracón implica episodios recurrentes de ingesta excesiva de alimentos sin los comportamientos compensatorios observador en la bulimia. Los síntomas incluyen incapacidad para detenerse durante el atracón, sentimientos de culpa o disgusto depsués del atracón y preocupacióm constante por el peso y la forma corporal."
+            "type": {
+                "esp": "Trastorno por atracón",
+                "val": "Trastorn per afartament"
+            },
+            "description": {
+                "esp": "El trastorno por atracón implica episodios recurrentes de ingesta excesiva de alimentos sin los comportamientos compensatorios observados en la bulimia. Los síntomas incluyen incapacidad para detenerse durante el atracón, sentimientos de culpa o disgusto después del atracón y preocupación constante por el peso y la forma corporal.",
+                "val": "El trastorn per afartament implica episodis recurrents d'ingesta excessiva d'aliments sense els comportaments compensatoris observats a la bulímia. Els símptomes inclouen incapacitat per detenir-se durant l'afartament, sentiments de culpa o disgust després de l'afartament i preocupació constant pel pes i la forma corporal."
+            }
         },
         {
-            "type": "Otros Tratornos de la Conducta Alimentaria (TCA)",
-            "description": "El trastorno por atracón implica episodios recurrentes de ingesta excesiva de alimentos sin los comportamientos compensatorios observados en la bulimia. Los síntomas incluyen incapacidad para detenerse durante el atracón, sentimientos de culpa o disgusto después del atracón y preocupación constante por el peso y la forma corporal.",
+            "type": {
+                "esp": "Otros Trastornos de la Conducta Alimentaria (TCA)",
+                "val": "Altres Trastorns de la Conducta Alimentària (TCA)"
+            },
+            "description": {
+                "esp": "El trastorno por atracón implica episodios recurrentes de ingesta excesiva de alimentos sin los comportamientos compensatorios observados en la bulimia. Los síntomas incluyen incapacidad para detenerse durante el atracón, sentimientos de culpa o disgusto después del atracón y preocupación constante por el peso y la forma corporal.",
+                "val": "El trastorn per afartament implica episodis recurrents d'ingesta excessiva d'aliments sense els comportaments compensatoris observats a la bulímia. Els símptomes inclouen incapacitat per detenir-se durant l'afartament, sentiments de culpa o disgust després de l'afartament i preocupació constant pel pes i la forma corporal"
+            },
             "subgroups": [
                 {
-                    "name": "Vigorexia",
-                    "description": "Obsesión por desarrollar músculos y distorsión de la imagen corporal, con dedicación excesiva al ejercicio y la dieta."
+                    "name": {
+                        "esp": "Vigorexia",
+                        "val": "Vigorèxia"
+                    },
+                    "description": {
+                        "esp": "Obsesión por desarrollar músculos y distorsión de la imagen corporal, con dedicación excesiva al ejercicio y la dieta.",
+                        "val": "Obsessió per desenvolupar músculs i distorsió de la imatge corporal, amb dedicació excessiva a l'exercici i la dieta."
+                    }
                 },
                 {
-                    "name": "Ortorexia",
-                    "description": "Obsesión por consumir alimentos saludables, evitando grupos específicos y experimentando angustia si no pueden mantener una dieta 'limpia'."
+                    "name": {
+                        "esp": "Ortorexia",
+                        "val": "Ortorexia"
+                    },
+                    "description": {
+                        "esp": "Obsesión por consumir alimentos saludables, evitando grupos específicos y experimentando angustia si no pueden mantener una dieta 'limpia'.",
+                        "val": "Obsessió per consumir aliments saludables, evitant grups específics i experimentant angoixa si no poden mantenir una dieta 'neta'."
+                    }
                 },
                 {
-                    "name": "Dismorfia corporal",
-                    "description": "Preocupación obsesiva por defectos percibidos en la apariencia física, que puede llevar a comportamientos compulsivos como el examen repetido en el espejo."
+                    "name": {
+                        "esp": "Dismorfia corporal",
+                        "val": "Dismorfia corporal"
+                    },
+                    "description": {
+                        "esp": "Preocupación obsesiva por defectos percibidos en la apariencia física, que puede llevar a comportamientos compulsivos como el examen repetido en el espejo.",
+                        "val": "Preocupació obsessiva per defectes percebuts en l'aparença física, que pot portar a comportaments compulsius com l'examen repetit en el mirall."
+                    }
                 },
                 {
-                    "name": "Trastornos de ansiedad social",
-                    "description": "Miedo al juicio de los demás sobre la apariencia física, lo que contribuye a la ansiedad social y afecta a la percepción de la imagen corporal."
+                    "name": {
+                        "esp": "Trastornos de ansiedad social",
+                        "val": "Trastorns d'ansietat social"
+                    },
+                    "description": {
+                        "esp": "Miedo al juicio de los demás sobre la apariencia física, lo que contribuye a la ansiedad social y afecta a la percepción de la imagen corporal.",
+                        "val": "Por al judici dels altres sobre l'aparença física, cosa que contribueix a l'ansietat social i afecta la percepció de la imatge corporal."
+                    }
                 }
             ]
         }
     ],
     "duelo": [
         {
-            "type": "Duelo por fallecimiento",
-            "description": "El duelo por fallecimiento es un proceso personal que involucra tristeza, negación, irritabilidad, entre otros síntomas anteriormente comentados. Es crucial identificar estos sentimientos y buscar apoyo para afrontar esta experiencia emocionalmente desafiante. Cada individuo lo experimenta de manera única. El apoyo de amigos, familiares y, a veces, de profesionales puede ser fundamental para aceptar la pérdida."
+            "type": {
+                "esp": "Duelo por fallecimiento",
+                "val": "Dol per defunció"
+            },
+            "description": {
+                "esp": "El duelo por fallecimiento es un proceso personal que involucra tristeza, negación, irritabilidad, entre otros síntomas anteriormente comentados. Es crucial identificar estos sentimientos y buscar apoyo para afrontar esta experiencia emocionalmente desafiante. Cada individuo lo experimenta de manera única. El apoyo de amigos, familiares y, a veces, de profesionales puede ser fundamental para aceptar la pérdida.",
+                "val": "El dol per defunció és un procés personal que implica tristesa, negació, irritabilitat, entre altres símptomes anteriorment comentats. És crucial identificar aquests sentiments i buscar suport per afrontar aquesta experiència emocionalment desafiant. Cada individu ho experimenta de manera única. El suport d'amics, familiars i, de vegades, de professionals pot ser fonamental per acceptar la pèrdua."
+            }
         }
     ],
     "crecimiento-personal": [
         {
-            "type": "Autoestima",
-            "description": "Mejorar la autoestima es un proceso continuo que implica trabajar en la percepción y valoración positiva de uno mismo. Es un constructo complejo que requiere abordar diversas áreas.Entre las vías para su mejora se encuentran el autoconocimiento, la aceptación personal y el establecimiento de límites. Además, el manejo constructivo de críticas, la celebración de logros y el cuidado personal son esenciales.Transformar la autocrítica en autocuidado y fomentar relaciones saludables también son aspectos cruciales. Este proceso es gradual y personal, demandando esfuerzos conscientes y consistentes.Buscar apoyo profesional puede ser valioso en este viaje de autodescubrimiento y crecimiento."
+            "type": {
+                "esp": "Autoestima",
+                "val": "Autoestima"
+            },
+            "description": {
+                "esp": "Mejorar la autoestima es un proceso continuo que implica trabajar en la percepción y valoración positiva de uno mismo. Es un constructo complejo que requiere abordar diversas áreas. Entre las vías para su mejora se encuentran el autoconocimiento, la aceptación personal y el establecimiento de límites. Además, el manejo constructivo de críticas, la celebración de logros y el cuidado personal son esenciales. Transformar la autocrítica en autocuidado y fomentar relaciones saludables también son aspectos cruciales. Este proceso es gradual y personal, demandando esfuerzos conscientes y consistentes. Buscar apoyo profesional puede ser valioso en este viaje de autodescubrimiento y crecimiento.",
+                "val": "Millorar l'autoestima és un procés continu que implica treballar en la percepció i valoració positiva d'un mateix. És un constructe complex que requereix abordar diverses àrees. Entre les vies per a la seva millora es troben l'autoconeixement, l'acceptació personal i l'establiment de límits. A més, la gestió constructiva de crítiques, la celebració de fites i la cura personal són essencials. Transformar l'autocrítica en autocura i fomentar relacions saludables també són aspectes crucials. Aquest procés és gradual i personal, requerint esforços conscients i consistents. Buscar suport professional pot ser valuós en aquest viatge d'autodescobriment i creixement."
+            }
         },
         {
-            "type": "Cambios vitales",
-            "description": "Experimentar cambios vitales puede tener un impacto significativo en la salud mental. Durante estos períodos, es común sentir ansiedad y estrés debido a la incertidumbre sobre el futuro. La adaptación emocional y la reflexión sobre la vida son características clave durante las transiciones.La flexibilidad cognitiva, el apoyo social y la resiliencia son esenciales para enfrentar los desafíos.Además, tomar decisiones informadas, creer en uno mismo y mantener la conciencia del bienestar mental son importantes para adaptarse positivamente a las nuevas circunstancias."
+            "type": {
+                "esp": "Cambios vitales",
+                "val": "Canvis vitals"
+            },
+            "description": {
+                "esp": "Experimentar cambios vitales puede tener un impacto significativo en la salud mental. Durante estos períodos, es común sentir ansiedad y estrés debido a la incertidumbre sobre el futuro. La adaptación emocional y la reflexión sobre la vida son características clave durante las transiciones. La flexibilidad cognitiva, el apoyo social y la resiliencia son esenciales para enfrentar los desafíos. Además, tomar decisiones informadas, creer en uno mismo y mantener la conciencia del bienestar mental son importantes para adaptarse positivamente a las nuevas circunstancias.",
+                "val": "Experimentar canvis vitals pot tenir un impacte significatiu en la salut mental. Durant aquests períodes, és comú sentir ansietat i estrès a causa de la incertesa sobre el futur. L'adaptació emocional i la reflexió sobre la vida són característiques clau durant les transicions. La flexibilitat cognitiva, el suport social i la resiliència són essencials per afrontar els desafiaments. A més, prendre decisions informades, creure en un mateix i mantenir la consciència del benestar mental són importants per adaptar-se positivament a les noves circumstàncies."
+            }
         }
     ],
     "relaciones-de-pareja": [
         {
-            "type": "Problemas por ruptura",
-            "description": "Una ruptura también incluye un proceso de duelo que desencadena síntomas emocionales y físicos únicos. Incluyen tristeza profunda, negación inicial e irritabilidad persistente, entre otros, así como la posible revisión de recuerdos constantes. El apoyo emocional puede ser fundamental para aceptar gradualmente la nueva situación, así como realizar un análisis de la relación, aprender cara el futuro y avanzar hacia la recuperación emocional."
+            "type": {
+                "esp": "Problemas por ruptura",
+                "val": "Problemes per ruptura"
+            },
+            "description": {
+                "esp": "Una ruptura también incluye un proceso de duelo que desencadena síntomas emocionales y físicos únicos. Incluyen tristeza profunda, negación inicial e irritabilidad persistente, entre otros, así como la posible revisión de recuerdos constantes. El apoyo emocional puede ser fundamental para aceptar gradualmente la nueva situación, así como realizar un análisis de la relación, aprender cara el futuro y avanzar hacia la recuperación emocional.",
+                "val": "Una ruptura també inclou un procés de dol que desencadena símptomes emocionals i físics únics. Inclouen tristesa profunda, negació inicial i irritabilitat persistent, entre altres, així com la possible revisió de records constants. El suport emocional pot ser fonamental per acceptar gradualment la nova situació, així com fer una anàlisi de la relació, aprendre per al futur i avançar cap a la recuperació emocional."
+            }
         }
     ],
     "adicciones": [
         {
-            "type": "Adicción a sustancias",
-            "description": "La adicción a sustancias se manifiesta a través de síntomas físicos, emocionales y comportamentales. Aparte de los síntomas generales como el deseo incontrolable y la pérdida de control, hay indicadores específicos como dedicar gran parte del día a la sustancia, rituales relacionados con su consumo, cambios físicos y dependencia física. Estos signos señalan la presencia de una adicción y la necesidad de buscar ayuda profesional."
+            "type": {
+                "esp": "Adicción a sustancias",
+                "val": "Addicció a substàncies"
+            },
+            "description": {
+                "esp": "La adicción a sustancias se manifiesta a través de síntomas físicos, emocionales y comportamentales. Aparte de los síntomas generales como el deseo incontrolable y la pérdida de control, hay indicadores específicos como dedicar gran parte del día a la sustancia, rituales relacionados con su consumo, cambios físicos y dependencia física. Estos signos señalan la presencia de una adicción y la necesidad de buscar ayuda profesional.",
+                "val": "L'addicció a substàncies es manifesta a través de símptomes físics, emocionals i comportamentals. A part dels símptomes generals com el desig incontrolable i la pèrdua de control, hi ha indicadors específics com dedicar gran part del dia a la substància, rituals relacionats amb el seu consum, canvis físics i dependència física. Aquests signes assenyalen la presència d'una addicció i la necessitat de buscar ajuda professional."
+            }
         },
         {
-            "type": "Adicción al juego",
-            "description": "La adicción al juego, o ludopatía, implica la participación persistente en actividades de juego a pesar de las consecuencias negativas. Los síntomas incluyen la incapacidad para dejar de jugar, pensamientos obsesivos sobre el juego, aumento de la frecuencia de juego y pérdida de control financiero. Estos signos indican la presencia de la adicción y la necesidad de buscar ayuda profesional."
+            "type": {
+                "esp": "Adicción al juego",
+                "val": "Addicció al joc"
+            },
+            "description": {
+                "esp": "La adicción al juego, o ludopatía, implica la participación persistente en actividades de juego a pesar de las consecuencias negativas. Los síntomas incluyen la incapacidad para dejar de jugar, pensamientos obsesivos sobre el juego, aumento de la frecuencia de juego y pérdida de control financiero. Estos signos indican la presencia de la adicción y la necesidad de buscar ayuda profesional.",
+                "val": "L'addicció al joc, o ludopatia, implica la participació persistent en activitats de joc malgrat les conseqüències negatives. Els símptomes inclouen la incapacitat per deixar de jugar, pensaments obsessius sobre el joc, augment de la freqüència de joc i pèrdua de control financer. Aquests signes indiquen la presència de l'addicció i la necessitat de buscar ajuda professional."
+            }
         },
         {
-            "type": "Adicción al móvil",
-            "description": "La nomofobia, o adicción al móvil, es una dependencia excesiva del teléfono móvil. Los síntomas incluyen uso excesivo, dificultad para desconectarse, preocupación constante y negligencia de responsabilidades. Pueden aparecer problemas físicos como dolor en el cuello o la espalda.Además, se experimentan cambios en el estado de ánimo, aislamiento social y evasión de problemas. Establecer límites y buscar apoyo profesional son acciones recomendadas para abordar esta adicción. Es importante reconocer que el uso excesivo del teléfono puede indicar un problema subyacente y cada caso debe evaluarse individualmente."
+            "type": {
+                "esp": "Adicción al móvil",
+                "val": "Addicció al mòbil"
+            },
+            "description": {
+                "esp": "La nomofobia, o adicción al móvil, es una dependencia excesiva del teléfono móvil. Los síntomas incluyen uso excesivo, dificultad para desconectarse, preocupación constante y negligencia de responsabilidades. Pueden aparecer problemas físicos como dolor en el cuello o la espalda. Además, se experimentan cambios en el estado de ánimo, aislamiento social y evasión de problemas. Establecer límites y buscar apoyo profesional son acciones recomendadas para abordar esta adicción. Es importante reconocer que el uso excesivo del teléfono puede indicar un problema subyacente y cada caso debe evaluarse individualmente.",
+                "val": "La nomofòbia, o addicció al mòbil, és una dependència excessiva del telèfon mòbil. Els símptomes inclouen ús excessiu, dificultat per desconnectar-se, preocupació constant i negligència de responsabilitats. Poden aparèixer problemes físics com dolor al coll o l’esquena. A més, s’experimenten canvis en l’estat d’ànim, aïllament social i evasió de problemes. Establir límits i buscar suport professional són accions recomanades per abordar aquesta addicció. És important reconèixer que l’ús excessiu del telèfon pot indicar un problema subjacent i cada cas s’ha de valorar individualment."
+            }
         },
         {
-            "type": "Otras adicciones",
-            "description": "Además de las adicciones mencionadas, existen otras variedades, algunas conocidas son al trabajo, a las compras, al sexo… Lo importante es reconocer los síntomas de una adicción, como pueden ser la compulsión, negligencia de responsabilidades y aislamiento social. Así como darse cuenta de que están afectando a nuestra salud mental y vida diaria."
+            "type": {
+                "esp": "Otras adicciones",
+                "val": "Altres addiccions"
+            },
+            "description": {
+                "esp": "Además de las adicciones mencionadas, existen otras variedades, algunas conocidas son al trabajo, a las compras, al sexo… Lo importante es reconocer los síntomas de una adicción, como pueden ser la compulsión, negligencia de responsabilidades y aislamiento social. Así como darse cuenta de que están afectando a nuestra salud mental y vida diaria.",
+                "val": "A més de les addiccions esmentades, hi ha altres varietats, algunes conegudes són a la feina, a les compres, al sexe… L’important és reconèixer els símptomes d’una addicció, com poden ser la compulsió, negligència de responsabilitats i aïllament social. Així com adonar-se que estan afectant la nostra salut mental i vida diària."
+            }
         }
     ]
 }

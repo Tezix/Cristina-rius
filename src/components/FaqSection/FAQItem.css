@@ -25,6 +25,12 @@
     padding-right: 2vw;
 }
 
+.faq-question img {
+    display: inline;
+    width: 2.2vw;
+    padding-right: 1vw;
+}
+
 
 .faq-question:hover {
     background-color: #F6F5FF;

@@ -13,26 +13,28 @@ const ServiceHero = () => {
       <div className="service-hero">
         <div className="service-info">
           <h3>servicios</h3>
-          <h1>{servicioProblemasEmocionales.title}</h1>
+          <h1>{servicioProblemasEmocionales.title[language]}</h1>
           <p className="definition">
-            {servicioProblemasEmocionales.definition}
+            {servicioProblemasEmocionales.definition[language]}
           </p>
         </div>
         <div className="service-image">
           <img
             src={servicioProblemasEmocionales.image}
-            alt={servicioProblemasEmocionales.title}
+            alt={servicioProblemasEmocionales.title[language]}
           />
         </div>
       </div>
       <div className="service-links">
-        {servicioProblemasEmocionales.definitionLinks.map((eachLink, idx) => {
-          return (
-            <a href="#" key={idx}>
-              {eachLink}
-            </a>
-          );
-        })}
+        {servicioProblemasEmocionales.definitionLinks[language].map(
+          (eachLink, idx) => {
+            return (
+              <a href="#" key={idx}>
+                {eachLink}
+              </a>
+            );
+          }
+        )}
       </div>
     </div>
   );

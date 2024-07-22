@@ -77,6 +77,17 @@
     font-family: "Manrope", sans-serif;
 }
 
+input,
+textarea {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    text-indent: 10px
+}
+
+.form-style.mt-3 {
+    margin-top: 1.5vw;
+}
+
 .btn {
     padding: 1vw;
     background-color: #A4CCF3;
