@@ -54,6 +54,9 @@
     display: flex;
     align-items: center;
     margin-right: 2vw;
+    height: 0vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .nav-item a {
@@ -63,7 +66,7 @@
     text-decoration: none;
     color: rgb(78, 80, 99);
     font-family: "Manrope", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .right-nav a:hover {
@@ -72,36 +75,30 @@
     color: #00366f;
 }
 
-.right-nav .dropdown-content {
+.dropdown-content {
     position: absolute;
     display: none;
     top: 100%;
     left: 0;
-    display: none;
     background-color: #d3e8ff;
-    min-width: 25vw;
+    width: 25vw;
     border-radius: 0.5vw;
     border-radius: 0 0 0.5vw 0.5vw;
     left: -9.3vw;
     z-index: -1;
 }
 
-.right-nav a:hover+.dropdown-content {
+.show-drop-down {
     display: block;
 }
 
-.right-nav:hover .dropdown-content,
-.dropdown-content:hover {
-    display: block;
-    margin-top: 1.2vw;
-}
 
 .dropdown {
     position: relative;
 }
 
 .dropdown-content a {
-    padding: 1.2vw 1vw;
+    padding: 1vw;
     display: block;
 }
 

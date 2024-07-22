@@ -67,43 +67,46 @@ function Navigation() {
                   <Link to="#" onClick={(e) => e.preventDefault()}>
                     {languagesData.services[language]}
                   </Link>
-                  {showDropdown && (
-                    <div className="dropdown-content">
-                      <NavLink to="/problemas-emocionales">
-                        {
-                          languagesData.services.dropdown.problemasEmocionales[
-                            language
-                          ]
-                        }
-                      </NavLink>
-                      <NavLink to="/trastornos-conducta-alimentaria">
-                        {
-                          languagesData.services.dropdown
-                            .trastornosDeConductaAlimentaria[language]
-                        }
-                      </NavLink>
-                      <NavLink to="/duelo">
-                        {languagesData.services.dropdown.duelo[language]}
-                      </NavLink>
-                      <NavLink to="/crecimiento-personal">
-                        {
-                          languagesData.services.dropdown.crecimientoPersonal[
-                            language
-                          ]
-                        }
-                      </NavLink>
-                      <NavLink to="/relaciones-de-pareja">
-                        {
-                          languagesData.services.dropdown.relacionesDepareja[
-                            language
-                          ]
-                        }
-                      </NavLink>
-                      <NavLink to="/adicciones">
-                        {languagesData.services.dropdown.adicciones[language]}
-                      </NavLink>
-                    </div>
-                  )}
+
+                  <div
+                    className={`dropdown-content ${
+                      !showDropdown ? "show-drop-down" : ""
+                    }`}
+                  >
+                    <NavLink to="/problemas-emocionales">
+                      {
+                        languagesData.services.dropdown.problemasEmocionales[
+                          language
+                        ]
+                      }
+                    </NavLink>
+                    <NavLink to="/trastornos-conducta-alimentaria">
+                      {
+                        languagesData.services.dropdown
+                          .trastornosDeConductaAlimentaria[language]
+                      }
+                    </NavLink>
+                    <NavLink to="/duelo">
+                      {languagesData.services.dropdown.duelo[language]}
+                    </NavLink>
+                    <NavLink to="/crecimiento-personal">
+                      {
+                        languagesData.services.dropdown.crecimientoPersonal[
+                          language
+                        ]
+                      }
+                    </NavLink>
+                    <NavLink to="/relaciones-de-pareja">
+                      {
+                        languagesData.services.dropdown.relacionesDepareja[
+                          language
+                        ]
+                      }
+                    </NavLink>
+                    <NavLink to="/adicciones">
+                      {languagesData.services.dropdown.adicciones[language]}
+                    </NavLink>
+                  </div>
                 </div>
               </div>
               <div className="nav-contact-button">
