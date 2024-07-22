@@ -7,27 +7,45 @@ const Services = () => {
   const { language } = useLanguage();
   const services = [
     {
-      title: "Problemas emocionales",
+      title: {
+        esp: "Problemas emocionales",
+        val: "Problemes emocionals",
+      },
       image: "/images/blog1.webp",
     },
     {
-      title: "Trastornos Conducta Alimentaria",
+      title: {
+        esp: "Trastornos de la Conducta Alimentaria (TCA)",
+        val: "Trastorns de la Conducta Alimentària (TCA)",
+      },
       image: "/images/blog2.webp",
     },
     {
-      title: "Duelo",
+      title: {
+        esp: "Duelo",
+        val: "Dol",
+      },
       image: "/images/blog3.webp",
     },
     {
-      title: "Crecimiento Personal",
+      title: {
+        esp: "Crecimiento Personal",
+        val: "Creixement Personal",
+      },
       image: "/images/blog4.webp",
     },
     {
-      title: "Relaciones de Pareja",
+      title: {
+        esp: "Relaciones de Pareja",
+        val: "Relacions de Parella",
+      },
       image: "/images/blog5.webp",
     },
     {
-      title: "Adicciones",
+      title: {
+        esp: "Adicciones",
+        val: "Addiccions",
+      },
       image: "/images/blog6.webp",
     },
   ];
@@ -60,7 +78,7 @@ const Services = () => {
             {leftColumn.map((service, index) => (
               <ServiceCard
                 key={index}
-                title={service.title}
+                title={service.title[language]}
                 backgroundImage={service.image}
               />
             ))}
@@ -69,7 +87,7 @@ const Services = () => {
             {rightColumn.map((service, index) => (
               <ServiceCard
                 key={index + halfLength}
-                title={service.title}
+                title={service.title[language]}
                 backgroundImage={service.image}
               />
             ))}

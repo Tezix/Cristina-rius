@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import servicesData from "../../../languages/Services/servicesData.json";
+import servicesDataTypes from "../../../languages/Services/servicesDataTypes.json";
 import "./ServiceSymptoms.css";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
@@ -31,7 +32,7 @@ const EmotionalSymptoms = () => {
         ></path>
       </svg>
 
-      <h3 className="symptoms-title">Síntomas:</h3>
+      <h3 className="symptoms-title">{servicesDataTypes.title[language]}:</h3>
       <p>{servicioProblemasEmocionales.symptoms[language]}</p>
     </div>
   );

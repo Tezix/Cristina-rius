@@ -39,7 +39,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/cristinariuspsicologa/"
                 style={{
                   backgroundColor: "rgb(134, 50, 229)",
                   width: "3vw",

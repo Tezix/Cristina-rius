@@ -53,6 +53,19 @@ const Contact = () => {
                     field="email"
                     errors={state.errors}
                   />
+                  <input
+                    id="phone"
+                    type="phone number"
+                    name="phone"
+                    className="form-style"
+                    placeholder={languagesData.contactForm.phone[language]}
+                    aria-label="Tu teléfono"
+                  />
+                  <ValidationError
+                    prefix="Phone"
+                    field="phone"
+                    errors={state.errors}
+                  />
 
                   <textarea
                     id="message"
@@ -148,7 +161,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.instagram.com/cristinariuspsicologa/"
                   style={{
                     backgroundColor: "rgb(134, 50, 229)",
                     width: "3vw",

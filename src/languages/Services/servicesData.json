@@ -32,7 +32,10 @@
     },
     "trastornos-conducta-alimentaria": {
         "image": "/images/blog2.webp",
-        "title": "Trastornos de la Conducta Alimentaria (TCA)",
+        "title": {
+            "esp": "Trastornos de la Conducta Alimentaria (TCA)",
+            "val": "Trastorns de la Conducta Alimentària (TCA)"
+        },
         "definition": {
             "esp": "Los trastornos de la conducta alimentaria son condiciones de salud mental que afectan la relación de una persona con la comida y la percepción de su imagen corporal. Algunos de los trastornos más comunes:",
             "val": "Els trastorns de la conducta alimentària són condicions de salut mental que afecten la relació d'una persona amb el menjar i la percepció de la seua imatge corporal. Alguns dels trastorns més comuns:"
@@ -58,7 +61,10 @@
     },
     "duelo": {
         "image": "/images/blog3.webp",
-        "title": "Duelo",
+        "title": {
+            "esp": "Duelo",
+            "val": "Dol"
+        },
         "definition": {
             "esp": "El duelo es una respuesta natural y personal a la pérdida de algo significativo, ya sea la muerte de un ser querido, la pérdida de una relación, un cambio importante en la vida o incluso la pérdida de la salud",
             "val": "El dol és una resposta natural i personal a la pèrdua d'alguna cosa significativa, ja siga la mort d'un ésser estimat, la pèrdua d'una relació, un canvi important en la vida o fins i tot la pèrdua de la salut."
@@ -78,7 +84,10 @@
     },
     "crecimiento-personal": {
         "image": "/images/blog4.webp",
-        "title": "Crecimiento Personal",
+        "title": {
+            "esp": "Crecimiento Personal",
+            "val": "Creixement Personal"
+        },
         "definition": {
             "esp": "Buscar el crecimiento personal implica un compromiso consciente y continuo con el desarrollo y la mejora de uno mismo en diversas áreas de la vida.",
             "val": "Buscar el creixement personal implica un compromís conscient i continu amb el desenvolupament i la millora d'un mateix en diverses àrees de la vida."
@@ -100,7 +109,10 @@
     },
     "relaciones-de-pareja": {
         "image": "/images/blog5.webp",
-        "title": "Relaciones de Pareja",
+        "title": {
+            "esp": "Relaciones de Pareja",
+            "val": "Relacions de Parella"
+        },
         "definition": {
             "esp": "Cuando se están experimentando problemas de pareja, estos pueden manifestarse a nivel individual a través de diversos síntomas emocionales...",
             "val": "Quan s'estan experimentant problemes de parella, aquests poden manifestar-se a nivell individual a través de diversos símptomes emocionals..."
@@ -119,8 +131,11 @@
         }
     },
     "adicciones": {
-        "image": "/images/blog6.jpg",
-        "title": "Adicciones",
+        "image": "/images/blog6.webp",
+        "title": {
+            "esp": "Adicciones",
+            "val": "Addiccions"
+        },
         "definition": {
             "esp": "Tener adicciones implica dependencia psicológica o física de una sustancia o comportamiento, con pérdida de control y búsqueda compulsiva a pesar de consecuencias negativas, afectando la salud mental y el bienestar emocional del individuo.",
             "val": "Tindre addiccions implica dependència psicològica o física d'una substància o comportament, amb pèrdua de control i cerca compulsiva a pesar de conseqüències negatives, afectant la salut mental i el benestar emocional de l'individu."

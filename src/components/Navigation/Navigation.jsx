@@ -80,20 +80,17 @@ function Navigation() {
                         ]
                       }
                     </NavLink>
-                    <NavLink to="/trastornos-conducta-alimentaria">
-                      {
-                        languagesData.services.dropdown
-                          .trastornosDeConductaAlimentaria[language]
-                      }
-                    </NavLink>
-                    <NavLink to="/duelo">
-                      {languagesData.services.dropdown.duelo[language]}
-                    </NavLink>
                     <NavLink to="/crecimiento-personal">
                       {
                         languagesData.services.dropdown.crecimientoPersonal[
                           language
                         ]
+                      }
+                    </NavLink>
+                    <NavLink to="/trastornos-conducta-alimentaria">
+                      {
+                        languagesData.services.dropdown
+                          .trastornosDeConductaAlimentaria[language]
                       }
                     </NavLink>
                     <NavLink to="/relaciones-de-pareja">
@@ -102,6 +99,9 @@ function Navigation() {
                           language
                         ]
                       }
+                    </NavLink>
+                    <NavLink to="/duelo">
+                      {languagesData.services.dropdown.duelo[language]}
                     </NavLink>
                     <NavLink to="/adicciones">
                       {languagesData.services.dropdown.adicciones[language]}

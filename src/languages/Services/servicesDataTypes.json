@@ -1,4 +1,8 @@
 {
+    "title": {
+        "esp": "Síntomas",
+        "val": "Símptomes"
+    },
     "problemas-emocionales": [
         {
             "type": {
@@ -7,7 +11,7 @@
             },
             "description": {
                 "esp": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:",
-                "val": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:"
+                "val": "L'ansietat és un dels trastorns emocionals més prevalents. Es caracteritza per una resposta excessiva o desproporcionada a situacions d'estrès o perill, que pot interferir significativament en la vida diària. Alguns dels tipus d'ansietat més comuns inclouen:"
             },
             "subgroups": [
                 {

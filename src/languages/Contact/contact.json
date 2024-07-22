@@ -6,11 +6,11 @@
         },
         "h1": {
             "esp": "Estaré encantada de ayudarte",
-            "val": "Estaré encantada de ayudarte "
+            "val": "Estaré encantada d'ajudar-te"
         },
         "p": {
             "esp": "Contacta conmigo sin compromiso para cualquier duda o pregunta que puedas tener acerca de la terapia en Valencia u online, o los problemas en los que pueda ayudarte.",
-            "val": "Contacta conmigo sin compromiso para cualquier duda o pregunta que puedas tener acerca de la terapia en Valencia u online, o los problemas en los que pueda ayudarte."
+            "val": "Contacta amb mi sense compromís per a qualsevol dubte o pregunta que pugues tindre sobre la teràpia a València o en línia, o els problemes en què puga ajudar-te."
         }
     },
     "contactForm": {
@@ -21,6 +21,10 @@
         "email": {
             "esp": "Email",
             "val": "Email"
+        },
+        "phone": {
+            "esp": "Teléfono",
+            "val": "Telèfon"
         },
         "helpText": {
             "esp": "En qué te puedo ayudar?",
