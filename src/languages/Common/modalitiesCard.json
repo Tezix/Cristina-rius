@@ -1,4 +1,4 @@
-{
+﻿{
     "title": {
         "esp": "Modalidades y precio",
         "val": "Modalitat i preu"
@@ -28,7 +28,7 @@
             "val": "Online"
         },
         "p1": {
-            "esp": "Te brindaré apoyo terapéutico desde la comodidad de tu hogar o cualquier lugar con conexión a internet. Te guía de manera personalizada hacia tus metas.",
+            "esp": "Te brindaré apoyo terapéutico desde la comodidad de tu hogar o cualquier lugar con conexión a internet. Te guiaré de manera personalizada hacia tus metas.",
             "val": "T'oferiré suport terapèutic des de la comoditat de la teua llar o qualsevol lloc amb connexió a internet. Et guiaré de manera personalitzada cap als teus objectius."
         },
         "p2": {

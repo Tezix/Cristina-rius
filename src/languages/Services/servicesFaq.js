@@ -1,4 +1,4 @@
-const serviceFAQs = {
+﻿const serviceFAQs = {
   title: {
     esp: "Preguntas frecuentes",
     val: "Preguntes frecuents",
@@ -20,7 +20,7 @@ const serviceFAQs = {
         val: "Què puc esperar en la meua primera sessió amb un psicòleg?",
       },
       answer: {
-        esp: "En tu primera sesión, nos enfocaremos en hablar de aquello que te preocupa. Para mí es crucial que te sientas cómodo, así que los ritmos los marcarás tú. A partir de esta sesión inicial, estableceremos los ritmos de trabajo, considerando mi criterio profesional junto con tus opiniones y posibilidades.",
+        esp: "En tu primera sesión, nos enfocaremos en hablar de aquello que te preocupa. Para mí es crucial que te sientas cómodo/a, así que los ritmos los marcarás tú. A partir de esta sesión inicial, estableceremos los ritmos de trabajo, considerando mi criterio profesional junto con tus opiniones y posibilidades.",
         val: "En la teua primera sessió, ens enfocarem a parlar d'allò que et preocupa. Per a mi és crucial que et sentes còmode, així que els ritmes els marcaràs tu. A partir d'aquesta sessió inicial, establirem els ritmes de treball, considerant el meu criteri professional juntament amb les teues opinions i possibilitats.",
       },
     },
@@ -30,7 +30,7 @@ const serviceFAQs = {
         val: "És normal sentir-se nerviós o avergonyit en parlar amb un psicòleg?",
       },
       answer: {
-        esp: "Sentir nerviosismo o vergüenza la primera vez que vienes es normal, ya que no me conoces y vas a hablar de temas que te preocupan. Por eso, siempre busco que mi consulta sea un espacio seguro, libre de juicios, donde te sientas cómodo y aceptado.",
+        esp: "Sentir nerviosismo o vergüenza la primera vez que vienes es normal, ya que no me conoces y vas a hablar de temas que te preocupan. Por eso, siempre busco que mi consulta sea un espacio seguro, libre de juicios, donde te sientas cómodo/a y aceptado/a.",
         val: "Sentir nerviosisme o vergonya la primera vegada que vens és normal, ja que no em coneixes i aniràs a parlar de temes que et preocupen. Per això, sempre busque que la meua consulta siga un espai segur, lliure de judicis, on et sents còmode i acceptat.",
       },
     },
@@ -60,7 +60,7 @@ const serviceFAQs = {
         val: "Quant costa la sessió?",
       },
       answer: {
-        esp: "La sesión de terapia individual tiene un costo de 55 euros y tiene una duración de una hora.",
+        esp: "La sesión de terapia individual tiene un coste de 55 euros y tiene una duración de una hora.",
         val: "La sessió de teràpia individual té un cost de 55 euros i té una duració d'una hora.",
       },
     },
@@ -116,7 +116,7 @@ const serviceFAQs = {
         val: "Com puc ajudar algú amb un trastorn de la conducta alimentària?",
       },
       answer: {
-        esp: "Si alguien cercano a ti te ha comunicado que está luchando con un trastorno de la conducta alimentaria, es fundamental preguntarle directamente qué tipo de apoyo necesita. Nuestros comentarios y acciones pueden tener un impacto significativo, por lo que es importante manejarlos con sensibilidad y empatía. Si sospechas que alguien está enfrentando este problema pero no te lo ha comunicado, es crucial abordar el tema con cuidado y evitar ser invasivo, ya que la persona podría no ser consciente del problema o sentirse incómoda al hablar de ello.",
+        esp: "Si alguien cercano a ti te ha comunicado que está luchando con un trastorno de la conducta alimentaria, es fundamental preguntarle directamente qué tipo de apoyo necesita. Nuestros comentarios y acciones pueden tener un impacto significativo, por lo que es importante manejarlos con sensibilidad y empatía. Si sospechas que alguien está enfrentando este problema, pero no te lo ha comunicado, es crucial abordar el tema con cuidado y evitar ser invasivo, ya que la persona podría no ser consciente del problema o sentirse incómoda al hablar de ello.",
         val: "Si algú proper a tu te ha comunicat que està lluitant amb un trastorn de la conducta alimentària, és fonamental preguntar-li directament quin tipus de suport necessita. Els nostres comentaris i accions poden tenir un impacte significatiu, per la qual cosa és important manejar-los amb sensibilitat i empatia. Si sospites que algú està enfrontant aquest problema però no te l'ha comunicat, és crucial abordar el tema amb cura i evitar ser invasiu, ja que la persona podria no ser conscient del problema o sentir-se incòmoda en parlar-ne.",
       },
     },
@@ -232,8 +232,8 @@ const serviceFAQs = {
         val: "Per què és important l'autocura en el creixement personal?",
       },
       answer: {
-        esp: "El autocuidado es fundamental para el crecimiento personal porque nos permite mantener un equilibrio físico, mental y emocional. Cuidarnos a nosotros mismos nos proporciona la energía y la claridad mental necesarias para enfrentar los desafíos de la vida y seguir creciendo como individuos. Priorizar el autocuidado nos ayuda a construir una base sólida para nuestro bienestar y desarrollo personal.",
-        val: "L'autocura és fonamental per al creixement personal perquè ens permet mantenir un equilibri físic, mental i emocional. Cuidar-nos a nosaltres mateixos ens proporciona l'energia i la claredat mental necessàries per a enfrontar els reptes de la vida i seguir creixent com a individus. Prioritzar l'autocura ens ajuda a construir una base sòlida per al nostre benestar i desenvolupament personal.",
+        esp: "El autocuidado es fundamental para el crecimiento personal porque nos permite mantener un equilibrio físico, mental y emocional. Cuidarnos a nosotros mismos nos proporciona la energía y la claridad mental necesarias para afrontar los desafíos de la vida y seguir creciendo como individuos. Priorizar el autocuidado nos ayuda a construir una base sólida para nuestro bienestar y desarrollo personal.",
+        val: "L'autocura és fonamental per al creixement personal perquè ens permet mantenir un equilibri físic, mental i emocional. Cuidar-nos a nosaltres mateixos ens proporciona l'energia i la claredat mental necessàries per a afrontar els reptes de la vida i seguir creixent com a individus. Prioritzar l'autocura ens ajuda a construir una base sòlida per al nostre benestar i desenvolupament personal.",
       },
     },
   ],
@@ -318,7 +318,7 @@ const serviceFAQs = {
         val: "És curable l'addicció?",
       },
       answer: {
-        esp: "La recuperación de la adicción varía según cada caso individual y el tipo de adicción. Existe controversia sobre si la adicción es completamente curable o si se trata de un proceso de manejo a largo plazo. Sin embargo, con el tratamiento adecuado y el apoyo continuo, muchas personas logran recuperarse y mantener una vida saludable y libre de adicciones. Aún así, hay que tener en cuenta que pueda quedarse una vulnerabilidad con ciertas situaciones vinculadas con la adicción.",
+        esp: "La recuperación de la adicción varía según cada caso individual y el tipo de adicción. Existe controversia sobre si la adicción es completamente curable o si se trata de un proceso de manejo a largo plazo. Sin embargo, con el tratamiento adecuado y el apoyo continuo, muchas personas logran recuperarse y mantener una vida saludable y libre de adicciones. Aun así, hay que tener en cuenta que pueda quedarse una vulnerabilidad con ciertas situaciones vinculadas con la adicción.",
         val: "La recuperació de l'addicció varia segons cada cas individual i el tipus d'addicció. Existeix controvèrsia sobre si l'addicció és completament curable o si es tracta d'un procés de maneig a llarg termini. No obstant açò, amb el tractament adequat i el suport continu, moltes persones aconsegueixen recuperar-se i mantindre una vida saludable i lliure d'addiccions. Tot i això, cal tindre en compte que puga quedar una vulnerabilitat amb certes situacions vinculades amb l'addicció.",
       },
     },
@@ -326,3 +326,4 @@ const serviceFAQs = {
 };
 
 export default serviceFAQs;
+
