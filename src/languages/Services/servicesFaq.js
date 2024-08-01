@@ -84,7 +84,7 @@
       },
       answer: {
         esp: "Sentirse solo/a puede ser abrumador y desafiante. Si experimentas este sentimiento de manera constante, es importante evaluar tu entorno y buscar apoyo profesional para generar cambios que te ayuden a sentirte mejor. Recuerda que no estás solo/a en esto.",
-        val: "Sentir-se sol/a pot ser aclaparador i desafiador. Si experimentes aquest sentiment de manera constant, és important avaluar el teu entorn i buscar suport professional per generar canvis que et ajudin a sentir-te millor. Recorda que no estàs sol/a en això.",
+        val: "Sentir-se sol/a pot ser aclaparador i desafiador. Si experimentes aquest sentiment de manera constant, és important avaluar el teu entorn i buscar suport professional per generar canvis que t'ajuden a sentir-te millor. Recorda que no estàs sol/a en això.",
       },
     },
     {
@@ -117,7 +117,7 @@
       },
       answer: {
         esp: "Si alguien cercano a ti te ha comunicado que está luchando con un trastorno de la conducta alimentaria, es fundamental preguntarle directamente qué tipo de apoyo necesita. Nuestros comentarios y acciones pueden tener un impacto significativo, por lo que es importante manejarlos con sensibilidad y empatía. Si sospechas que alguien está enfrentando este problema, pero no te lo ha comunicado, es crucial abordar el tema con cuidado y evitar ser invasivo, ya que la persona podría no ser consciente del problema o sentirse incómoda al hablar de ello.",
-        val: "Si algú proper a tu te ha comunicat que està lluitant amb un trastorn de la conducta alimentària, és fonamental preguntar-li directament quin tipus de suport necessita. Els nostres comentaris i accions poden tenir un impacte significatiu, per la qual cosa és important manejar-los amb sensibilitat i empatia. Si sospites que algú està enfrontant aquest problema però no te l'ha comunicat, és crucial abordar el tema amb cura i evitar ser invasiu, ja que la persona podria no ser conscient del problema o sentir-se incòmoda en parlar-ne.",
+        val: "Si algú proper a tu t'ha comunicat que està lluitant amb un trastorn de la conducta alimentària, és fonamental preguntar-li directament quin tipus de suport necessita. Els nostres comentaris i accions poden tenir un impacte significatiu, per la qual cosa és important manejar-los amb sensibilitat i empatia. Si sospites que algú està enfrontant aquest problema però no te l'ha comunicat, és crucial abordar el tema amb cura i evitar ser invasiu, ja que la persona podria no ser conscient del problema o sentir-se incòmoda en parlar-ne.",
       },
     },
     {
@@ -127,7 +127,7 @@
       },
       answer: {
         esp: "Si sientes que tu relación con la comida, tu cuerpo o contigo misma no es saludable, es crucial buscar ayuda profesional. Cuanto antes busques apoyo y comiences a trabajar en ello, más fácil será el proceso de recuperación.",
-        val: "Si sents que la teua relació amb el menjar, el teu cos o contigo mateixa no és saludable, és crucial buscar ajuda professional. Com més prompte busques suport i comences a treballar en això, més fàcil serà el procés de recuperació.",
+        val: "Si sents que la teua relació amb el menjar, el teu cos o amb tu mateix no és saludable, és crucial buscar ajuda professional. Com més prompte busques suport i comences a treballar en això, més fàcil serà el procés de recuperació.",
       },
     },
     {
@@ -170,7 +170,7 @@
       },
       answer: {
         esp: "Durante el proceso de duelo, es común experimentar sentimientos de culpa y/o ira relacionados con la pérdida. Lo crucial es aprender a regular estas emociones y no permitir que se vuelvan obstáculos para avanzar en el proceso de duelo de manera saludable.",
-        val: "Durant el procés de dol, és comú experimentar sentiments de culpa i/o ràbia relacionats amb la pèrdua. La cosa crucial és aprendre a regular aquestes emocions i no permetre que es converteixin en obstacles per avançar en el procés de dol de manera saludable.",
+        val: "Durant el procés de dol, és comú experimentar sentiments de culpa i/o ràbia relacionats amb la pèrdua. La cosa crucial és aprendre a regular aquestes emocions i no permetre que es converteixen en obstacles per avançar en el procés de dol de manera saludable.",
       },
     },
     {
@@ -180,7 +180,7 @@
       },
       answer: {
         esp: "Cuando alguien está pasando por el duelo, es fundamental permitirle que viva su proceso a su propio ritmo y validar sus emociones. Escuchar activamente, ofrecer apoyo emocional y permitir que la persona exprese sus sentimientos son acciones valiosas en este proceso.",
-        val: "Quan algú està passant pel dol, és fonamental permetre-li que visca el seu procés al seu propi ritme i validar les seues emocions. Escoltar activament, oferir suport emocional i permetre que la persona expressi els seus sentiments són accions valuoses en aquest procés.",
+        val: "Quan algú està passant pel dol, és fonamental permetre-li que visca el seu procés al seu propi ritme i validar les seues emocions. Escoltar activament, oferir suport emocional i permetre que la persona expresse els seus sentiments són accions valuoses en aquest procés.",
       },
     },
     {
@@ -272,11 +272,11 @@
     {
       question: {
         esp: "¿Cómo puedo manejar los celos en una relación?",
-        val: "Com puc manejar els gelos en una relació?",
+        val: "Com puc manejar la gelosia en una relació?",
       },
       answer: {
         esp: "Los celos son una emoción natural que puede surgir en las relaciones de pareja. Es importante reconocerlos y explorar las razones detrás de ellos. La clave está en cómo respondemos a los celos. Aprender a comunicarnos de manera abierta y constructiva con nuestra pareja, cultivar la confianza mutua y trabajar en la seguridad emocional puede ayudar a manejar los celos de manera saludable y fortalecer la relación.",
-        val: "Els gelos són una emoció natural que pot sorgir en les relacions de parella. És important reconèixer-los i explorar les raons darrere d'ells. La clau està en com respondem als gelos. Aprendre a comunicar-nos de manera oberta i constructiva amb la nostra parella, cultivar la confiança mútua i treballar en la seguretat emocional pot ajudar a manejar els gelos de manera saludable i reforçar la relació.",
+        val: "La gelosia és una emoció natural que pot sorgir en les relacions de parella. És important reconèixer-la i explorar les raons darrere d'ella. La clau està en com responem a ella. Aprendre a comunicar-nos de manera oberta i constructiva amb la nostra parella, cultivar la confiança mútua i treballar en la seguretat emocional pot ajudar a manejar-la de manera saludable i reforçar la relació.",
       },
     },
   ],
@@ -299,7 +299,7 @@
       },
       answer: {
         esp: "Reconocer que se tiene una adicción es un paso importante. Lo siguiente es buscar ayuda profesional de un especialista en salud mental que pueda brindar el apoyo necesario para iniciar el proceso de recuperación. Es fundamental no enfrentar el problema solo/a y buscar el apoyo adecuado.",
-        val: "Reconèixer que se té una addicció és un pas important. El següent és buscar ajuda professional d'un especialista en salut mental que puga brindar el suport necessari per a iniciar el procés de recuperació. És fonamental no enfrontar el problema sol/a i buscar el suport adequat.",
+        val: "Reconèixer que es té una addicció és un pas important. El següent és buscar ajuda professional d'un especialista en salut mental que puga brindar el suport necessari per a iniciar el procés de recuperació. És fonamental no enfrontar el problema sol/a i buscar el suport adequat.",
       },
     },
     {

@@ -2,43 +2,43 @@
     "aboutMeHero": {
         "h3": {
             "esp": "SOBRE MÍ",
-            "val": "SOBRE MÍ"
+            "val": "SOBRE MI"
         },
         "h1": {
             "esp": "Hola, soy ",
-            "val": "Hola, soy "
+            "val": "Hola, sóc "
         },
         "p": {
-            "esp": "Como psicóloga, mi misión es ser tu guía en el viaje hacia el autoconocimiento y el crecimiento personal. Con empatía y comprensión, te acompañaré en el proceso de explorar tus emociones, pensamientos y experiencias, ayudándote a desarrollar nuevas perspectivas y estrategias para enfrentar los desafíos y alcanzar tus objetivos de vida.",
-            "val": "Como psicóloga, mi misión es ser tu guía en el viaje hacia el autoconocimiento y el crecimiento personal. Con empatía y comprensión, te acompañaré en el proceso de explorar tus emociones, pensamientos y experiencias, ayudándote a desarrollar nuevas perspectivas y estrategias para enfrentar los desafíos y alcanzar tus objetivos de vida."
+            "esp": "Como psicóloga, mi misión es ser tu guía en el viaje hacia el autoconocimiento y el crecimiento personal. Con empatía y comprensión, te acompañaré en el proceso de explorar tus emociones, pensamientos y experiencias, ayudándote a desarrollar nuevas perspectivas y estrategias para afrontar los desafíos y alcanzar tus objetivos de vida.",
+            "val": "Com a psicòloga, la meua missió és ser la teua guia en el viatge cap a l'autoconeixement i el creixement personal. Amb empatia i comprensió, t'acompanyaré en el procés d'explorar les teues emocions, pensaments i experiències, ajudant-te a desenvolupar noves perspectives i estratègies per afrontar els desafiaments i assolir els teus objectius de vida."
         }
     },
     "MyHistory": {
         "title": {
             "esp": "Mi historia",
-            "eng": "Mi historia"
+            "val": "La meua història"
         },
         "p1": {
             "esp": "Desde el instituto, supe que mi vocación era la psicología. Las personas que me conocen destacan mi habilidad para escuchar, hablar de temas difíciles y por mi deseo de ayudar. ",
-            "eng": "Desde el instituto, supe que mi vocación era la psicología. Las personas que me conocen destacan mi habilidad para escuchar, hablar de temas difíciles y por mi deseo de ayudar. "
+            "val": "Des de l'institut, vaig saber que la meua vocació era la psicologia. Les persones que em coneixen destaquen la meua habilitat per a escoltar, parlar de temes difícils i el meu desig d'ajudar."
         },
         "p2": {
-            "esp": "He trabajado en diversas áreas, incluyendo una Unidad de Conductas Adictivas y proyectos de investigación sobre los problemas emocionales en la adolescencia, tanto el Proyecto Miradas en colaboración con la Universidad de Valencia como en el Programa AMTE de la UNED. ",
-            "eng": "He trabajado en diversas áreas, incluyendo una Unidad de Conductas Adictivas y proyectos de investigación sobre los problemas emocionales en la adolescencia, tanto el Proyecto Miradas en colaboración con la Universidad de Valencia como en el Programa AMTE de la UNED. "
+            "esp": "He trabajado en diversas áreas, incluyendo una Unidad de Conductas Adictivas y proyectos de investigación sobre los problemas emocionales en la adolescencia, tanto el Proyecto Miradas, en colaboración con la Universidad de Valencia, como en el Programa AMTE de la UNED. ",
+            "val": "He treballat en diverses àrees, incloent una Unitat de Conductes Addictives i projectes d'investigació sobre els problemes emocionals en l'adolescència, tant el Projecte Mirades, en col·laboració amb la Universitat de València, com en el Programa AMTE de la UNED."
         },
         "p3": {
             "esp": "También he brindado terapia individual, terapia de pareja y talleres en población infanto-juvenil y adultez, tanto en modalidad presencial como online. ",
-            "eng": "También he brindado terapia individual, terapia de pareja y talleres en población infanto-juvenil y adultez, tanto en modalidad presencial como online. "
+            "val": "També he brindat teràpia individual, teràpia de parella i tallers en població infantojuvenil i d'adults, tant en modalitat presencial com en línia."
         },
         "p4": {
-            "esp": "Además, he ejercido en un hospital de día de Trastornos de la Conducta Alimentaria en formato grupal y en el Programa Contexto, dentro del ámbito social, el cual estaba enfocado en la construcción de relaciones de pareja saludables y la desmitificación de las creencias respecto a las relaciones de pareja. Todo ello enfocado desde una perspectiva de género.",
-            "eng": "Además, he ejercido en un hospital de día de Trastornos de la Conducta Alimentaria en formato grupal y en el Programa Contexto, dentro del ámbito social, el cual estaba enfocado en la construcción de relaciones de pareja saludables y la desmitificación de las creencias respecto a las relaciones de pareja. Todo ello enfocado desde una perspectiva de género."
+            "esp": "Además, he ejercido en un hospital de día de Trastornos de la Conducta Alimentaria en formato grupal y en el Programa Contexto, dentro del ámbito social, el cual estaba enfocado en la construcción de relaciones de pareja saludables y la desmitificación de las creencias respecto a estas relaciones. Todo ello, enfocado desde una perspectiva de género.",
+            "val": "A més, he exercit en un hospital de dia de Trastorns de la Conducta Alimentària en format grupal i en el Programa Context, dins de l'àmbit social, que estava enfocat en la construcció de relacions de parella saludables i la desmitificació de les creences respecte a aquestes relacions. Tot això, enfocat des d'una perspectiva de gènere."
         }
     },
     "MyBackground": {
         "title": {
             "esp": "Mi formación",
-            "eng": "Mi formación"
+            "val": "Formació"
         },
         "firstListBold": {
             "esp": [
@@ -47,11 +47,11 @@
                 "Máster en Terapias Contextuales",
                 "Experto en Psicoterapia Emocional Sistémica"
             ],
-            "eng": [
-                "Grado en Psicología",
-                "Máster en Psicología General Sanitaria",
-                "Máster en Terapias Contextuales",
-                "Experto en Psicoterapia Emocional Sistémica"
+            "val": [
+                "Grau en Psicologia",
+                "Màster en Psicologia General Sanitària",
+                "Màster en Teràpies Contextuals",
+                "Expert en Psicoteràpia Emocional Sistèmica"
             ]
         },
         "firstListInfo": {
@@ -61,8 +61,8 @@
                 "Universidad de Almería",
                 "Escuela Superior Europea de Psicología y Educación (ESEUPE)"
             ],
-            "eng": [
-                "Universidad de Valencia",
+            "val": [
+                "Universitat de València",
                 "Universidad de Cádiz",
                 "Universidad de Almería",
                 "Escuela Superior Europea de Psicología y Educación (ESEUPE)"
@@ -70,24 +70,24 @@
         },
         "secondTitle": {
             "esp": "Formación complementaria:",
-            "eng": "Formación complementaria:"
+            "val": "Formació complementaria:"
         },
         "secondListBold": {
             "esp": [
                 "Experto en Psicoterapia en Infancia y Adolescencia",
                 "Curso de Regulación Emocional aplicada al Campo Clínico",
-                "Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil",
+                "Curso de Afrontamiento de Muerte y Duelo en Etapa Infantil",
                 "Taller de Asertividad",
                 "Taller de Relaciones de Pareja Saludables",
-                "Curso Terapia Dialéctica Comportamental"
+                "Curso Terapia Dialectica Comportamental"
             ],
-            "eng": [
-                "Experto en Psicoterapia en Infancia y Adolescencia",
-                "Curso de Regulación Emocional aplicada al Campo Clínico",
-                "Curso de Afrontamiento de Muerte y  Duelo en Etapa Infantil",
-                "Taller de Asertividad",
-                "Taller de Relaciones de Pareja Saludables",
-                "Curso Terapia Dialéctica Comportamental"
+            "val": [
+                "Expert en Psicoteràpia en Infància i Adolescència",
+                "Curs de Regulació Emocional aplicada al Camp Clínic",
+                "Curs d'Afrontament de la Mort i el Dol en l'Etapa Infantil",
+                "Taller d'Asertividad",
+                "Taller de Relacions de Parella Saludables",
+                "Curs de Teràpia Dialèctica Comportamental"
             ]
         },
         "secondListInfo": {
@@ -99,13 +99,13 @@
                 "Universidad de Cádiz",
                 "Fundació Lluís Alcanyís, Universidad de Valencia"
             ],
-            "eng": [
+            "val": [
                 "SIAC",
-                "FOCAD, Colegio Oficial de Psicólogos",
-                "FOCAD, Colegio Oficial de Psicólogos",
+                "FOCAD, Col·legi Oficial de Psicòlegs",
+                "FOCAD, Col·legi Oficial de Psicòlegs",
                 "Universidad de Cádiz",
                 "Universidad de Cádiz",
-                "Fundació Lluís Alcanyís, Universidad de Valencia"
+                "Fundació Lluís Alcanyís, Universitat de València"
             ]
         }
     }

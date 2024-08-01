@@ -11,7 +11,7 @@
             },
             "description": {
                 "esp": "La ansiedad es uno de los trastornos emocionales más prevalentes. Se caracteriza por una respuesta excesiva o desproporcionada a situaciones de estrés o peligro, que puede interferir significativamente con la vida diaria. Algunos de los tipos de ansiedad más comunes incluyen:",
-                "val": "L'ansietat és un dels trastorns emocionals més prevalents. Es caracteritza per una resposta excessiva o desproporcionada a situacions d'estrès o perill, que pot interferir significativament en la vida diària. Alguns dels tipus d'ansietat més comuns inclouen:"
+                "val": "L'ansietat és un dels trastorns emocionals més prevalents. Es caracteritza per una resposta excessiva o desproporcionada a situacions d'estrès o perill, que pot interferir significativament amb la vida quotidiana. Alguns dels tipus d'ansietat més comuns inclouen:"
             },
             "subgroups": [
                 {
@@ -40,8 +40,8 @@
                         "val": "Estrès"
                     },
                     "description": {
-                        "esp": "Es una respuesta natural del cuerpo a situaciones desafiantes o amenazantes. Puede volverse crónico y abrumador, teniendo un impacto significativo en la salud física y mental. Los síntomas incluyen cambios en el estado de ánimo, problemas de sueño, cambios en el apetito y síntomas físicos como dolores de cabeza y problemas gastrointestinales.",
-                        "val": "És una resposta natural del cos a situacions desafiants o amenaçants. Pot tornar-se crònic i aclaparador, tenint un impacte significatiu en la salut física i mental. Els símptomes inclouen canvis en l'estat d'ànim, problemes de son, canvis en la gana i símptomes físics com mals de cap i problemes gastrointestinals."
+                        "esp": "Es una respuesta natural del cuerpo a situaciones desafiantes o amenazantes. Puede volverse crónico y abrumador, teniendo un impacto negativo significativo en la salud física y mental. Los síntomas incluyen cambios en el estado de ánimo, problemas de sueño, cambios en el apetito y síntomas físicos como dolores de cabeza y problemas gastrointestinales.",
+                        "val": "És una resposta natural del cos a situacions desafiants o amenaçants. Pot tornar-se crònic i aclaparador, tenint un impacte negatiu significatiu en la salut física i mental. Els símptomes inclouen canvis en l'estat d'ànim, problemes de son, canvis en la gana i símptomes físics com mals de cap i problemes gastrointestinals."
                     }
                 }
             ]
@@ -63,7 +63,7 @@
             },
             "description": {
                 "esp": "La apatía y la desgana son estados emocionales caracterizados por la falta de interés, motivación y entusiasmo hacia actividades que normalmente se considerarían importantes o placenteras. Pueden manifestarse con sensación de vacío, dificultades para concentrarse y cambios en el sueño y el apetito. El aislamiento social y la falta de interés en actividades previamente disfrutadas también son comunes.",
-                "val": "L'apatia i la desgana són estats emocionals caracteritzats per la manca d'interès, motivació i entusiasme cap a activitats que normalment es considerarien importants o plaents. Poden manifestar-se amb sensació de buit, dificultats per concentrar-se i canvis en el son i la gana. L'aïllament social i la manca d'interès en activitats prèviament gaudides també són comuns."
+                "val": "L'apatia i la desgana són estats emocionals caracteritzats per la manca d'interès, motivació i entusiasme cap a activitats que normalment es considerarien importants o plaents. Poden manifestar-se amb sensació de buit, dificultats per concentrar-se i canvis en el son i la gana. L'aïllament social i la manca d'interès en activitats previament gaudides també són comuns."
             }
         }
     ],
@@ -74,8 +74,8 @@
                 "val": "Anorèxia"
             },
             "description": {
-                "esp": "Los trastornos de la conducta alimentaria son condiciones de salud mental que afectan la relación de una persona con la comida y la percepción de su imagen corporal. Algunos de los trastornos más comunes incluyen la anorexia nerviosa, la bulimia nerviosa y el trastorno por atracón.",
-                "val": "Els trastorns de la conducta alimentària són condicions de salut mental que afecten la relació d'una persona amb el menjar i la percepció de la seva imatge corporal. Alguns dels trastorns més comuns inclouen l'anorèxia nerviosa, la bulímia nerviosa i el trastorn per afartament."
+                "esp": " La anorexia nerviosa se caracteriza por una preocupación obsesiva por el peso corporal y la comida, que conduce a una restricción extrema de la ingesta alimentaria y un temor intenso a ganar peso. Los síntomas incluyen una pérdida significativa de peso, restricción alimentaria severa, preocupación constante por la imagen corporal y síntomas físicos como agotamiento y fatiga.",
+                "val": " La anorèxia nerviosa es caracteritza per una preocupació obsessiva pel pes corporal i el menjar, que condueix a una restricció extrema de la ingesta alimentària i un temor intens a guanyar pes. Els símptomes inclouen una pèrdua significativa de pes, restricció alimentària severa, preocupació constant per la imatge corporal i símptomes físics com esgotament i fatiga."
             }
         },
         {
@@ -84,8 +84,8 @@
                 "val": "Bulímia"
             },
             "description": {
-                "esp": "La bulimia nerviosa implica episodios recurrentes de ingesta excesiva de alimentos seguida de comportamientos compensatorios para evitar el aumento de peso, como el vómito autoinducido o el uso excesivo de laxantes. Los síntomas incluyen episodios de atracones, preocupación excesiva por el peso y la forma corporal, y cambios físicos como problemas dentales o gastrointestinales.",
-                "val": "La bulímia nerviosa implica episodis recurrents d'ingesta excessiva d'aliments seguida de comportaments compensatoris per evitar l'augment de pes, com el vòmit autoinduit o l'ús excessiu de laxants. Els símptomes inclouen episodis d'afartaments, preocupació excessiva pel pes i la forma corporal, i canvis físics com problemes dentals o gastrointestinals."
+                "esp": "La bulimia nerviosa implica episodios recurrentes de ingesta excesiva de alimentos seguida de comportamientos compensatorios para evitar el aumento de peso, como el vómito autoinducido o el uso excesivo de laxantes. Los síntomas incluyen episodios de atracones, preocupación excesiva por el peso y la forma corporal, y dificultades físicas como problemas dentales o gastrointestinales.",
+                "val": "La bulímia nerviosa implica episodis recurrents d'ingesta excessiva d'aliments seguida de comportaments compensatoris per evitar l'augment de pes, com el vòmit autoinduit o l'ús excessiu de laxants. Els símptomes inclouen episodis d'afartaments, preocupació excessiva pel pes i la forma corporal, i dificultats físiques com problemes dentals o gastrointestinals."
             }
         },
         {
@@ -104,8 +104,8 @@
                 "val": "Altres Trastorns de la Conducta Alimentària (TCA)"
             },
             "description": {
-                "esp": "El trastorno por atracón implica episodios recurrentes de ingesta excesiva de alimentos sin los comportamientos compensatorios observados en la bulimia. Los síntomas incluyen incapacidad para detenerse durante el atracón, sentimientos de culpa o disgusto después del atracón y preocupación constante por el peso y la forma corporal.",
-                "val": "El trastorn per afartament implica episodis recurrents d'ingesta excessiva d'aliments sense els comportaments compensatoris observats a la bulímia. Els símptomes inclouen incapacitat per detenir-se durant l'afartament, sentiments de culpa o disgust després de l'afartament i preocupació constant pel pes i la forma corporal"
+                "esp": " Además de la anorexia, la bulimia y el trastorno por atracón, existen otros trastornos alimentarios y problemas de imagen corporal que también pueden impactar la salud mental y física:",
+                "val": " A més de l'anorèxia, la bulímia i el trastorn per afartament, existeixen altres trastorns alimentaris i problemes d'imatge corporal que també poden impactar la salut mental i física."
             },
             "subgroups": [
                 {
@@ -144,7 +144,7 @@
                         "val": "Trastorns d'ansietat social"
                     },
                     "description": {
-                        "esp": "Miedo al juicio de los demás sobre la apariencia física, lo que contribuye a la ansiedad social y afecta a la percepción de la imagen corporal.",
+                        "esp": "Miedo al juicio de los demás sobre la apariencia fsica, lo que contribuye a la ansiedad social y afecta a la percepción de la imagen corporal.",
                         "val": "Por al judici dels altres sobre l'aparença física, cosa que contribueix a l'ansietat social i afecta la percepció de la imatge corporal."
                     }
                 }
@@ -204,8 +204,8 @@
                 "val": "Addicció a substàncies"
             },
             "description": {
-                "esp": "La adicción a sustancias se manifiesta a través de síntomas físicos, emocionales y comportamentales. Aparte de los síntomas generales como el deseo incontrolable y la pérdida de control, hay indicadores específicos como dedicar gran parte del día a la sustancia, rituales relacionados con su consumo, cambios físicos y dependencia física. Estos signos señalan la presencia de una adicción y la necesidad de buscar ayuda profesional.",
-                "val": "L'addicció a substàncies es manifesta a través de símptomes físics, emocionals i comportamentals. A part dels símptomes generals com el desig incontrolable i la pèrdua de control, hi ha indicadors específics com dedicar gran part del dia a la substància, rituals relacionats amb el seu consum, canvis físics i dependència física. Aquests signes assenyalen la presència d'una addicció i la necessitat de buscar ajuda professional."
+                "esp": "La adicción a sustancias se manifiesta a través de síntomas físicos, emocionales y comportamentales. Aparte de los síntomas generales como el deseo incontrolable y la pérdida de control, hay indicadores específicos como dedicar gran parte del día a la sustancia, rituales relacionados con su consumo, cambios corporales y dependencia física. Estos signos señalan la presencia de una adicción y la necesidad de buscar ayuda profesional.",
+                "val": "L'addicció a substàncies es manifesta a través de símptomes físics, emocionals i comportamentals. A part dels símptomes generals com el desig incontrolable i la pèrdua de control, hi ha indicadors específics com dedicar gran part del dia a la substància, rituals relacionats amb el seu consum, canvis corporals i dependència física. Aquests signes assenyalen la presència d'una addicció i la necessitat de buscar ajuda professional."
             }
         },
         {
@@ -214,8 +214,8 @@
                 "val": "Addicció al joc"
             },
             "description": {
-                "esp": "La adicción al juego, o ludopatía, implica la participación persistente en actividades de juego a pesar de las consecuencias negativas. Los síntomas incluyen la incapacidad para dejar de jugar, pensamientos obsesivos sobre el juego, aumento de la frecuencia de juego y pérdida de control financiero. Estos signos indican la presencia de la adicción y la necesidad de buscar ayuda profesional.",
-                "val": "L'addicció al joc, o ludopatia, implica la participació persistent en activitats de joc malgrat les conseqüències negatives. Els símptomes inclouen la incapacitat per deixar de jugar, pensaments obsessius sobre el joc, augment de la freqüència de joc i pèrdua de control financer. Aquests signes indiquen la presència de l'addicció i la necessitat de buscar ajuda professional."
+                "esp": "La adicción al juego, o ludopatía, implica la participación persistente en actividades de juego a pesar de las consecuencias negativas. Los síntomas incluyen la incapacidad para dejar de jugar, pensamientos obsesivos sobre el juego, aumento de la frecuencia de juego y pérdida del control financiero. Estos signos indican la presencia de la adicción y la necesidad de buscar ayuda profesional.",
+                "val": "L'addicció al joc, o ludopatia, implica la participació persistent en activitats de joc malgrat les conseqüències negatives. Els símptomes inclouen la incapacitat per deixar de jugar, pensaments obsessius sobre el joc, augment de la freqüència de joc i pèrdua del control financer. Aquests signes indiquen la presència de l'addicció i la necessitat de buscar ajuda professional."
             }
         },
         {
@@ -225,7 +225,7 @@
             },
             "description": {
                 "esp": "La nomofobia, o adicción al móvil, es una dependencia excesiva del teléfono móvil. Los síntomas incluyen uso excesivo, dificultad para desconectarse, preocupación constante y negligencia de responsabilidades. Pueden aparecer problemas físicos como dolor en el cuello o la espalda. Además, se experimentan cambios en el estado de ánimo, aislamiento social y evasión de problemas. Establecer límites y buscar apoyo profesional son acciones recomendadas para abordar esta adicción. Es importante reconocer que el uso excesivo del teléfono puede indicar un problema subyacente y cada caso debe evaluarse individualmente.",
-                "val": "La nomofòbia, o addicció al mòbil, és una dependència excessiva del telèfon mòbil. Els símptomes inclouen ús excessiu, dificultat per desconnectar-se, preocupació constant i negligència de responsabilitats. Poden aparèixer problemes físics com dolor al coll o l’esquena. A més, s’experimenten canvis en l’estat d’ànim, aïllament social i evasió de problemes. Establir límits i buscar suport professional són accions recomanades per abordar aquesta addicció. És important reconèixer que l’ús excessiu del telèfon pot indicar un problema subjacent i cada cas s’ha de valorar individualment."
+                "val": "La nomofòbia, o addicció al mòbil, és una dependència excessiva del telèfon mòbil. Els símptomes inclouen ús excessiu, dificultat per desconnectar-se, preocupació constant i negligència de responsabilitats. Poden aparèixer problemes físics com dolor al coll o l'esquena. A més, s'experimenten canvis en l'estat d'ànim, aïllament social i evasió de problemes. Establir límits i buscar suport professional són accions recomanades per abordar aquesta addicció. És important reconèixer que l'ús excessiu del telèfon pot indicar un problema subjacent i cada cas s'ha de valorar individualment."
             }
         },
         {
@@ -234,8 +234,8 @@
                 "val": "Altres addiccions"
             },
             "description": {
-                "esp": "Además de las adicciones mencionadas, existen otras variedades, algunas conocidas son al trabajo, a las compras, al sexo… Lo importante es reconocer los síntomas de una adicción, como pueden ser la compulsión, negligencia de responsabilidades y aislamiento social. Así como darse cuenta de que están afectando a nuestra salud mental y vida diaria.",
-                "val": "A més de les addiccions esmentades, hi ha altres varietats, algunes conegudes són a la feina, a les compres, al sexe… L’important és reconèixer els símptomes d’una addicció, com poden ser la compulsió, negligència de responsabilitats i aïllament social. Així com adonar-se que estan afectant la nostra salut mental i vida diària."
+                "esp": "Además de las adicciones mencionadas, existen otras variedades, algunas conocidas son al trabajo, a las compras, al sexo... Lo importante es reconocer los síntomas de una adicción, como pueden ser la compulsión, negligencia de responsabilidades y aislamiento social. Así como darse cuenta de que están afectando a nuestra salud mental y vida diaria.",
+                "val": "A més de les addiccions esmentades, hi ha altres varietats, algunes conegudes són a la feina, a les compres, al sexe... L'important és reconèixer els símptomes d'una addicció, com poden ser la compulsió, negligència de responsabilitats i aïllament social. Així com adonar-se que estan afectant la nostra salut mental i vida diària."
             }
         }
     ]
