@@ -7,10 +7,12 @@ import ModalitiesSection from "../../components/ModalitiesCard/ModalitiesSection
 import ServiceIssuesFaq from "../../components/Services/ServiceIssuesFaq/ServiceIssuesFaq";
 import Footer from "../../components/Footer/Footer";
 import ContactCard from "../../components/ContactCard/ContactCard";
+import { useParams } from "react-router-dom";
 const ServicePage = () => {
+  const { serviceType } = useParams();
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [serviceType]);
   return (
     <>
       <ServiceHero />
