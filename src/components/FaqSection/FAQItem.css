@@ -93,3 +93,27 @@
     opacity: 0;
     transition: all 0.5 ease;
 }
+
+
+@media (max-width: 450px) {
+
+    .faq-item {
+        border-radius: 4vw;
+    }
+
+    .faq-question {
+        font-size: 3.5vw;
+        height: 18vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .faq-question::after {
+        font-size: 7vw;
+    }
+
+    .faq-answer {
+        max-height: fit-content;
+        width: 95%;
+    }
+}

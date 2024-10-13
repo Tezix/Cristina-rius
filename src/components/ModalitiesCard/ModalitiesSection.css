@@ -84,3 +84,50 @@
 .card-contact a:hover::after {
     margin-left: 9px;
 }
+
+@media (max-width: 450px) {
+    .modalities-cards {
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    .modalities-card {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .card-content {
+        padding: 3vw;
+    }
+
+    .card-image {
+        height: 48vw;
+    }
+
+
+    .card-title h2 {
+        font-weight: 600;
+        font-size: 5vw;
+    }
+
+    .card-description p {
+        font-size: 4vw;
+    }
+
+    .card-price p {
+        font-size: 3.6vw;
+    }
+
+    .card-contact a {
+        font-weight: 600;
+        font-size: 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .card-contact a::after {
+        margin-left: 5px;
+    }
+
+}

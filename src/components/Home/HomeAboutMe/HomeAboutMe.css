@@ -68,3 +68,35 @@ span {
     font-weight: bold;
     color: #1B1959;
 }
+
+@media (max-width: 450px) {
+
+    .home-about-section {
+        height: fit-content;
+        padding-bottom: 5vw;
+    }
+
+    .white-container {
+        height: fit-content;
+        flex-direction: column;
+        padding: 4vw;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 6vw;
+    }
+
+    .about-text-column h2 {
+        font-weight: 650;
+        margin-top: -4.5vw;
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 4vw;
+        margin-bottom: 4vw;
+        line-height: 6.5vw;
+    }
+
+}

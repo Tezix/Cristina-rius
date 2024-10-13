@@ -73,3 +73,48 @@
     margin-top: 2vw;
     margin-left: 0;
 }
+
+@media (max-width: 450px) {
+
+    .hero {
+        flex-direction: column;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-bottom: 4vw;
+        gap: 0px;
+    }
+
+    .text-column h1 {
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+
+    .text-column span {
+        letter-spacing: 0vw;
+        margin-top: 0vw;
+    }
+
+    .text-column p {
+        font-size: 4vw;
+        line-height: 5.5vw;
+        font-weight: 650;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .text-column h2 {
+        font-size: 6vw;
+    }
+
+    .text-column {
+        margin-top: 25vw;
+    }
+
+    .image-column {
+        margin-top: 0vw;
+    }
+
+    .image-column img {
+        height: 70vw;
+    }
+}

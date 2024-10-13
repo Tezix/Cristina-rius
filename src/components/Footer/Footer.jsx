@@ -25,31 +25,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener"
                 tabIndex="0"
-                style={{
-                  backgroundColor: "rgb(134, 50, 229)",
-                  width: "3vw",
-                  height: "3vw",
-                  borderRadius: "2.3vw",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
               >
                 <img src="/images/instagram.svg" alt="logo-instagram" />
               </a>
 
-              <a
-                href="https://www.instagram.com/cristinariuspsicologa/"
-                style={{
-                  backgroundColor: "rgb(134, 50, 229)",
-                  width: "3vw",
-                  height: "3vw",
-                  borderRadius: "2.3vw",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
+              <a href="https://www.instagram.com/cristinariuspsicologa/">
                 <img src="/images/linkedin.svg" alt="logo-linkedin" />
               </a>
             </div>

@@ -30,6 +30,31 @@
             "val": "Els problemes emocionals afecten la salut mental i emocional d'una persona. Poden manifestar-se de diverses formes, com canvis d'humor extrems, ansietat, sentiments persistents de tristesa o depressió, i alteracions en els patrons de son o alimentació. A més, els pensaments negatius recurrents i les dificultats en les relacions també són indicadors. Si experimentes diversos d'aquests símptomes de manera persistent, és recomanable buscar ajuda professional per a comprendre i abordar els teus problemes emocionals. Recorda que aquests símptomes poden variar en intensitat i duració, i és important cuidar tant de la teua salut mental com física. Hi ha diferents tipus de problemes emocionals:"
         }
     },
+    "crecimiento-personal": {
+        "image": "/images/blog4.webp",
+        "title": {
+            "esp": "Crecimiento Personal",
+            "val": "Creixement Personal"
+        },
+        "definition": {
+            "esp": "Buscar el crecimiento personal implica un compromiso consciente y continuo con el desarrollo y la mejora de uno mismo en diversas áreas de la vida.",
+            "val": "Buscar el creixement personal implica un compromís conscient i continu amb el desenvolupament i la millora d'un mateix en diverses àrees de la vida."
+        },
+        "definitionLinks": {
+            "esp": [
+                "Autoestima",
+                "Cambios vitales"
+            ],
+            "val": [
+                "Autoestima",
+                "Canvis vitals"
+            ]
+        },
+        "symptoms": {
+            "esp": "Hay algunas características comunes de estar en crecimiento personal, o bien características que se pueden trabajar para lograr una mejora en uno mismo: autoconciencia, apertura al aprendizaje, establecimiento de metas, adaptabilidad, asunción de responsabilidad personal, empatía, capacidad para afrontar situaciones complicadas, desarrollo de habilidades, cuidado personal, mente abierta, persistencia y/o constancia, y sentido de propósito. El crecimiento personal es un viaje continuo, y estas características pueden manifestarse de manera única en cada individuo. Es un proceso individualizado y en constante evolución que impulsa a las personas a alcanzar un mayor potencial y vivir una vida más plena y significativa.",
+            "val": "Hi ha algunes característiques comunes d'estar en creixement personal, o bé característiques que es poden treballar per a aconseguir una millora en un mateix: autoconsciència, obertura a l'aprenentatge, establiment de metes, adaptabilitat, assumpció de responsabilitat personal, empatia, capacitat per a afrontar situacions complicades, desenvolupament d'habilitats, cura personal, ment oberta, persistència i/o constància, i sentit de propòsit. El creixement personal és un viatge continu, i aquestes característiques poden manifestar-se de manera única en cada individu. És un procés individualitzat i en constant evolució que impulsa les persones a aconseguir el seu màxim potencial i viure una vida més plena i significativa."
+        }
+    },
     "trastornos-conducta-alimentaria": {
         "image": "/images/blog2.webp",
         "title": {
@@ -59,54 +84,6 @@
             "val": "Els símptomes poden variar segons el tipus específic de trastorn, però alguns signes generals inclouen canvis en el pes corporal, preocupació excessiva pel menjar, la dieta i el pes, així com una distorsió de la imatge corporal. A més, poden observar-se canvis en els hàbits alimentaris, menjar en secret o evitar menjar en situacions socials. Pot donar-se una preocupació per la forma i la mida corporal i realitzar exercici compulsiu. Tot això pot portar a alteracions en l'estat d'ànim, problemes gastrointestinals i aïllament social. Si sospites que tu o algú que coneixes està experimentant un trastorn de la conducta alimentària, és essencial buscar ajuda professional per a abordar adequadament aquesta situació."
         }
     },
-    "duelo": {
-        "image": "/images/blog3.webp",
-        "title": {
-            "esp": "Duelo",
-            "val": "Dol"
-        },
-        "definition": {
-            "esp": "El duelo es una respuesta natural y personal a la pérdida de algo significativo, ya sea la muerte de un ser querido, la ruptura de una relación, un cambio importante en la vida o incluso el empeoramiento de la salud",
-            "val": "El dol és una resposta natural i personal a la pèrdua d'alguna cosa significativa, ja siga la mort d'un ésser estimat, la ruptura d'una relació, un canvi important en la vida o fins i tot l'empitjorament de la salut."
-        },
-        "definitionLinks": {
-            "esp": [
-                "Duelo por fallecimiento"
-            ],
-            "val": [
-                "Dol per defunció"
-            ]
-        },
-        "symptoms": {
-            "esp": "El duelo es un proceso individual que puede manifestarse de diversas maneras. Aunque los síntomas comunes incluyen tristeza profunda, irritabilidad y pensamientos recurrentes sobre la pérdida, cada persona lo vive de manera única. Es esencial comprender que el duelo no sigue un curso predefinido. Algunos pueden experimentar síntomas de manera diferente y en momentos diferentes. Sin embargo, en casos más complicados, conocidos como duelo patológico o complicado, los síntomas persisten intensamente durante períodos prolongados y afectan significativamente la vida diaria y las relaciones. La identificación temprana de indicadores como la persistencia intensa de síntomas, dificultades para adaptarse a la pérdida y deterioro funcional es crucial. En tales casos, la intervención de profesionales de la salud mental puede ser necesaria para brindar apoyo y tratamiento adecuado",
-            "val": "El dol és un procés individual que pot manifestar-se de diverses maneres. Encara que els símptomes comuns inclouen tristesa profunda, irritabilitat i pensaments recurrents sobre la pèrdua, cada persona ho viu de manera única. És essencial comprendre que el dol no segueix un curs predefinit. Alguns poden experimentar símptomes de manera diferent i en moments diferents. No obstant això, en casos més complicats, coneguts com a dol patològic o complicat, els símptomes persisteixen intensament durant períodes prolongats i afecten significativament la vida diària i les relacions. La identificació primerenca d'indicadors com la persistència intensa de símptomes, dificultats per a adaptar-se a la pèrdua i deterioració funcional és crucial. En tals casos, la intervenció de professionals de la salut mental pot ser necessària per a brindar suport i tractament adequat."
-        }
-    },
-    "crecimiento-personal": {
-        "image": "/images/blog4.webp",
-        "title": {
-            "esp": "Crecimiento Personal",
-            "val": "Creixement Personal"
-        },
-        "definition": {
-            "esp": "Buscar el crecimiento personal implica un compromiso consciente y continuo con el desarrollo y la mejora de uno mismo en diversas áreas de la vida.",
-            "val": "Buscar el creixement personal implica un compromís conscient i continu amb el desenvolupament i la millora d'un mateix en diverses àrees de la vida."
-        },
-        "definitionLinks": {
-            "esp": [
-                "Autoestima",
-                "Cambios vitales"
-            ],
-            "val": [
-                "Autoestima",
-                "Canvis vitals"
-            ]
-        },
-        "symptoms": {
-            "esp": "Hay algunas características comunes de estar en crecimiento personal, o bien características que se pueden trabajar para lograr una mejora en uno mismo: autoconciencia, apertura al aprendizaje, establecimiento de metas, adaptabilidad, asunción de responsabilidad personal, empatía, capacidad para afrontar situaciones complicadas, desarrollo de habilidades, cuidado personal, mente abierta, persistencia y/o constancia, y sentido de propósito. El crecimiento personal es un viaje continuo, y estas características pueden manifestarse de manera única en cada individuo. Es un proceso individualizado y en constante evolución que impulsa a las personas a alcanzar un mayor potencial y vivir una vida más plena y significativa.",
-            "val": "Hi ha algunes característiques comunes d'estar en creixement personal, o bé característiques que es poden treballar per a aconseguir una millora en un mateix: autoconsciència, obertura a l'aprenentatge, establiment de metes, adaptabilitat, assumpció de responsabilitat personal, empatia, capacitat per a afrontar situacions complicades, desenvolupament d'habilitats, cura personal, ment oberta, persistència i/o constància, i sentit de propòsit. El creixement personal és un viatge continu, i aquestes característiques poden manifestar-se de manera única en cada individu. És un procés individualitzat i en constant evolució que impulsa les persones a aconseguir el seu màxim potencial i viure una vida més plena i significativa."
-        }
-    },
     "relaciones-de-pareja": {
         "image": "/images/blog5.webp",
         "title": {
@@ -128,6 +105,29 @@
         "symptoms": {
             "esp": "Los síntomas de problemas en la pareja incluyen ansiedad, miedo a la pérdida, tristeza persistente, irritabilidad, distanciamiento emocional, autoevaluación negativa, dificultades de concentración, cambios en hábitos de sueño y apetito, evitación de la pareja, aumento del consumo de sustancias, baja autoestima, falta de interés sexual y malestar físico y emocional. Estos síntomas varían entre las personas y pueden indicar diversos problemas en la relación. Se recomienda buscar ayuda profesional si se están experimentando dificultades en la relación de pareja.",
             "val": "Els símptomes de problemes en la parella inclouen ansietat, por a la pèrdua, tristesa persistent, irritabilitat, distanciament emocional, autoavaluació negativa, dificultats de concentració, canvis en hàbits de son i apetit, evitació de la parella, augment del consum de substàncies, baixa autoestima, falta d'interés sexual i malestar físic i emocional. Aquests símptomes varien entre les persones i poden indicar diversos problemes en la relació. Es recomana buscar ajuda professional si s'estan experimentant dificultats en la relació de parella."
+        }
+    },
+    "duelo": {
+        "image": "/images/blog3.webp",
+        "title": {
+            "esp": "Duelo",
+            "val": "Dol"
+        },
+        "definition": {
+            "esp": "El duelo es una respuesta natural y personal a la pérdida de algo significativo, ya sea la muerte de un ser querido, la ruptura de una relación, un cambio importante en la vida o incluso el empeoramiento de la salud",
+            "val": "El dol és una resposta natural i personal a la pèrdua d'alguna cosa significativa, ja siga la mort d'un ésser estimat, la ruptura d'una relació, un canvi important en la vida o fins i tot l'empitjorament de la salut."
+        },
+        "definitionLinks": {
+            "esp": [
+                "Duelo por fallecimiento"
+            ],
+            "val": [
+                "Dol per defunció"
+            ]
+        },
+        "symptoms": {
+            "esp": "El duelo es un proceso individual que puede manifestarse de diversas maneras. Aunque los síntomas comunes incluyen tristeza profunda, irritabilidad y pensamientos recurrentes sobre la pérdida, cada persona lo vive de manera única. Es esencial comprender que el duelo no sigue un curso predefinido. Algunos pueden experimentar síntomas de manera diferente y en momentos diferentes. Sin embargo, en casos más complicados, conocidos como duelo patológico o complicado, los síntomas persisten intensamente durante períodos prolongados y afectan significativamente la vida diaria y las relaciones. La identificación temprana de indicadores como la persistencia intensa de síntomas, dificultades para adaptarse a la pérdida y deterioro funcional es crucial. En tales casos, la intervención de profesionales de la salud mental puede ser necesaria para brindar apoyo y tratamiento adecuado",
+            "val": "El dol és un procés individual que pot manifestar-se de diverses maneres. Encara que els símptomes comuns inclouen tristesa profunda, irritabilitat i pensaments recurrents sobre la pèrdua, cada persona ho viu de manera única. És essencial comprendre que el dol no segueix un curs predefinit. Alguns poden experimentar símptomes de manera diferent i en moments diferents. No obstant això, en casos més complicats, coneguts com a dol patològic o complicat, els símptomes persisteixen intensament durant períodes prolongats i afecten significativament la vida diària i les relacions. La identificació primerenca d'indicadors com la persistència intensa de símptomes, dificultats per a adaptar-se a la pèrdua i deterioració funcional és crucial. En tals casos, la intervenció de professionals de la salut mental pot ser necessària per a brindar suport i tractament adequat."
         }
     },
     "adicciones": {

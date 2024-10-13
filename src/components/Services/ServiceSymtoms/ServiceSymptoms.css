@@ -2,13 +2,6 @@
     margin-top: 3.5vw;
 }
 
-
-.service-symptoms img {
-    display: inline;
-    width: 2.2vw;
-    padding-right: 1vw;
-}
-
 .symptoms-title {
     display: inline;
     color: #19154E;
@@ -30,6 +23,34 @@
     color: #19154E;
     font-size: 2.8vw;
     font-weight: bold;
-    margin-bottom: 1vw;
-    padding-top: 1.5vw;
+}
+
+.service-symptoms-svg {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2vw;
+    display: inline;
+}
+
+.service-symptoms-title {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+
+    .service-symptoms-svg {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .service-symptoms p {
+        font-size: 4vw;
+    }
+
+    .service-symptoms .symptoms-title {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
 }

@@ -14,8 +14,10 @@ const ServiceTypes = () => {
       {symptomTypes.map((symptom, index) => (
         <div className="service-symptoms-item" key={{ index }}>
           <div id={symptom.type[language]} className="symptom-types">
-            <img src="/images/symptom.svg" alt="" />
-            <h3>{symptom.type[language]}</h3>
+            <div className="symptom-types-title">
+              <img src="/images/symptom.svg" alt="" />
+              <h3>{symptom.type[language]}</h3>
+            </div>
             <p>{symptom.description[language]}</p>
           </div>
           <div className="symptom-subgroups">

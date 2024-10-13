@@ -1,58 +1,19 @@
 import ServiceCard from "../../ServiceCard/ServiceCard";
 import "./HomeServices.css";
 import languagesData from "../../../languages/Home/home.json";
+import servicesData from "../../../languages/Services/servicesData.json";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
 const Services = () => {
   const { language } = useLanguage();
-  const services = [
-    {
-      title: {
-        esp: "Problemas emocionales",
-        val: "Problemes emocionals",
-      },
-      image: "/images/blog1.webp",
-    },
-    {
-      title: {
-        esp: "Trastornos de la Conducta Alimentaria (TCA)",
-        val: "Trastorns de la Conducta Alimentària (TCA)",
-      },
-      image: "/images/blog2.webp",
-    },
-    {
-      title: {
-        esp: "Duelo",
-        val: "Dol",
-      },
-      image: "/images/blog3.webp",
-    },
-    {
-      title: {
-        esp: "Crecimiento Personal",
-        val: "Creixement Personal",
-      },
-      image: "/images/blog4.webp",
-    },
-    {
-      title: {
-        esp: "Relaciones de Pareja",
-        val: "Relacions de Parella",
-      },
-      image: "/images/blog5.webp",
-    },
-    {
-      title: {
-        esp: "Adicciones",
-        val: "Addiccions",
-      },
-      image: "/images/blog6.webp",
-    },
-  ];
 
-  const halfLength = Math.ceil(services.length / 2);
-  const leftColumn = services.slice(0, halfLength);
-  const rightColumn = services.slice(halfLength, services.length);
+  // Transform servicesData object into an array of services
+  const services = Object.keys(servicesData)
+    .filter((key) => key !== "title")
+    .map((key) => ({
+      title: servicesData[key].title,
+      image: servicesData[key].image,
+    }));
 
   return (
     <>
@@ -74,24 +35,15 @@ const Services = () => {
           </h3>
         </div>
         <div className="services-cards">
-          <div className="service-column">
-            {leftColumn.map((service, index) => (
+          {services.map((service, index) => (
+            <div className="service-card-parent" key={index * 2}>
               <ServiceCard
                 key={index}
                 title={service.title[language]}
                 backgroundImage={service.image}
               />
-            ))}
-          </div>
-          <div className="service-column">
-            {rightColumn.map((service, index) => (
-              <ServiceCard
-                key={index + halfLength}
-                title={service.title[language]}
-                backgroundImage={service.image}
-              />
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </>

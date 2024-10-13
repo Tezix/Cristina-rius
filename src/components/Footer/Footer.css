@@ -90,14 +90,82 @@
     margin-left: 9px;
 }
 
-.footer-social img {
+.social-icons img {
     display: flex;
     flex-direction: row;
     height: 1.1vw;
     width: 1.1vw;
 }
 
-.footer-social .social-icons {
+.social-icons {
     display: flex;
     gap: 1vw
+}
+
+.social-icons a {
+    background-color: rgb(134, 50, 229);
+    width: 3vw;
+    height: 3vw;
+    border-radius: 2.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 450px) {
+
+
+
+    .footer-logos {
+        height: 27vw;
+    }
+
+    .footer-logos img {
+        width: 17vw;
+        height: 17vw;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .cristina-logo img {
+        margin-top: 3vw;
+        width: 52vw;
+        height: 24vw;
+    }
+
+    .footer-direction p {
+        font-size: 4vw;
+    }
+
+    .footer-social-mail {
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+
+    .footer-social {
+        margin-bottom: 3vw;
+    }
+
+    .social-icons img {
+        display: flex;
+        flex-direction: row;
+        height: 3.3vw;
+        width: 3.3vw;
+    }
+
+    .social-icons a {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 4vw;
+    }
+
+    .social-icons {
+        gap: 3vw;
+        margin-top: 3vw;
+    }
 }

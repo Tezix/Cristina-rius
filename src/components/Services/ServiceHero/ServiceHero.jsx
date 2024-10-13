@@ -29,7 +29,7 @@ const ServiceHero = () => {
         {servicioProblemasEmocionales.definitionLinks[language].map(
           (eachLink, idx) => {
             return (
-              <a href={`#${eachLink}`} key={idx}>
+              <a href={`#${eachLink}`} key={idx * 2}>
                 {eachLink}
               </a>
             );

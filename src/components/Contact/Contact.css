@@ -113,7 +113,6 @@ textarea {
     padding-right: 15vw;
     padding-bottom: 6vw;
     background-color: #E7F2FE;
-
 }
 
 .map-hero-section {
@@ -179,23 +178,126 @@ textarea {
     margin-top: -1.5vw;
 }
 
-.contact-social-info {
-    display: flex;
-    gap: 1vw;
-    display: flex;
-    flex-direction: row;
-    height: 1.1vw;
-    width: 1.1vw;
-}
 
-.contact-social img {
-    display: flex;
-    flex-direction: row;
-    height: 1.2vw;
-    width: 1.2vw;
-}
+@media (max-width: 450px) {
 
-.contact-social .social-icons-contact {
-    display: flex;
-    gap: 1vw
+    .map-section {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .contact-section {
+        padding-left: 5vw;
+        padding-top: 3vw;
+        padding-right: 5vw;
+    }
+
+    .contact-hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .contact-text-column {
+        margin-top: 18vw;
+    }
+
+    .contact-text-column h3 {
+        font-size: 4vw;
+        font-weight: 700;
+    }
+
+    .contact-text-column h1 {
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 5vw;
+    }
+
+    .contact-text-column p {
+        font-size: 4vw;
+        margin-right: 0;
+        margin-bottom: 0vw;
+        margin-top: 5vw;
+    }
+
+    .contact-form-column {
+        margin-top: 2vw;
+    }
+
+    #contact-form {
+        width: 90vw;
+    }
+
+    .form-style {
+        padding: 3vw;
+        font-size: 3vw;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    .form-style.mt-3 {
+        margin-top: 0;
+    }
+
+    .btn {
+        padding: 3vw;
+        font-size: 3vw;
+        border-radius: 10px;
+        margin-top: 1.5vw;
+    }
+
+
+    .map-hero-section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vw;
+    }
+
+    .map-img-column img {
+        border-radius: 10px;
+        height: 50vw;
+        width: 90vw;
+    }
+
+
+
+    .contact-direction-title p,
+    .contact-schedule-title p {
+        margin-top: 0vw;
+        font-size: 4vw;
+    }
+
+    .contact-direction-info p,
+    .contact-schedule-info p {
+        font-size: 3.5vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        line-height: 5vw;
+    }
+
+    .contact-email a {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .contact-number a {
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+    .map-text-column {
+        width: 100%;
+    }
+
+    .map-text-column .contact-email {
+        margin-top: 2vw;
+    }
+
+    .map-text-column .contact-number {
+        margin-bottom: 2vw;
+    }
+
 }

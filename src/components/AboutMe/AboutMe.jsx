@@ -45,29 +45,33 @@ const AboutMe = () => {
             </div>
 
             <div className="my-background-text-column">
-              {languagesData.MyBackground.firstListBold[language].map((element, idx) => (
-                <div key={idx} className="first-list-item">
-                  <p className="first-list-bold">
-                    <strong>{element}</strong>
-                  </p>
-                  <p className="first-list-info">
-                    {languagesData.MyBackground.firstListInfo[language][idx]}
-                  </p>
-                </div>
-              ))}
+              {languagesData.MyBackground.firstListBold[language].map(
+                (element, idx) => (
+                  <div key={idx * 2} className="first-list-item">
+                    <p className="first-list-bold">
+                      <strong>{element}</strong>
+                    </p>
+                    <p className="first-list-info">
+                      {languagesData.MyBackground.firstListInfo[language][idx]}
+                    </p>
+                  </div>
+                )
+              )}
               <h3 className="second-title">
                 {languagesData.MyBackground.secondTitle[language]}
               </h3>
-              {languagesData.MyBackground.secondListBold[language].map((element, idx) => (
-                <div key={idx} className="second-list-item">
-                  <p className="second-list-bold">
-                    <strong>{element}</strong>
-                  </p>
-                  <p className="second-list-info">
-                    {languagesData.MyBackground.secondListInfo[language][idx]}
-                  </p>
-                </div>
-              ))}
+              {languagesData.MyBackground.secondListBold[language].map(
+                (element, idx) => (
+                  <div key={idx} className="second-list-item">
+                    <p className="second-list-bold">
+                      <strong>{element}</strong>
+                    </p>
+                    <p className="second-list-info">
+                      {languagesData.MyBackground.secondListInfo[language][idx]}
+                    </p>
+                  </div>
+                )
+              )}
             </div>
           </div>
         </div>

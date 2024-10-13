@@ -49,3 +49,36 @@
     border-radius: 0 10px 10px 0;
     object-fit: cover;
 }
+
+@media (max-width: 450px) {
+    .contact-card {
+        overflow: hidden;
+        width: 93vw;
+        height: 92vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-card-text p {
+        margin-top: 4vw;
+        font-size: 3.5vw;
+    }
+
+    .contact-card-text h1 {
+        font-size: 6vw;
+        margin-bottom: 4vw;
+        font-weight: 600;
+        letter-spacing: 0.1vw;
+        line-height: 6vw;
+    }
+
+
+    .contact-card-image {
+        overflow: hidden;
+        height: 30vw;
+    }
+
+    .contact-card-image img {
+        border-radius: 0 0px 0px 0;
+    }
+}
