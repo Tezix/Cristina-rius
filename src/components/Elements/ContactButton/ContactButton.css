@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     border-radius: 0.8vw;
     padding-left: 0;
 }
