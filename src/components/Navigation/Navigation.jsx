@@ -58,7 +58,7 @@ function Navigation() {
         <div className="visible-menu">
           <div className="left-nav">
             <div className="logo-mini">
-              <Link to="/">
+              <Link to="/" onClick={() => setShowMobileMenu(false)}>
                 <img src="/images/logoCristina.png" alt="logo" />
               </Link>
             </div>

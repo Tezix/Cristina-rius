@@ -113,7 +113,13 @@
     }
 
     .faq-answer {
+        padding-top: 0;
         max-height: fit-content;
         width: 95%;
+    }
+
+    .faq-answer p {
+        margin: 0;
+        margin-bottom: 10px;
     }
 }

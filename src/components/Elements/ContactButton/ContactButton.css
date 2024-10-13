@@ -1,8 +1,7 @@
 .get-in-touch-button {
     display: flex;
     justify-content: center;
-    width: 7vw;
-    height: 2.7vw;
+    align-items: center;
     border-radius: 0.8vw;
     padding-left: 0;
 }
@@ -10,6 +9,8 @@
 .get-in-touch-button a {
     cursor: pointer;
     font-family: "Manrope", sans-serif;
+    width: 7vw;
+    height: 2.7vw;
     font-size: 1vw;
     font-weight: 600;
     color: white;
@@ -47,13 +48,14 @@
 
 @media (max-width: 450px) {
     .get-in-touch-button {
-        width: 45vw;
-        height: 11vw;
+
         border-radius: 2.5vw;
         padding-left: 0;
     }
 
     .get-in-touch-button a {
+        width: 45vw;
+        height: 11vw;
         font-size: 4vw;
     }
 }
