@@ -15,3 +15,11 @@
    scroll-padding-top: 8vw;
    min-height: 80vh;
  }
+
+ @media (max-width: 450px) {
+
+   html {
+     scroll-padding-top: 18vw;
+     min-height: 80vh;
+   }
+ }

@@ -9,7 +9,7 @@ const EmotionalSymptoms = () => {
   const { language } = useLanguage();
 
   const servicioProblemasEmocionales = servicesData[serviceType];
-  console.log("queeee", servicesDataTypes);
+
   return (
     <div className="service-symptoms">
       <div className="service-symptoms-title">
