@@ -1,6 +1,7 @@
 import "./ModalitiesSection.css";
 import modalitiesData from "../../languages/Common/modalitiesCard.json";
 import { useLanguage } from "../LanguageContext/LanguageContext";
+import { Link } from "react-router-dom";
 
 const ModalitiesSection = () => {
   const { language } = useLanguage();
@@ -26,9 +27,9 @@ const ModalitiesSection = () => {
               <p>{modalitiesData.presentialModalitiesCard.p2[language]}</p>
             </div>
             <div className="card-contact">
-              <a href="/contact">
+              <Link to="/contact">
                 {modalitiesData.presentialModalitiesCard.a[language]}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -50,9 +51,9 @@ const ModalitiesSection = () => {
               <p>{modalitiesData.onlineModalitiesCard.p2[language]}</p>
             </div>
             <div className="card-contact">
-              <a href="/contact">
+              <Link to="/contact">
                 {modalitiesData.onlineModalitiesCard.a[language]}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
