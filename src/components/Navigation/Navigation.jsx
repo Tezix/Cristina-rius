@@ -199,7 +199,7 @@ function Navigation() {
                   }
                 </NavLink>
                 <NavLink
-                  to="/trastornos-de--conducta-alimentaria"
+                  to="/trastornos-de-la-conducta-alimentaria"
                   onClick={toggleShowMobileMenu}
                 >
                   {
