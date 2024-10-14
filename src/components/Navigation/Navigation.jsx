@@ -116,7 +116,7 @@ function Navigation() {
                           ]
                         }
                       </NavLink>
-                      <NavLink to="/trastornos-conducta-alimentaria">
+                      <NavLink to="/trastornos-de-la-conducta-alimentaria">
                         {
                           languagesData.services.dropdown
                             .trastornosDeConductaAlimentaria[language]
@@ -193,7 +193,7 @@ function Navigation() {
                   }
                 </NavLink>
                 <NavLink
-                  to="/trastornos-conducta-alimentaria"
+                  to="/trastornos-de-la-conducta-alimentaria"
                   onClick={toggleShowMobileMenu}
                 >
                   {

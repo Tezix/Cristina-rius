@@ -109,7 +109,7 @@
     },
   ],
 
-  "Faq-trastornos-conducta-alimentaria": [
+  "Faq-trastornos-de-la-conducta-alimentaria": [
     {
       question: {
         esp: "¿Cómo puedo ayudar a alguien con un trastorno de la conducta alimentaria?",
@@ -326,4 +326,3 @@
 };
 
 export default serviceFAQs;
-

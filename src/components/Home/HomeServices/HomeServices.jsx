@@ -40,6 +40,7 @@ const Services = () => {
               <ServiceCard
                 key={index}
                 title={service.title[language]}
+                link={service.title.esp}
                 backgroundImage={service.image}
               />
             </div>
