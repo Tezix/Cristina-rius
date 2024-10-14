@@ -28,6 +28,7 @@ const Hero = () => {
               text={buttonsText.services[language]}
               type={"light"}
               link={"#services"}
+              linkScrolls
             />
           </div>
         </div>
