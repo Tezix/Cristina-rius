@@ -1,12 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import "./FAQItem.css";
 
 const FAQItem = ({ question, answer, displayIcon = "inline" }) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const location = useLocation();
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
 
   return (
     <div className="faq-item">
@@ -19,7 +24,6 @@ const FAQItem = ({ question, answer, displayIcon = "inline" }) => {
           src="/images/symptomdetail.svg"
           alt=""
         />
-
         {question}
         <span className="question-symbol"></span>
       </div>

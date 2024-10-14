@@ -1,7 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import "./Navigation.css";
 import { useLanguage } from "./../LanguageContext/LanguageContext";
+import "./Navigation.css";
 import ContactButton from "../Elements/ContactButton/ContactButton";
 import languagesData from "../../languages/Navigation/navigation.json";
 import LanguageButton from "../Elements/LanguageButton/LanguageButton";
@@ -13,6 +13,12 @@ function Navigation() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const { language } = useLanguage("esp");
+  const location = useLocation();
+
+  useEffect(() => {
+    setShowMobileMenu(false);
+    setShowDropdown(false);
+  }, [location]);
 
   useEffect(() => {
     function handleScroll() {
@@ -193,7 +199,7 @@ function Navigation() {
                   }
                 </NavLink>
                 <NavLink
-                  to="/trastornos-de-la-conducta-alimentaria"
+                  to="/trastornos-de--conducta-alimentaria"
                   onClick={toggleShowMobileMenu}
                 >
                   {
@@ -218,7 +224,7 @@ function Navigation() {
 
             <div className="nav-contact-button">
               <ContactButton
-                onClick={toggleShowMobileMenu}
+                onClick={() => setShowMobileMenu(false)}
                 text={buttonsText.contact[language]}
                 type={"dark"}
                 link={"/contact"}
