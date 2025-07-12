@@ -60,8 +60,8 @@
         val: "Quant costa la sessió?",
       },
       answer: {
-        esp: "La sesión de terapia individual tiene un coste de 55 euros y tiene una duración de una hora.",
-        val: "La sessió de teràpia individual té un cost de 55 euros i té una duració d'una hora.",
+        esp: "La sesión de terapia individual tiene un coste de 60 euros y tiene una duración de una hora.",
+        val: "La sessió de teràpia individual té un cost de 60 euros i té una duració d'una hora.",
       },
     },
   ],
